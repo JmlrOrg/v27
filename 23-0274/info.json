@@ -1,0 +1,18 @@
+{
+    "abstract": "Training deep learning neural networks often requires massive amounts of computational ressources. We propose\nto sequentially monitor network predictions to trigger retraining only if the predictions are no longer valid. This can reduce drastically computational costs and opens a door to green deep learning. Our approach is based on the relationship to projected second moments monitoring, a problem also arising in other areas such as computational finance. Various open-end as well as closed-end monitoring rules are studied under mild assumptions on the training sample and the observations of the monitoring period. The results allow for high-dimensional non-stationary time series data and thus, especially, non-i.i.d. training data. Asymptotics is based on Gaussian approximations of projected partial sums allowing for an estimated projection vector. Estimation of projection vectors is studied both for classical non-$\\ell_0$-sparsity as well as under sparsity. For the case that the optimal projection depends on the unknown covariance matrix, hard- and soft-thresholded estimators are studied. The method is analyzed by simulations and supported by synthetic data experiments.",
+    "authors": [
+        "Ansgar Steland"
+    ],
+    "emails": [
+        "steland@stochastik.rwth-aachen.de"
+    ],
+    "id": "23-0274",
+    "issue": 2,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Online Detection of Changes in Moment--Based Projections: When to Retrain Deep Learners or Update Portfolios?",
+    "volume": 27,
+    "year": 2026
+}

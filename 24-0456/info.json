@@ -1,0 +1,18 @@
+{
+    "abstract": "To our knowledge, the analysis of convergence rates for persistence diagrams estimation from noisy signals has predominantly relied on lifting signal estimation results through sup-norm (or other functional norm) stability theorems. We believe that moving forward from this approach can lead to considerable gains. We illustrate it in the setting of nonparametric regression. From a minimax perspective, we examine the inference of persistence diagrams (for the sublevel sets filtration). We show that for piecewise H{\\\"o}lder-continuous functions, with control over the reach of the set of discontinuities, taking the persistence diagram coming from a simple histogram estimator of the signal permits achieving the minimax rates known for H{\\\"o}lder-continuous functions. The key novelty lies in our use of algebraic stability instead of sup-norm stability, directly targeting the bottleneck distance through the underlying interleaving. This allows us to incorporate deformation retractions of sublevel sets to accommodate boundary discontinuities that cannot be handled by sup-norm based stability analyses.",
+    "authors": [
+        "Hugo Henneuse"
+    ],
+    "emails": [
+        "hugo.henneuse@universite-paris-saclay.fr"
+    ],
+    "id": "24-0456",
+    "issue": 31,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Persistence Diagrams Estimation of Multivariate Piecewise H{\\\"o}lder-continuous Signals",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "While advances in machine learning with satellite imagery (SatML) are facilitating environmental monitoring at a global scale, developing SatML models that are accurate and useful for local regions remains critical to understanding and acting on an ever-changing planet. As increasing attention and resources are being devoted to training SatML models with global data, it is important to understand when improvements in global models will make it easier to train or fine-tune models that are accurate in specific regions. To explore this question, we design the first study that explicitly contrasts local and global training paradigms for SatML, through a case study of tree canopy height (TCH) mapping in the Karingani Game Reserve, Mozambique. We find that recent advances in global TCH mapping do not necessarily translate to better local modeling abilities in our study region. Specifically, small models trained only with locally-collected data outperform published global TCH maps, and even outperform globally pretrained models that we fine-tune using local data. Analyzing these results further, we identify specific points of conflict and synergy between local and global modeling paradigms that can inform future research toward aligning local and global performance objectives in geospatial machine learning.",
+    "authors": [
+        "Esther Rolf",
+        "Lucia Gordon",
+        "Milind Tambe",
+        "Andrew Davies"
+    ],
+    "emails": [
+        "esther.rolf@colorado.edu",
+        "luciagordon@g.harvard.edu",
+        "tambe@seas.harvard.edu",
+        "andrew_davies@g.harvard.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/estherrolf/tree_mapping/"
+        ]
+    ],
+    "id": "24-1592",
+    "issue": 45,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Contrasting Local and Global Modeling with Machine Learning and Satellite Data: A Case Study Estimating Tree Canopy Height in African Savannas",
+    "volume": 27,
+    "year": 2026
+}

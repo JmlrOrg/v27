@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we introduce a data-augmented nonparametric noise contrastive estimation method to density estimation using deep neural networks. By leveraging the idea of contrastive learning, our density estimator exhibits efficiency with a one-step and simulation-free evaluation process, imposes no constraints on the neural network, and is shown to be consistent and asymptotically automatically normalized. A novel data augmentation procedure allows us to mitigate the influence of the choice of reference distribution on our method. Non-asymptotic upper bounds for the expected $L_{2}$-risk and the expected total variation distance have been established, which achieve minimax optimal rates. Moreover, our new method exhibits inherent adaptivity to low dimensional structures of data with a faster convergence rate under a compositional structure assumption. Numerical experiments show the competitiveness of our new method compared with the state-of-the-art nonparametric density estimation methods.",
+    "authors": [
+        "Chenghao Li",
+        "Yuanyuan Lin"
+    ],
+    "emails": [
+        "chenghaoli@link.cuhk.edu.hk",
+        "ylin@sta.cuhk.edu.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Li-Chenqhao/DANNCE"
+        ]
+    ],
+    "id": "25-0376",
+    "issue": 10,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "A Data-Augmented Contrastive Learning Approach to Nonparametric Density Estimation",
+    "volume": 27,
+    "year": 2026
+}

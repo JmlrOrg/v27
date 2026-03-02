@@ -1,0 +1,22 @@
+{
+    "abstract": "We study decentralized optimization over a network of agents, modeled as an undirected graph and operating without a central server. The objective is to minimize a composite function $f+r$, where $f$ is a (strongly) convex function representing the average of the agents' losses, and $r$ is a convex, extended-value function (regularizer).\n\nWe introduce DCatalyst, a unified black-box framework that injects Nesterov-type acceleration into decentralized optimization algorithms. At its core, DCatalyst is an inexact, momentum-accelerated proximal scheme (outer loop) that seamlessly wraps around a given decentralized method (inner loop). We show that DCatalyst attains optimal (up to logarithmic factors) communication and computational complexity across a broad family of decentralized algorithms and problem instances. In particular, it delivers accelerated rates for problem classes that previously lacked accelerated decentralized methods, thereby broadening the effectiveness of decentralized methods.\n\nOn the technical side, our framework introduces inexact estimating sequences--an extension of Nesterov's classical estimating sequences, tailored to decentralized, composite optimization. This construction systematically accommodates consensus errors and inexact solutions of local subproblems, addressing challenges that existing estimating-sequence-based analyses cannot handle while retaining a black-box, plug-and-play character.",
+    "authors": [
+        "TIanyu Cao",
+        "Xiaokai Chen",
+        "Gesualdo Scutari"
+    ],
+    "emails": [
+        "cao357@purdue.edu",
+        "chen4373@purdue.edu",
+        "gscutari@purdue.edu"
+    ],
+    "id": "25-0185",
+    "issue": 47,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "DCatalyst: A Unified Accelerated Framework for Decentralized Optimization",
+    "volume": 27,
+    "year": 2026
+}

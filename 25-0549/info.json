@@ -1,0 +1,28 @@
+{
+    "abstract": "Attention mechanisms have revolutionized several domains of artificial intelligence, such as natural language processing and computer vision, by enabling models to selectively focus on relevant parts of the input data. While recent work has characterized the optimization dynamics of gradient descent (GD) in attention-based models and the structural properties of its preferred solutions, less is known about more general optimization algorithms such as mirror descent (MD). In this paper, we investigate the convergence properties and implicit biases of a family of MD algorithms tailored for softmax attention mechanisms, with the potential function chosen as the $p$-th power of the $\\ell_p$-norm. Specifically, we show that these algorithms converge in direction to a generalized hard-margin SVM with an $\\ell_p$-norm objective when applied to a classification problem using a softmax attention model. Notably, our theoretical results reveal that the convergence rate is comparable to that of traditional GD in simpler models, despite the highly nonlinear and nonconvex nature of the present problem. Additionally, we delve into the joint optimization dynamics of the key-query matrix and the decoder, establishing conditions under which this complex joint optimization converges to their respective hard-margin SVM solutions. Lastly, our numerical experiments on real data demonstrate that MD algorithms improve generalization over standard GD and excel in optimal token selection.",
+    "authors": [
+        "Addison Kristanto Julistiono",
+        "Davoud Ataee Tarzanagh",
+        "Navid Azizan"
+    ],
+    "emails": [
+        "aaron25@mit.edu",
+        "tarzanaq@upenn.edu",
+        "azizan@mit.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/addskj2002/AttentionMD"
+        ]
+    ],
+    "id": "25-0549",
+    "issue": 36,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Optimizing Attention with Mirror Descent: Generalized Max-Margin Token Selection",
+    "volume": 27,
+    "year": 2026
+}

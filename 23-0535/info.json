@@ -1,0 +1,24 @@
+{
+    "abstract": "We propose a novel method for estimating heterogeneous treatment effects based on the fused lasso. By first ordering samples based on the propensity or prognostic score, we match units from the treatment and control groups. We then run the fused lasso to obtain piecewise constant treatment effects with respect to the ordering defined by the score. Similar to the existing methods based on discretizing the score, our methods yield interpretable subgroup effects. However, existing methods fixed the subgroup a priori, but our causal fused lasso forms data-adaptive subgroups. We show that the estimator consistently estimates the treatment effects conditional on the score under very general conditions on the covariates and treatment. We demonstrate the performance of our procedure using extensive experiments that show that it can be interpretable and competitive with state-of-the-art methods.",
+    "authors": [
+        "Oscar Hernan Madrid Padilla",
+        "Yanzhen Chen",
+        "Carlos Misael Madrid Padilla",
+        "Gabriel Ruiz"
+    ],
+    "emails": [
+        "oscar.madrid@stat.ucla.edu",
+        "imyanzhen@ust.hk",
+        "carlosmisael@wustl.edu",
+        "ruizg@ucla.edu"
+    ],
+    "id": "23-0535",
+    "issue": 40,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "A causal fused lasso for interpretable heterogeneous treatment effects estimation",
+    "volume": 27,
+    "year": 2026
+}

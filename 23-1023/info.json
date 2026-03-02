@@ -1,0 +1,38 @@
+{
+    "abstract": "The task of causal representation learning aims to uncover latent higher-level causal variables that affect lower-level observations. Identifying the true latent causal variables from observed data, while allowing instantaneous causal relations among latent variables, remains a challenge, however. To this end, we start with the analysis of three intrinsic indeterminacies in identifying latent variables from observations: transitivity, permutation indeterminacy, and scaling indeterminacy. We find that transitivity acts as a key role in impeding the identifiability of latent causal variables. To address the unidentifiable issue due to transitivity, we introduce a novel identifiability condition where the underlying latent causal model satisfies a linear-Gaussian model, in which the causal coefficients and the distribution of Gaussian noise are modulated by an additional observed variable. Under certain assumptions, including the existence of a reference condition under which latent causal influences vanish, we can show that the latent causal variables can be identified up to trivial permutation and scaling, and that partial identifiability results can still be obtained when this reference condition is violated for a subset of latent variables. Furthermore, based on these theoretical results, we propose a novel method, termed Structural caUsAl Variational autoEncoder (SuaVE), which directly learns causal representations and causal relationships among them, together with the mapping from the latent causal variables to the observed ones. Experimental results on synthetic and real data demonstrate the identifiability and consistency results and the efficacy of SuaVE in learning causal representations.",
+    "authors": [
+        "Yuhang Liu",
+        "Zhen Zhang",
+        "Dong Gong",
+        "Mingming Gong",
+        "Biwei Huang",
+        "Anton van den Hengel",
+        "Kun Zhang",
+        "Javen Qinfeng Shi"
+    ],
+    "emails": [
+        "yuhang.liu01@adelaide.edu.au",
+        "zhen.zhang02@adelaide.edu.au",
+        "edgong01@gmail.com",
+        "mingming.gong@unimelb.edu.au",
+        "bih007@ucsd.edu",
+        "anton.vandenhengel@adelaide.edu.au",
+        "kunz1@cmu.edu",
+        "javen.shi@adelaide.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://sites.google.com/view/yuhangliu/projects/suave"
+        ]
+    ],
+    "id": "23-1023",
+    "issue": 4,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Identifying Weight-Variant Latent Causal Models",
+    "volume": 27,
+    "year": 2026
+}

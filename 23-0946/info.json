@@ -1,0 +1,20 @@
+{
+    "abstract": "In the absence of explicit or tractable likelihoods, Bayesians often resort to approximate Bayesian computation (ABC) for inference. Our work bridges ABC with deep neural implicit samplers based on generative adversarial networks (GANs) and adversarial variational Bayes. Both ABC and GANs compare aspects of observed and fake data to simulate from posteriors and likelihoods, respectively. We develop a Bayesian GAN (B-GAN) sampler that directly targets the posterior by solving an adversarial optimization problem. B-GAN is driven by a deterministic mapping learned on the ABC reference by conditional GANs.\nOnce the mapping has been trained, iid posterior samples are obtained by filtering noise at a negligible additional cost. We propose two post-processing local refinements using (1) data-driven proposals with importance reweighting, and (2) variational Bayes. We support our findings with frequentist-Bayesian results, showing that the typical total variation distance between the true and approximate posteriors converges to zero for certain neural network generators and discriminators. Our findings on simulated data show highly competitive performance relative to some of the most recent likelihood-free posterior simulators.",
+    "authors": [
+        "Yuexi Wang",
+        "Veronika Rockova"
+    ],
+    "emails": [
+        "yxwang99@illinois.edu",
+        "veronika.rockova@chicagobooth.edu"
+    ],
+    "id": "23-0946",
+    "issue": 29,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Generative Bayesian Inference with GANs",
+    "volume": 27,
+    "year": 2026
+}

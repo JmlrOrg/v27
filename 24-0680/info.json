@@ -1,0 +1,22 @@
+{
+    "abstract": "In good arm identification (GAI), the goal is to identify one arm whose average performance exceeds a given threshold, referred to as a good arm, if it exists. Few works have studied GAI in the fixed-budget setting when the sampling budget is fixed beforehand, or in the anytime setting, when a recommendation can be asked at any time. We propose APGAI, an anytime and parameter-free sampling rule for GAI in stochastic bandits. APGAI can be straightforwardly used in fixed-confidence and fixed-budget settings. First, we derive upper bounds on its probability of error at any time. They show that adaptive strategies can be more efficient in detecting the absence of good arms than uniform sampling in several diverse instances. Second, when APGAI is combined with a stopping rule, we prove upper bounds on the expected sampling complexity, holding at any confidence level. Finally, we show the good empirical performance of APGAI on synthetic and real-world data. Our work offers an extensive overview of the GAI problem in all settings.",
+    "authors": [
+        "Marc Jourdan",
+        "Andr{\\'e}e Delahaye-Duriez",
+        "Cl{\\'e}mence R{\\'e}da"
+    ],
+    "emails": [
+        "marc.jourdan@epfl.ch",
+        "andree.delahaye@inserm.fr",
+        "reda@bio.ens.psl.eu"
+    ],
+    "id": "24-0680",
+    "issue": 19,
+    "pages": [
+        1,
+        90
+    ],
+    "title": "An Anytime Algorithm for Good Arm Identification",
+    "volume": 27,
+    "year": 2026
+}

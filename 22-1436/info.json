@@ -1,0 +1,22 @@
+{
+    "abstract": "Additive models play an essential role in studying non-linear relationships. Despite many recent advances in estimation, there is a lack of methods and theories for inference in high-dimensional additive models, including confidence interval construction and hypothesis testing. Motivated by inference for non-linear treatment effects, we consider the high-dimensional additive model and make inferences for the function derivative. We propose a novel decorrelated local linear estimator and establish its asymptotic normality. The main novelty is the construction of the decorrelation weights, which is instrumental in reducing the error inherited from estimating the nuisance functions in the high-dimensional additive model. We construct the confidence interval for the function derivative and conduct the related hypothesis testing. We demonstrate our proposed method over large-scale simulation studies and apply it to identify non-linear effects in the motif regression problem. Our proposed method is implemented in the R package DLL available from CRAN.",
+    "authors": [
+        "Zijian Guo",
+        "Wei Yuan",
+        "Cunhui Zhang"
+    ],
+    "emails": [
+        "zijguo@zju.edu.cn",
+        "wy204@stat.rutgers.edu",
+        "czhang@stat.rutgers.edu"
+    ],
+    "id": "22-1436",
+    "issue": 27,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "Decorrelated Local Linear Estimator: Inference for Non-linear Effects in High-dimensional Additive Models",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Recent developments of stochastic optimization often suggest biased gradient estimators to improve either the robustness, communication efficiency or computational speed. Representative biased stochastic gradient methods (BSGMs) include Zeroth-order stochastic gradient descent (SGD), Clipped-SGD and SGD with delayed gradients. The practical success of BSGMs motivates a lot of convergence analysis to explain their impressive training behaviour. As a comparison, there is far less work on their generalization analysis, which is a central topic in modern machine learning. In this paper, we present the first framework to study the stability and generalization of BSGMs for convex and smooth problems. We introduce a generalized Lipschitz-type condition on gradient estimators and bias, under which we develop a rather general stability bound to show how the bias and the gradient estimators affect the stability. We apply our general result to develop the first stability bound for Zeroth-order SGD with reasonable step size sequences, and the first stability bound for Clipped-SGD. While our stability analysis is developed for general BSGMs, the resulting stability bounds for both Zeroth-order SGD and Clipped-SGD match those of SGD under appropriate smoothing/clipping parameters. We combine the stability and convergence analysis together, and derive excess risk bounds of order $O(1/\\sqrt{n})$ for both Zeroth-order SGD and Clipped-SGD, where $n$ is the sample size.",
+    "authors": [
+        "Shuang Zeng",
+        "Yunwen Lei"
+    ],
+    "emails": [
+        "zengsh9@connect.hku.hk",
+        "leiyw@hku.hk"
+    ],
+    "id": "24-0637",
+    "issue": 6,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Stochastic Gradient Methods: Bias, Stability and Generalization",
+    "volume": 27,
+    "year": 2026
+}

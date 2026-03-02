@@ -1,0 +1,24 @@
+{
+    "abstract": "In recent years, diffusion models, and more generally score-based deep generative models, have achieved remarkable success in various applications, including image and audio generation. In this paper, we view diffusion models as an implicit approach to nonparametric density estimation and study them within a statistical framework to analyze their surprising performance. A key challenge in high-dimensional statistical inference is leveraging low-dimensional structures inherent in the data to mitigate the curse of dimensionality. We assume that the underlying density exhibits a low-dimensional structure by factorizing into low-dimensional components, a property common in examples such as Bayesian networks and Markov random fields. Under suitable assumptions, we demonstrate that an implicit density estimator constructed from diffusion models adapts to the factorization structure and achieves the minimax optimal rate with respect to the total variation distance. In constructing the estimator, we design a sparse weight-sharing neural network architecture, where sparsity and weight-sharing are key features of practical architectures such as convolutional neural networks and recurrent neural networks.",
+    "authors": [
+        "Hyeok Kyu Kwon",
+        "Dongha Kim",
+        "Ilsang Ohn",
+        "Minwoo Chae"
+    ],
+    "emails": [
+        "khkunok@postech.ac.kr",
+        "dongha0718@sungshin.ac.kr",
+        "ilsang.ohn@inha.ac.kr",
+        "mchae@postech.ac.kr"
+    ],
+    "id": "25-0121",
+    "issue": 22,
+    "pages": [
+        1,
+        125
+    ],
+    "title": "Nonparametric Estimation of a Factorizable Density using Diffusion Models",
+    "volume": 27,
+    "year": 2026
+}

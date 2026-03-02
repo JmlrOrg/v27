@@ -1,0 +1,34 @@
+{
+    "abstract": "We present LazyDINO, a transport map variational inference method for fast, scalable, and efficiently amortized solutions of high-dimensional nonlinear Bayesian inverse problems with expensive parameter-to-observable (PtO) maps. Our method consists of an offline phase, in which we construct a derivative-informed neural surrogate of the PtO map using joint samples of the PtO map and its Jacobian as training data. During the online phase, when given observational data, we rapidly approximate the posterior using surrogate-driven training of a lazy map, i.e., a structure-exploiting transport map with low-dimensional nonlinearity. Our surrogate construction is optimized for amortized Bayesian inversion using lazy map variational inference. We show that (i) the derivative-based reduced basis architecture minimizes an upper bound on the expected error in surrogate posterior approximation, and (ii) the derivative-informed surrogate training minimizes the expected error due to surrogate-driven variational inference. Our numerical results demonstrate that LazyDINO is highly efficient in cost amortization for Bayesian inversion. We observe a reduction of one to two orders of magnitude in offline cost for accurate online posterior approximation, compared to amortized simulation-based inference via conditional transport and to conventional surrogate-driven transport. In particular, LazyDINO consistently outperforms Laplace approximation using fewer than 1000 offline PtO map evaluations, while competing methods struggle and sometimes fail at 16,000 evaluations.",
+    "authors": [
+        "Lianghao Cao",
+        "Joshua Chen",
+        "Michael Brennan",
+        "Thomas O'Leary-Roseberry",
+        "Youssef Marzouk",
+        "Omar Ghattas"
+    ],
+    "emails": [
+        "lianghao@caltech.edu",
+        "joshua.chen@colostate.edu",
+        "mcbrenn@mit.edu",
+        "oleary-roseberry.1@osu.edu",
+        "ymarz@mit.edu",
+        "omar@oden.utexas.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dinoSciML/dinox"
+        ]
+    ],
+    "id": "25-0858",
+    "issue": 24,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "LazyDINO: Fast, Scalable, and Efficiently Amortized Bayesian Inversion via Structure-Exploiting and Surrogate-Driven Measure Transport",
+    "volume": 27,
+    "year": 2026
+}

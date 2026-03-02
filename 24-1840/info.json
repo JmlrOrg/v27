@@ -1,0 +1,31 @@
+{
+    "abstract": "We present skwdro, a Python library for training robust machine learning models.\nThe library is based on distributionally robust optimization using Wasserstein distances, popular in optimal transport and machine learnings. The goal of the library is to make the training of robust models easier for a wide audience by proposing a wrapper for PyTorch modules, enabling model loss' robustification with minimal code changes. It comes along with scikit-learn compatible estimators for some popular objectives. The core of the implementation relies on an entropic smoothing of the original robust objective, in order to ensure maximal model flexibility. The library is available at https://github.com/iutzeler/skwdro and the documentation at https://skwdro.readthedocs.io",
+    "authors": [
+        "Vincent Florian",
+        "Wa{\\\"i}ss Azizian",
+        "Franck Iutzeler",
+        "J{\\'e}r{\\^o}me Malick"
+    ],
+    "emails": [
+        "florian.vincent@univ-grenoble-alpes.fr",
+        "waiss.azizian@univ-grenoble-alpes.fr",
+        "franck.iutzeler@math.univ-toulouse.fr",
+        "jerome.malick@univ-grenoble-alpes.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/iutzeler/skwdro"
+        ]
+    ],
+    "id": "24-1840",
+    "issue": 8,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "skwdro: a library for Wasserstein distributionally robust machine learning",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,32 @@
+{
+    "abstract": "We study reserve price optimization in multi-phase second price auctions, where the seller's prior actions affect the bidders' later valuations through a Markov Decision Process (MDP). Compared to the bandit setting in existing works, the setting in ours involves three challenges.\nFirst, from the seller's perspective, we need to efficiently explore the environment in the presence of potentially untruthful bidders who aim to manipulate the seller's policy.\nSecond, we want to minimize the seller's revenue regret when the market noise distribution is unknown. Third, the seller's per-step revenue is an unknown, nonlinear random variable, and cannot even be directly observed from the environment but realized values.\n\nWe propose a mechanism addressing all three challenges. To address the first challenge, we use a combination of a new technique named ``buffer periods'' and inspirations from Reinforcement Learning (RL) with low switching cost to limit bidders' surplus from untruthful bidding, thereby incentivizing approximately truthful bidding. The second one is tackled by a novel algorithm that removes the need for pure exploration when the market noise distribution is unknown. The third challenge is resolved by an extension of LSVI-UCB, where we use the auction's underlying structure to control the uncertainty of the revenue function. The three techniques culminate in the \\underline{C}ontextual-\\underline{L}SVI-\\underline{U}CB-\\underline{B}uffer (CLUB) algorithm which achieves $\\tilde{\\mathcal{O}}(H^{5/2}\\sqrt{K})$ revenue regret, where $K$ is the number of episodes and $H$ is the length of each episode, when the market noise is known and $\\tilde{\\mathcal{O}}(H^{3}\\sqrt{K})$ revenue regret when the noise is unknown with no assumptions on bidders' truthfulness.",
+    "authors": [
+        "Rui Ai",
+        "Boxiang Lyu",
+        "Zhaoran Wang",
+        "Zhuoran Yang",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "ruiai@mit.edu",
+        "blyu@chicagobooth.edu",
+        "zhaoranwang@gmail.com",
+        "zhuoran.yang@yale.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Air-8/SPA_CLUB"
+        ]
+    ],
+    "id": "22-1194",
+    "issue": 14,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "A Reinforcement Learning Approach in Multi-Phase Second-Price Auction Design",
+    "volume": 27,
+    "year": 2026
+}

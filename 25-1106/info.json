@@ -1,0 +1,24 @@
+{
+    "abstract": "Complex-valued neural networks potentially possess better representations and performance than real-valued counterparts when dealing with some complicated tasks such as acoustic analysis, radar image classification, etc. Despite empirical successes, it remains unknown theoretically when and to what extent complex-valued neural networks outperform real-valued ones. We take one step in this direction by comparing the learnability of real-valued neurons and complex-valued neurons via gradient descent. We theoretically show that a complex-valued neuron can learn functions expressed by any one real-valued neuron and any one complex-valued neuron with convergence rates $O(t^{-3})$ and $O(t^{-1})$ where $t$ is the iteration index of gradient descent, respectively, whereas a two-layer real-valued neural network with finite width cannot learn a single non-degenerate complex-valued neuron. We prove that a complex-valued neuron learns a real-valued neuron with rate $\\Omega (t^{-3})$, exponentially slower than the linear convergence rate of learning one real-valued neuron using a real-valued neuron. We then reparameterize the phase parameter of the complex-valued neuron and prove that a reparameterized complex-valued neuron can efficiently learn a real-valued neuron with a linear convergence rate. We further verify and extend these results via simulation experiments in more general settings.",
+    "authors": [
+        "Jin-Hui Wu",
+        "Shao-Qun Zhang",
+        "Yuan Jiang",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "wujh@lamda.nju.edu.cn",
+        "zhangsq@lamda.nju.edu.cn",
+        "jiangy@lamda.nju.edu.cn",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "25-1106",
+    "issue": 38,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Reparameterized Complex-valued Neurons Can Efficiently Learn More than Real-valued Neurons via Gradient Descent",
+    "volume": 27,
+    "year": 2026
+}

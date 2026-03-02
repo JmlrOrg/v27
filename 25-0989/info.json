@@ -1,0 +1,22 @@
+{
+    "abstract": "Online learning is an inferential paradigm in which parameters are updated incrementally from sequentially available data, in contrast to batch learning, where the entire dataset is processed at once. In this paper, we assume that mini-batches from the full dataset become available sequentially. The Bayesian framework, which updates beliefs about unknown parameters after observing each mini-batch, is naturally suited for online learning. At each step, we update the posterior distribution using the current prior and new observations, with the updated posterior serving as the prior for the next step. However, this recursive Bayesian updating is rarely computationally tractable unless the model and prior are conjugate. When the model is regular, the updated posterior can be approximated by a normal distribution, as justified by the Bernstein-von Mises theorem. We adopt a variational approximation at each step and investigate the frequentist properties of the final posterior obtained through this sequential procedure. Under mild assumptions, we show that the accumulated approximation error becomes negligible once the mini-batch size exceeds a threshold depending on the parameter dimension. As a result, the sequentially updated posterior is asymptotically indistinguishable from the full posterior.",
+    "authors": [
+        "Jeyong Lee",
+        "Junhyeok Choi",
+        "Minwoo Chae"
+    ],
+    "emails": [
+        "jylee1024@postech.ac.kr",
+        "cjunh4810@postech.ac.kr",
+        "mchae@postech.ac.kr"
+    ],
+    "id": "25-0989",
+    "issue": 49,
+    "pages": [
+        1,
+        124
+    ],
+    "title": "Online Bernstein-von Mises theorem",
+    "volume": 27,
+    "year": 2026
+}

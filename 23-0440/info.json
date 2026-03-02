@@ -1,0 +1,24 @@
+{
+    "abstract": "Heterogeneous auxiliary information commonly arises in big data due to diverse study settings and privacy constraints. Excluding such indirect evidence often results in a substantial loss of statistical inference efficiency. This article proposes a novel framework for integrating a mixture of individual-level data and multiple external heterogeneous summary statistics by multiplying likelihood functions and confidence densities. Theoretically, we show that the proposed method possesses desirable properties and can achieve statistical efficiency comparable to that of the individual participant data (IPD) estimator, which uses all available individual-level data. Furthermore, we develop a communication-efficient distributed inference procedure for massive datasets with heterogeneous auxiliary information. We demonstrate that the proposed iterative algorithm achieves linear convergence under general conditions or generalized linear models. Finally, extensive simulations and real data applications are conducted to illustrate the performance of the proposed methods.",
+    "authors": [
+        "Miaomiao Yu",
+        "Zhongfeng Jiang",
+        "Jiaxuan Li",
+        "Yong Zhou"
+    ],
+    "emails": [
+        "mmyu@fem.ecnu.edu.cn",
+        "jiangzhongfeng17@163.com",
+        "jiaxuanlee0719@163.com",
+        "yzhou@fem.ecnu.edu.cn"
+    ],
+    "id": "23-0440",
+    "issue": 28,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Communication-efficient Distributed Statistical Inference for Massive Data with Heterogeneous Auxiliary Information",
+    "volume": 27,
+    "year": 2026
+}

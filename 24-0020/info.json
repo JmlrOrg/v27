@@ -1,0 +1,24 @@
+{
+    "abstract": "Block majorization-minimization (BMM) is a simple iterative algorithm for nonconvex optimization that sequentially minimizes a majorizing surrogate of the objective function in each block coordinate while the other block coordinates are held fixed. We consider a family of BMM algorithms for minimizing nonsmooth nonconvex objectives, where each parameter block is constrained within a subset of a Riemannian manifold. We establish that this algorithm converges asymptotically to the set of stationary points, and attains an $\\epsilon$-stationary point within $\\widetilde{O}(\\epsilon^{-2})$ iterations. In particular, the assumptions for our complexity results are completely Euclidean when the underlying manifold is a product of Euclidean or Stiefel manifolds, although our analysis makes explicit use of the Riemannian geometry. Our general analysis applies to a wide range of algorithms with Riemannian constraints: Riemannian MM, block projected gradient descent, Bures-JKO scheme for Wasserstein variational inference, optimistic likelihood estimation, geodesically constrained subspace tracking, robust PCA, and Riemannian CP-dictionary-learning. We experimentally validate that our algorithm converges faster than standard Euclidean algorithms applied to the Riemannian setting.",
+    "authors": [
+        "Yuchen Li",
+        "Laura Balzano",
+        "Deanna Needell",
+        "Hanbaek Lyu"
+    ],
+    "emails": [
+        "yli966@wisc.edu",
+        "girasole@umich.edu",
+        "deanna@math.ucla.edu",
+        "hlyu@math.wisc.edu"
+    ],
+    "id": "24-0020",
+    "issue": 42,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "Convergence and complexity of block majorization-minimization for constrained block-Riemannian optimization",
+    "volume": 27,
+    "year": 2026
+}

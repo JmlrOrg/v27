@@ -1,0 +1,27 @@
+{
+    "abstract": "For scientific machine learning tasks with a lot of custom code, picking the right Automatic Differentiation (AD) system matters. Our Julia package DifferentiationInterface.jl provides a common frontend to a dozen AD backends, unlocking easy comparison and modular development. In particular, its built-in preparation mechanism leverages the strengths of each backend by amortizing one-time computations. This is key to enabling sophisticated features like sparsity handling without putting additional burdens on the user.",
+    "authors": [
+        "Guillaume Dalle",
+        "Adrian Hill"
+    ],
+    "emails": [
+        "guillaume.dalle@enpc.fr",
+        "hill@tu-berlin.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JuliaDiff/DifferentiationInterface.jl"
+        ]
+    ],
+    "id": "25-1024",
+    "issue": 25,
+    "pages": [
+        1,
+        13
+    ],
+    "special_issue": "MLOSS",
+    "title": "A Common Interface for Automatic Differentiation",
+    "volume": 27,
+    "year": 2026
+}

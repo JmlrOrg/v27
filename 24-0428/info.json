@@ -1,0 +1,26 @@
+{
+    "abstract": "Text classification is the task of automatically assigning text documents correct labels from a predefined set of categories. In real-life (text) classification tasks, observations and misclassification costs are often unevenly distributed between the classes - known as the problem of imbalanced data. Synthetic oversampling is a popular approach to imbalanced classification. The idea is to generate synthetic observations in the minority class to balance the classes in the training set. Many general-purpose oversampling methods can be applied to text data; however, imbalanced text data poses a number of distinctive difficulties that stem from the unique nature of text compared to other domains. One such factor is that when the sample size of text increases, the sample vocabulary (i.e., feature space) is likely to grow as well. We introduce a novel Markov chain based text oversampling method. The transition probabilities are estimated from the minority class but also partly from the majority class, thus allowing the minority feature space to expand in oversampling. We evaluate our approach against prominent oversampling methods and show that our approach is able to produce highly competitive results against the other methods in several real data examples, especially when the imbalance is severe.",
+    "authors": [
+        "Aleksi Avela",
+        "Pauliina Ilmonen"
+    ],
+    "emails": [
+        "aleksi.avela@aalto.fi",
+        "pauliina.ilmonen@aalto.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AleksiAvela/emco"
+        ]
+    ],
+    "id": "24-0428",
+    "issue": 18,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Extrapolated Markov Chain Oversampling Method for Imbalanced Text Classification",
+    "volume": 27,
+    "year": 2026
+}

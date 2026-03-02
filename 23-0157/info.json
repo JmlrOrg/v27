@@ -1,0 +1,22 @@
+{
+    "abstract": "Unsupervised feature selection has drawn wide attention in the era of big data, since it serves as a fundamental technique for dimensionality reduction. However, many existing unsupervised feature selection models and solution methods are primarily designed for practical applications, and often lack rigorous theoretical support, such as convergence guarantees. In this paper, we first establish a novel unsupervised feature selection model based on regularized minimization with nonnegative orthogonality constraints, which has advantages of embedding feature selection into the nonnegative spectral clustering and preventing overfitting. To solve the proposed model, we develop an effective inexact augmented Lagrangian multiplier method, in which the subproblems are addressed using a proximal alternating minimization approach. We rigorously prove the algorithm's sequence converges to a stationary point of the model. Extensive numerical experiments on popular datasets demonstrate the stability and robustness of our method. Moreover, comparative results show that our method outperforms some existing state-of-the-art methods in terms of clustering evaluation metrics. The code is available at https://github.com/liyan-amss/NOCRM_code.",
+    "authors": [
+        "Yan Li",
+        "Defeng Sun",
+        "Liping Zhang"
+    ],
+    "emails": [
+        "liyan2024@amss.ac.cn",
+        "defeng.sun@polyu.edu.hk",
+        "lipingzhang@tsinghua.edu.cn"
+    ],
+    "id": "23-0157",
+    "issue": 39,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Unsupervised Feature Selection via Nonnegative Orthogonal Constrained Regularized Minimization",
+    "volume": 27,
+    "year": 2026
+}

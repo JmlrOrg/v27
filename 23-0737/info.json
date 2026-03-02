@@ -1,0 +1,22 @@
+{
+    "abstract": "In the framework of the FD (frequent directions) algorithm, we first develop two efficient algorithms for low-rank matrix approximations under the embedding matrices composed of the product of any SpEmb (sparse embedding) matrix and any standard Gaussian matrix, or any SpEmb matrix and any SRHT (subsampled randomized Hadamard transform) matrix. The theoretical results are also achieved based on the bounds of singular values of standard Gaussian matrices and the theoretical results for SpEmb and SRHT matrices. With a given Tucker-rank, we then obtain several efficient FD-based randomized variants of T-HOSVD (the truncated high-order singular value decomposition) and ST-HOSVD (sequentially T-HOSVD), which are two common algorithms for computing the approximate Tucker decomposition of any tensor with a given Tucker-rank. We also consider efficient FD-based randomized algorithms for computing the approximate TT (tensor-train) decomposition of any tensor with a given TT-rank. Finally, we illustrate the efficiency and accuracy of these algorithms using synthetic and real-world matrix (and tensor) data.",
+    "authors": [
+        "Maolin Che",
+        "Yimin Wei",
+        "Hong Yan"
+    ],
+    "emails": [
+        "mlche@gzu.edu.cn",
+        "ymwei@fudan.edu.cn",
+        "h.yan@cityu.edu.hk"
+    ],
+    "id": "23-0737",
+    "issue": 3,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Efficient frequent directions algorithms for approximate decomposition of matrices and higher-order tensors",
+    "volume": 27,
+    "year": 2026
+}

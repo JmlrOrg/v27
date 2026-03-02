@@ -1,0 +1,20 @@
+{
+    "abstract": "The Ridgeless minimum $\\ell_2$-norm interpolator in overparametrized linear regression has attracted considerable attention in recent years in both machine learning and statistics communities. While it seems to defy conventional wisdom that overfitting leads to poor prediction, recent theoretical research on its $\\ell_2$-type risks reveals that its norm minimizing property induces an `implicit regularization' that helps prediction in spite of interpolation.\n\nThis paper takes a further step that aims at understanding its precise stochastic behavior as a statistical estimator. Specifically, we characterize the distribution of the Ridgeless interpolator in high dimensions, in terms of a Ridge estimator in an associated Gaussian sequence model with positive regularization, which provides a precise quantification of the prescribed implicit regularization in the most general distributional sense. Our distributional characterizations hold for general non-Gaussian random designs and extend uniformly to positively regularized Ridge estimators.\n\nAs a direct application, we obtain a complete characterization for a general class of weighted $\\ell_q$ risks of the Ridge(less) estimators that are previously only known for $q=2$ by random matrix methods. These weighted $\\ell_q$ risks not only include the standard prediction and estimation errors, but also include the non-standard covariate shift settings. Our uniform characterizations further reveal a surprising feature of the commonly used generalized and $k$-fold cross-validation schemes: tuning the estimated $\\ell_2$ prediction risk by these methods alone lead to simultaneous optimal $\\ell_2$ in-sample, prediction and estimation risks, as well as the optimal length of debiased confidence intervals.",
+    "authors": [
+        "Qiyang Han",
+        "Xiaocong Xu"
+    ],
+    "emails": [
+        "qh85@stat.rutgers.edu",
+        "xuxiaoco@marshall.usc.edu"
+    ],
+    "id": "25-0458",
+    "issue": 23,
+    "pages": [
+        1,
+        94
+    ],
+    "title": "The Distribution of Ridgeless Least Squares Interpolators",
+    "volume": 27,
+    "year": 2026
+}

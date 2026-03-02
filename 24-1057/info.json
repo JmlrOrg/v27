@@ -1,0 +1,20 @@
+{
+    "abstract": "Variational inference (VI) has emerged as a popular method for approximate inference for high-dimensional Bayesian models. In this paper, we propose a novel VI method that extends the naive mean field via entropic regularization, referred to as $\\Xi$-variational inference ($\\Xi$-VI). $\\Xi$-VI has a close connection to the entropic optimal transport problem and benefits from the computationally efficient Sinkhorn algorithm. We show that $\\Xi$-variational posteriors effectively recover the true posterior dependency, where the likelihood function is downweighted by a regularization parameter. We analyze the role of dimensionality of the parameter space on the accuracy of $\\Xi$-variational approximation and the computational complexity of computing the approximate distribution, providing a rough characterization of the statistical-computational trade-off in $\\Xi$-VI, where higher statistical accuracy requires greater computational effort. We also investigate the frequentist properties of $\\Xi$-VI and establish results on consistency, asymptotic normality, high-dimensional asymptotics, and algorithmic stability. We provide sufficient criteria for our algorithm to achieve polynomial-time convergence. Finally, we show the inferential benefits of using $\\Xi$-VI over mean-field VI and other competing methods, such as normalizing flow, on simulated and real datasets.",
+    "authors": [
+        "Bohan Wu",
+        "David M. Blei"
+    ],
+    "emails": [
+        "bw2766@columbia.edu",
+        "david.blei@columbia.edu"
+    ],
+    "id": "24-1057",
+    "issue": 7,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Extending Mean-Field Variational Inference via Entropic Regularization: Theory and Computation",
+    "volume": 27,
+    "year": 2026
+}

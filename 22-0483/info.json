@@ -1,0 +1,30 @@
+{
+    "abstract": "MALA is a popular gradient-based Markov chain Monte Carlo method to access the Gibbs-posterior distribution. Stochastic MALA (sMALA) scales to large data sets, but changes the target distribution from the Gibbs-posterior to a surrogate posterior which only exploits a reduced sample size. We introduce a corrected stochastic MALA (csMALA) with a simple correction term for which distance between the resulting surrogate posterior and the original Gibbs-posterior decreases in the full sample size while retaining scalability. In a nonparametric regression model, we prove a PAC-Bayes oracle inequality for the surrogate posterior. Uncertainties can be quantified by sampling from the surrogate posterior. Focusing on Bayesian neural networks, we analyze the diameter and coverage of credible balls for shallow neural networks and we show optimal contraction rates for deep neural networks. Our credibility result is independent of the correction and can also be applied to the standard Gibbs-posterior. A simulation study in a high-dimensional parameter space demonstrates that an estimator drawn from csMALA based on its surrogate Gibbs-posterior indeed exhibits these advantages in practice.",
+    "authors": [
+        "Sebastian Bieringer",
+        "Gregor Kasieczka",
+        "Maximilian F. Steffen",
+        "Mathias Trabs"
+    ],
+    "emails": [
+        "sebastian.guido.bieringer@uni-hamburg.de",
+        "gregor.kasieczka@uni-hamburg.de",
+        "maximilian.steffen@kit.edu",
+        "mathias.trabs@kit.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sbieringer/csMALA"
+        ]
+    ],
+    "id": "22-0483",
+    "issue": 1,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "The surrogate Gibbs-posterior of a corrected stochastic MALA: Towards uncertainty quantification for neural networks",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Motivated by understanding the behavior of the Alternating Mirror Descent (AMD) algorithm for bilinear zero-sum games, we study the discretization of continuous-time Hamiltonian flow via the symplectic Euler method. We provide a framework for analysis using results from Hamiltonian dynamics and symplectic numerical integrators, with an emphasis on the existence and properties of a conserved quantity, the modified Hamiltonian (MH), for the symplectic Euler method.\nWe compute the MH in closed-form when the original Hamiltonian is a quadratic function, and show that it generally differs from the other conserved quantity known previously in the literature. We derive new error bounds on the MH when truncated at orders in the stepsize in terms of the number of iterations, $K$, and use these bounds to show an improved $\\mathcal{O}(K^{1/5})$ total regret bound and an $\\mathcal{O}(K^{-4/5})$ duality gap of the average iterates for AMD. Finally, we propose a conjecture which, if true, would imply that the total regret for AMD scales as $\\mathcal{O}\\left(K^{\\varepsilon}\\right)$ and the duality gap of the average iterates as $\\mathcal{O}\\left(K^{-1+\\varepsilon}\\right)$ for any $\\varepsilon>0$, and we can take $\\varepsilon=0$ upon certain convergence conditions for the MH.",
+    "authors": [
+        "Jonas E. Katona",
+        "Xiuyuan Wang",
+        "Andre Wibisono"
+    ],
+    "emails": [
+        "jonas.katona@yale.edu",
+        "xiuyuan.wang@yale.edu",
+        "andre.wibisono@yale.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jonaskat87/AMD"
+        ]
+    ],
+    "id": "24-0792",
+    "issue": 44,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "A Symplectic Analysis of Alternating Mirror Descent",
+    "volume": 27,
+    "year": 2026
+}

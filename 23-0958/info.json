@@ -1,0 +1,28 @@
+{
+    "abstract": "Policy inference plays an essential role in the contextual bandit problem. In this paper, we use empirical likelihood to develop a Bayesian inference method for the joint analysis of multiple contextual bandit policies in finite sample regimes. The proposed inference method is robust to small sample sizes and is able to provide accurate uncertainty measurements for policy value evaluation. In addition, it allows for flexible inferences on policy comparison with full uncertainty quantification. We demonstrate the effectiveness of the proposed inference method using Monte Carlo simulations and its application to an adolescent body mass index data set.",
+    "authors": [
+        "Jiangrong Ouyang",
+        "Mingming Gong",
+        "Howard Bondell"
+    ],
+    "emails": [
+        "jiangrong.ouyang@unimelb.edu.au",
+        "mingming.gong@unimelb.edu.au",
+        "howard.bondell@unimelb.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jr-ouyang/CtxBandit"
+        ]
+    ],
+    "id": "23-0958",
+    "issue": 41,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Bayesian Inference of Contextual Bandit Policies via Empirical Likelihood",
+    "volume": 27,
+    "year": 2026
+}

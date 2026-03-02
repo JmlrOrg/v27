@@ -1,0 +1,28 @@
+{
+    "abstract": "The present work aims at proving mathematically that a neural network inspired by biology can learn a classification task thanks to local transformations only. In this purpose, we propose a spiking neural network named CHANI (Correlation-based Hawkes Aggregation of Neurons with bio-Inspiration), whose neurons activity is modeled by Hawkes processes. Synaptic weights are updated thanks to an expert aggregation algorithm, providing a local and simple learning rule. We were able to prove that our network can learn on average and asymptotically. Moreover, we demonstrated that it automatically produces neuronal assemblies in the sense that the network can encode several classes and that a same neuron in the intermediate layers might be activated by more than one class, and we provided numerical simulations on synthetic datasets. This theoretical approach contrasts with the traditional empirical validation of biologically inspired networks and paves the way for understanding how local learning rules enable neurons to form assemblies able to represent complex concepts.",
+    "authors": [
+        "Sophie Jaffard",
+        "Samuel Vaiter",
+        "Patricia Reynaud-Bouret"
+    ],
+    "emails": [
+        "jaffard@mpi-cbg.de",
+        "samuel.vaiter@univ-cotedazur.fr",
+        "patricia.reynaud-bouret@univ-cotedazur.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SophieJaffard/CHANI"
+        ]
+    ],
+    "id": "24-0783",
+    "issue": 32,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "CHANI: Correlation-based Hawkes Aggregation of Neurons with bio-Inspiration",
+    "volume": 27,
+    "year": 2026
+}

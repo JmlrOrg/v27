@@ -1,0 +1,24 @@
+{
+    "abstract": "Tensors, which give a faithful and effective representation to deliver the intrinsic structure of multi-dimensional data, play a crucial role in an increasing number of signal processing and machine learning problems. However, tensor data are often accompanied by arbitrary signal corruptions, including missing entries and sparse noise. A fundamental challenge is to reliably extract the meaningful information from corrupted tensor data in a statistically and computationally efficient manner. This paper develops a scaled gradient descent (ScaledGD) algorithm to directly estimate the tensor factors with tailored spectral initializations under the tensor-tensor product (t-product) and tensor singular value decomposition (t-SVD) framework. With tailored variants for tensor robust principal component analysis, (robust) tensor completion and tensor regression, we theoretically show that ScaledGD achieves linear convergence at a constant rate that is independent of the condition number of the ground truth low-rank tensor, while maintaining the low per-iteration cost of gradient descent. To the best of our knowledge, ScaledGD is the first algorithm that provably has such properties for low-rank tensor estimation with the t-SVD. Finally, numerical examples are provided to demonstrate the efficacy of ScaledGD in accelerating the convergence rate of ill-conditioned low-rank tensor estimation in a number of applications.",
+    "authors": [
+        "Tong Wu"
+    ],
+    "emails": [
+        "wutong@bigai.ai"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/twugithub/Tensor-ScaledGD"
+        ]
+    ],
+    "id": "25-0012",
+    "issue": 9,
+    "pages": [
+        1,
+        90
+    ],
+    "title": "Guaranteed Nonconvex Low-Rank Tensor Estimation via Scaled Gradient Descent",
+    "volume": 27,
+    "year": 2026
+}

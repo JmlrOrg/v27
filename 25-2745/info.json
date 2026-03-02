@@ -1,0 +1,22 @@
+{
+    "abstract": "We revisit the sequential variants of linear regression with the squared loss, classification problems with hinge loss, and logistic regression, all characterized by unbounded losses in the setup where no assumptions are made on the magnitude of design vectors and the norm of the optimal vector of parameters. The key distinction from existing results lies in our assumption that the set of design vectors is known in advance (though their order is not), a setup sometimes referred to as transductive online learning. While this assumption might seem similar to fixed design regression or denoising, we demonstrate that the sequential nature of our algorithms allows us to convert our bounds into statistical ones with random design without making any additional assumptions about the distribution of the design vectors-an impossibility for standard denoising results. Our key tools are based on the exponential weights algorithm with carefully chosen transductive (design-dependent) priors, which exploit the full horizon of the design vectors, as well as additional aggregation tools that address the possibly unbounded norm of the vector of the optimal solution.\n\nOur classification regret bounds have a feature that is only attributed to bounded losses in the literature: they depend solely on the dimension of the parameter space and on the number of rounds, independent of the design vectors or the norm of the optimal solution. For linear regression with squared loss, we further extend our analysis to the sparse case, providing sparsity regret bounds that depend additionally only on the magnitude of the response variables. We argue that these improved bounds are specific to the transductive setting and unattainable in the worst-case sequential setup.\nOur algorithms, in several cases, have polynomial-time approximations and reduce to sampling with respect to log-concave measures instead of aggregating over hard-to-construct epsilon-covers of classes.",
+    "authors": [
+        "Jian Qian",
+        "Alexander Rakhlin",
+        "Nikita Zhivotovskiy"
+    ],
+    "emails": [
+        "jianqian@mit.edu",
+        "rakhlin@mit.edu",
+        "zhivotovskiy@berkeley.edu"
+    ],
+    "id": "25-2745",
+    "issue": 26,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Refined Risk Bounds for Unbounded Losses via Transductive Priors",
+    "volume": 27,
+    "year": 2026
+}

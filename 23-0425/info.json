@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the problem of density-ratio estimation using Bregman Divergence with Deep ReLU feedforward neural networks (BDD). We establish non-asymptotic error bounds for BDD density-ratio estimators, which are minimax optimal up to a logarithmic factor when the data distribution has finite support. As an application of our theoretical findings, we propose an estimator for the KL-divergence that is asymptotically normal, leveraging our convergence results for the deep density-ratio estimator and a data-splitting method. We also extend our results to cases with unbounded support and unbounded density ratios. Furthermore, we show that the BDD density-ratio estimator can mitigate the curse of dimensionality when data distributions are supported on an approximately low-dimensional manifold. Our results are applied to investigate the convergence properties of the telescoping density-ratio estimator proposed by Rhodes (2020). We provide sufficient conditions under which it achieves a lower error bound than a single-ratio estimator. Moreover, we conduct simulation studies to validate our main theoretical results and assess the performance of the BDD density-ratio estimator.",
+    "authors": [
+        "Siming Zheng",
+        "Guohao Shen",
+        "Yuanyuan Lin",
+        "Jian Huang"
+    ],
+    "emails": [
+        "simizheng4-c@my.cityu.edu.hk",
+        "guohao.shen@polyu.edu.hk",
+        "ylin@sta.cuhk.edu.hk",
+        "j.huang@polyu.edu.hk"
+    ],
+    "id": "23-0425",
+    "issue": 15,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Error Analysis for Deep ReLU Feedforward Density-Ratio Estimation with Bregman Divergence",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "This study proposes and evaluates a novel Bayesian network classifier which can asymptotically estimate the true probability distribution of the class variable with the fewest class variable parameters among all structures for which the class variable has no parent. Moreover, to search for an optimal structure of the proposed classifier, we propose (1) a depth-first search based method and (2) an integer programming based method. The proposed methods are guaranteed to obtain the true probability distribution asymptotically while minimizing the number of class variable parameters. Comparative experiments using benchmark datasets demonstrate the effectiveness of the proposed method.",
+    "authors": [
+        "Shouta Sugahara",
+        "Koya Kato",
+        "James Cussens",
+        "Maomi Ueno"
+    ],
+    "emails": [
+        "sugahara@ai.lab.uec.ac.jp",
+        "kato@ai.lab.uec.ac.jp",
+        "james.cussens@bristol.ac.uk",
+        "ueno@ai.lab.uec.ac.jp"
+    ],
+    "id": "24-1901",
+    "issue": 21,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Learning Bayesian Network Classifiers to Minimize Class Variable Parameters",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Predicting future time-to-event outcomes is a foundational task in statistical learning. While various methods exist for generating point predictions, quantifying the associated uncertainties poses a more substantial challenge. In this study, we introduce an innovative approach specifically designed to address this challenge, accommodating dynamic predictors that may manifest as stochastic processes. Our investigation harnesses the forward intensity function in a novel way, providing a fresh perspective on this intricate problem. The framework we propose demonstrates remarkable computational efficiency, enabling efficient analyses of large-scale investigations. We validate its soundness with theoretical guarantees, and our in-depth analysis establishes the weak convergence of function-valued parameter estimations. We illustrate the effectiveness of our framework with two comprehensive real examples and extensive simulation studies.",
+    "authors": [
+        "Yudong Wang",
+        "Zhi-Sheng Ye",
+        "Cheng Yong Tang"
+    ],
+    "emails": [
+        "yudongw@u.nus.edu",
+        "yez@nus.edu.sg",
+        "yongtang@temple.edu"
+    ],
+    "id": "23-1465",
+    "issue": 30,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Exploring Novel Uncertainty Quantification through Forward Intensity Function Modeling",
+    "volume": 27,
+    "year": 2026
+}

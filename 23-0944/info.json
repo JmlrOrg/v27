@@ -1,0 +1,24 @@
+{
+    "abstract": "We study treatment effect estimation with functional treatments where the average potential outcome functional is a function of functions, in contrast to continuous treatment effect estimation where the target is a function of real numbers. By considering a flexible scalar-on-function marginal structural model, a weight-modified kernel ridge regression (WMKRR) is adopted for estimation. The weights are constructed by directly minimizing the uniform balancing error resulting from a decomposition of the WMKRR estimator, instead of being estimated under a particular treatment selection model. Despite the complex structure of the uniform balancing error derived under WMKRR, finite-dimensional convex algorithms can be applied to efficiently solve for the proposed weights thanks to a representer theorem. The optimal convergence rate is shown to be attainable by the proposed WMKRR estimator without any smoothness assumption on the true weight function. Corresponding empirical performance is demonstrated by a simulation study and a real data application.",
+    "authors": [
+        "Jiayi Wang",
+        "Raymond K. W. Wong",
+        "Xiaoke Zhang",
+        "Kwun Chuen Gary Chan"
+    ],
+    "emails": [
+        "jiayi.wang2@utdallas.edu",
+        "raywong@tamu.edu",
+        "xkzhang@gwu.edu",
+        "kcgchan@uw.edu"
+    ],
+    "id": "23-0944",
+    "issue": 16,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Flexible Functional Treatment Effect Estimation",
+    "volume": 27,
+    "year": 2026
+}

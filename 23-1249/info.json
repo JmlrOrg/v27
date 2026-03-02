@@ -1,0 +1,25 @@
+{
+    "abstract": "Finding the parameters of a latent variable causal model is central to causal inference and causal identification. In this article, we show that existing graphical structures that are used in causal inference are not stable under marginalization of Gaussian Bayesian networks, and present a graphical structure that faithfully represents margins of Gaussian Bayesian networks. We present the first duality between parameter optimization of a latent variable model and training a feed-forward neural network in the parameter space of the assumed family of distributions. Based on this observation, we develop an algorithm for parameter optimization of these graphical structures using the observational distribution. Then, we provide conditions for causal effect identifiability in the Gaussian setting. We propose a meta-algorithm that checks whether a causal effect is identifiable or not. Moreover, we lay a grounding for generalizing the duality between a neural network and a causal model from the Gaussian to other distributions.",
+    "authors": [
+        "Mehrzad Saremi"
+    ],
+    "emails": [
+        "mehrzad.saremi@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/msaremi/sn2"
+        ]
+    ],
+    "id": "23-1249",
+    "issue": 17,
+    "pages": [
+        1,
+        53
+    ],
+    "special_issue": "MLOSS",
+    "title": "Neural Network Parameter-optimization of Gaussian Pre-marginalized Directed Acyclic Graphs",
+    "volume": 27,
+    "year": 2026
+}

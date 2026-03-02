@@ -1,0 +1,30 @@
+{
+    "abstract": "There has been increasing research attention on community detection in directed and bipartite networks. However, these studies often fail to consider the popularity of nodes in different communities, which is a common phenomenon in real-world networks. To address this issue, we propose a new probabilistic framework called the Two-Way Node Popularity Model (TNPM). The TNPM also accommodates edges from different distributions within a general sub-Gaussian family. We introduce the Delete-One-Method (DOM) for model fitting and community structure identification, and provide a comprehensive theoretical analysis with novel technical skills dealing with sub-Gaussian generalization. Additionally, we propose the Two-Stage Divided Cosine Algorithm (TSDC) to handle large-scale networks more efficiently. Our proposed methods offer multi-folded advantages in terms of estimation accuracy and computational efficiency, as demonstrated through extensive numerical studies. We apply our methods to two real-world applications, uncovering interesting findings.",
+    "authors": [
+        "Bing-Yi Jing",
+        "Ting Li",
+        "Jiangzhou Wang",
+        "Ya Wang"
+    ],
+    "emails": [
+        "bingyijing@cuhk.edu.cn",
+        "liting@sustech.edu.cn",
+        "wangjz695@szu.edu.cn",
+        "wangya@sustech.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MiaCora/Two-way-Node-Popularity-Model"
+        ]
+    ],
+    "id": "24-0526",
+    "issue": 43,
+    "pages": [
+        1,
+        73
+    ],
+    "title": "Two-way Node Popularity Model for Directed and Bipartite Networks",
+    "volume": 27,
+    "year": 2026
+}

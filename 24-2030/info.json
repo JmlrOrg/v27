@@ -1,0 +1,24 @@
+{
+    "abstract": "Understanding the generalization and optimization of neural networks is a longstanding problem in modern learning theory. The prior analysis often leads to risk bounds of order $1/\\sqrt{n}$ for ReLU networks, where $n$ is the sample size. In this paper, we present a general optimization and generalization analysis for gradient descent applied to shallow ReLU networks. We develop convergence rates of the order $1/T$ for gradient descent with $T$ iterations, and show that the gradient descent iterates fall inside local balls around either an initialization point or a reference point. Then we develop improved Rademacher complexity estimates by using the activation pattern of the ReLU function in these local balls. We apply our general result to NTK-separable data with a margin $\\gamma$, and develop an almost optimal risk bound of the order $1/(n\\gamma^2)$ for the ReLU network with a polylogarithmic width.",
+    "authors": [
+        "Yunwen Lei",
+        "Puyu Wang",
+        "Yiming Ying",
+        "Ding-Xuan Zhou"
+    ],
+    "emails": [
+        "leiyw@hku.hk",
+        "wangpuyu1026@gmail.com",
+        "yiming.ying@sydney.edu.au",
+        "dingxuan.zhou@sydney.edu.au"
+    ],
+    "id": "24-2030",
+    "issue": 34,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Optimization and Generalization of Gradient Descent for Shallow ReLU Networks with Minimal Width",
+    "volume": 27,
+    "year": 2026
+}
