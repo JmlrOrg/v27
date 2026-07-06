@@ -1,0 +1,20 @@
+{
+    "abstract": "We study reinforcement learning by combining recent advances in regularized linear programming formulations with the classical theory of stochastic approximation. \r\nMotivated by the challenge of designing algorithms that leverage off-policy data while maintaining on-policy exploration, we propose PGDA-RL, a novel primal-dual projected gradient descent-ascent algorithm for solving regularized Markov decision processes (MDPs). PGDA-RL integrates experience replay-based gradient estimation with a two-timescale decomposition of the underlying nested optimization problem. \r\nThe algorithm operates asynchronously, interacts with the environment through a single trajectory of correlated data, and updates its policy online in response to the dual variable associated with the occupancy measure of the underlying MDP. We prove that PGDA-RL converges almost surely to the optimal value function and policy of the regularized MDP. Our convergence analysis relies on tools from stochastic approximation theory and holds under weaker assumptions than those required by existing primal-dual RL approaches, notably removing the need for a simulator or a fixed behavioral policy. \r\nUnder a strengthened ergodicity assumption on the underlying Markov chain, we establish a last-iterate finite-time guarantee with $\\widetilde{\\mathcal O}(k^{-2/3})$ mean-square convergence, aligning with the best-known rates for two-timescale stochastic approximation methods under Markovian sampling and biased gradient estimates.",
+    "authors": [
+        "Axel F. Wolter",
+        "Tobias Sutter"
+    ],
+    "emails": [
+        "axel-friedrich.wolter@uni-konstanz.de",
+        "tobias.sutter@unisg.ch"
+    ],
+    "id": "25-1016",
+    "issue": 108,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "A Two-Timescale Primal-Dual Framework for Reinforcement Learning via Online Dual Variable Guidance",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "The well-known graph-based clustering methods, including spectral clustering, symmetric non-negative matrix factorization, and doubly stochastic normalization, can be viewed as relaxations of the kernel k-means approach. However, we posit that these methods excessively relax their inherent low-rank, nonnegative, doubly stochastic, and orthonormal constraints to ensure numerical feasibility, potentially limiting their clustering efficacy. In this paper, guided by our systematic theoretical analyses, we propose Low-Rank Doubly stochastic clustering (LoRD), a model that only relaxes the orthonormal constraint to derive a probabilistic clustering results. Furthermore, by theoretically establishing the equivalence between orthogonality and Block diagonality under the doubly stochastic constraint, we propose B-LoRD. By integrating block diagonal regularization into LoRD, expressed as the maximization of the Frobenius norm, we enhance clustering performance. To ensure numerical solvability, we transform the non-convex doubly stochastic constraint into a linear convex constraint through the introduction of a class probability parameter. The theoretical demonstration of the gradient Lipschitz continuity of our LoRD and B-LoRD enables the proposal of a projected gradient algorithm whose exact iteration admits a sublinear convergence-rate bound and ensures first-order stationarity of every accumulation point for the exact projected gradient iteration. Extensive experiments underscore the effectiveness of our approaches. The code is publicly available at https://github.com/lwl-learning/LoRD.",
+    "authors": [
+        "Wenlong Lyu",
+        "Yuheng Jia",
+        "Hui Liu",
+        "Junhui Hou"
+    ],
+    "emails": [
+        "l_w_l@seu.edu.cn",
+        "yhjia@seu.edu.cn",
+        "h2liu@sfu.edu.hk",
+        "jh.hou@cityu.edu.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lwl-learning/LoRD"
+        ]
+    ],
+    "id": "25-2307",
+    "issue": 131,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Graph-based Clustering Revisited: A Relaxation of Kernel k-Means Perspective",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In recent years, denoising diffusion models have become a crucial area of research due to their abundance in the rapidly expanding field of generative AI. While recent statistical advances have delivered explanations for the generation ability of idealised denoising diffusion models for high-dimensional target data, implementations introduce thresholding procedures for the generating process to overcome issues arising from the unbounded state space of such models. This mismatch between theoretical design and implementation of diffusion models has been addressed empirically by using a reflected diffusion process as the driver of noise instead. In this paper, we study statistical guarantees of these denoising reflected diffusion models. In particular, under Sobolev smoothness assumptions, we establish rates of convergence in total variation which, up to a polylogarithmic factor, match the minimax lower bound. Our main contributions include the statistical analysis of this novel class of denoising reflected diffusion models and a refined score approximation method in both time and space, leveraging spectral decomposition and rigorous neural network analysis.",
+    "authors": [
+        "Asbj{\\o}rn Holk",
+        "Claudia Strauch",
+        "Lukas Trottner"
+    ],
+    "emails": [
+        "a.holk@math.au.dk",
+        "strauch@math.uni-heidelberg.de",
+        "lukas.trottner@isa.uni-stuttgart.de"
+    ],
+    "id": "25-1588",
+    "issue": 116,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Statistical guarantees for denoising reflected diffusion models",
+    "volume": 27,
+    "year": 2026
+}

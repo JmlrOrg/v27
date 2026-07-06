@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper develops a general framework for doubly debiased robust subsampling for transfer learning. The setting arises when massive source datasets are computationally infeasible to use in full, while naive or heuristic subsampling leads to biased estimators that further inherit transfer bias under source-target distributional shifts. We resolve these challenges through two complementary debiasing mechanisms. Inverse probability weighting removes subsampling bias by ensuring that subsample-based estimators represent the full source distribution, while a target-based one-step refinement recenters estimators towards the target distribution, thereby mitigating transfer bias. These corrections are embedded within a distributionally robust optimization design that simultaneously controls worst-case target risk and enforces source-target alignment through maximum mean discrepancy. To optimize subsampling distributions, we propose a scalarized particle swarm algorithm that efficiently explores the robustness-alignment frontier by adjusting a single tuning parameter. We establish theoretical properties, including asymptotic normality, generalization bounds, oracle inequalities, and minimax optimality under distributional uncertainty. Simulation studies and empirical applications in text sentiment and image recognition demonstrate that the proposed method consistently improves prediction accuracy and robustness compared with uniform subsampling, target-only training, and alignment-only approaches, and that both debiasing mechanisms are essential for reliable transfer.",
+    "authors": [
+        "Tao Wang",
+        "Weng Kee Wong"
+    ],
+    "emails": [
+        "taow@uvic.ca",
+        "wkwong@ucla.edu"
+    ],
+    "id": "25-2221",
+    "issue": 129,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Doubly Debiased Robust Subsampling for Transfer Learning",
+    "volume": 27,
+    "year": 2026
+}

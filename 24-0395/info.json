@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper, for Markov Decision Processes (MDPs) with standard Borel spaces, (i) we first provide a discretization based approximation method for MDPs with continuous spaces under average cost criteria, and provide error bounds for approximations when the dynamics are only weakly continuous (for asymptotic convergence of errors as the grid sizes vanish) or Wasserstein continuous (with a rate in approximation as the grid sizes vanish) under certain ergodicity assumptions. In particular, we relax the total variation condition given in prior work to weak continuity or  Wasserstein continuity. (ii) We provide synchronous and asynchronous (quantized) Q-learning algorithms for continuous spaces via quantization (where the quantized state is taken to be the actual state in corresponding Q-learning algorithms presented in the paper), and establish their convergence.  (iii) We finally show that the convergence is to the optimal Q values of a finite approximate model constructed via quantization, which implies near optimality of the arrived solution.",
+    "authors": [
+        "Ali D. Kara",
+        "Serdar Y{\\\"{u}}ksel"
+    ],
+    "emails": [
+        "akara@fsu.edu",
+        "yuksel@queensu.ca"
+    ],
+    "id": "24-0395",
+    "issue": 68,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Approximations and Learning for Continuous State and Action MDPs under Average Cost Criteria",
+    "volume": 27,
+    "year": 2026
+}

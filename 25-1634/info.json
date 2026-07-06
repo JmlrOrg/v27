@@ -1,0 +1,30 @@
+{
+    "abstract": "This paper introduces pyTAGI, a Python wrapper, and cuTAGI, its high-performance C++/CUDA backend, implementing Tractable Approximate Gaussian Inference (TAGI) for neural networks. TAGI treats all network quantities as Gaussian random variables and derives closed-form expressions for prior/posterior expected values, variances, and covariances, enabling analytic Bayesian learning without relying on gradient descent or backpropagation. \r\n\r\nThe libraries mimic PyTorch's sequential interface, allowing users to define models by stacking layers in order and performing uncertainty-aware Bayesian inference. Beyond epistemic uncertainty, it also allows quantifying heteroscedastic aleatoric uncertainty. cuTAGI's custom CPU/GPU kernels and distributed-data-parallel support via NCCL/MPI deliver competitive runtimes, while pyTAGI's pip-installable frontend and MIT-licensed GitHub repo facilitate community adoption and extension. Version 0.2.1 already supports a comprehensive suite of layers and activations; future work will add eager execution, further kernel optimizations, attention mechanisms, and advanced covariance factorization. Together, py/cuTAGI offer an efficient, open-source foundation for the analytic treatment of Bayesian deep learning.",
+    "authors": [
+        "Luong-Ha Nguyen",
+        "James-A. Goulet",
+        "Miquel Florensa-Montilla",
+        "Van-Dai Vuong"
+    ],
+    "emails": [
+        "luongha.nguyen@gmail.com",
+        "james.goulet@polymtl.ca",
+        "miquel.florensa-montilla@polymtl.ca",
+        "van-dai.vuong@polymtl.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lhnguyen102/cuTAGI"
+        ]
+    ],
+    "id": "25-1634",
+    "issue": 120,
+    "pages": [
+        1,
+        8
+    ],
+    "title": "py/cuTAGI: An Open-Source Library for Tractable Approximate Gaussian Inference in Bayesian Neural Networks",
+    "volume": 27,
+    "year": 2026
+}

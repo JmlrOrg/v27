@@ -1,0 +1,22 @@
+{
+    "abstract": "Linear discriminant analysis is a widely used method for classification. However, the high dimensionality of predictors combined with small sample sizes often results in large classification errors. To address this challenge, it is crucial to leverage data from related source models to enhance the classification performance of a target model. This paper proposes a transfer learning approach via regularized random-effects linear discriminant analysis, where the discriminant direction is estimated as a weighted combination of ridge estimates obtained from both the target and source models. Multiple strategies for determining these weights are introduced and evaluated, including one that minimizes the estimation risk of the discriminant vector and another that minimizes the classification error. Utilizing results from random matrix theory, we explicitly derive the asymptotic values of these weights and the associated classification error rates in the high-dimensional setting, where the aspect ratio $\\gamma := p/n$ as $p, n\\rightarrow \\infty$, with $p$ representing the predictor dimension and $n$ the sample size. Extensive numerical studies, including simulations, the analysis of the proteomics-based cardiovascular disease risk classification and the lipid traits classification problem with genotype data, demonstrate the effectiveness of the proposed approach.",
+    "authors": [
+        "Hongzhe Zhang",
+        "Arnab Auddy",
+        "Hongzhe Li"
+    ],
+    "emails": [
+        "Hongzhe.Zhang@Pennmedicine.upenn.edu",
+        "auddy.1@osu.edu",
+        "hongzhe@upenn.edu"
+    ],
+    "id": "25-0031",
+    "issue": 94,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Transfer Learning via Regularized Random-effects Linear  Discriminant Analysis",
+    "volume": 27,
+    "year": 2026
+}

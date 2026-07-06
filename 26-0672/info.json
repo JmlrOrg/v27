@@ -1,0 +1,28 @@
+{
+    "abstract": "We study the high-dimensional training dynamics of a shallow neural network with quadratic activation in a teacher--student setup. We focus on the extensive-width regime, where the teacher and student network widths scale proportionally with the input dimension, and the sample size grows quadratically. This scaling aims to describe overparameterized neural networks in which feature learning still plays a central role. In the high-dimensional limit, we derive a dynamical characterization of the gradient flow, in the spirit of dynamical mean-field theory (DMFT). Under $\\ell_2$-regularization, we analyze these equations at long times and characterize the performance and spectral properties of the resulting estimator. This result provides a quantitative understanding of the effect of overparameterization on learning and generalization, and reveals a double descent phenomenon in the presence of label noise, where generalization improves beyond interpolation. In the small regularization limit, we obtain an exact expression for the perfect recovery threshold as a function of the network widths, providing a precise characterization of how overparameterization influences recovery.",
+    "authors": [
+        "Simon Martin",
+        "Giulio Biroli",
+        "Francis Bach"
+    ],
+    "emails": [
+        "smartin@di.ens.fr",
+        "giulio.biroli@phys.ens.fr",
+        "francis.bach@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/simonmartin15/QuadraticNets"
+        ]
+    ],
+    "id": "26-0672",
+    "issue": 136,
+    "pages": [
+        1,
+        182
+    ],
+    "title": "High-Dimensional Analysis of Gradient Flow for Extensive-Width Quadratic Neural Networks",
+    "volume": 27,
+    "year": 2026
+}

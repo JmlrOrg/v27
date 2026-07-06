@@ -1,0 +1,28 @@
+{
+    "abstract": "In probabilistic Latent Semantic Indexing (pLSI), word frequencies across document corpora are modeled through a low-rank factorization of the expected document-term matrix into topic-word and topic-document components. In this paper, we study the estimation of the topic-word matrix under a sparsity structure motivated by Zipf's law: word frequencies within each topic exhibit a rapid empirical decay, with most probability mass concentrated on a small subset of words. Motivated by this observation, we introduce a spectral estimator that adaptively thresholds rare words prior to factorization. We show that the resulting estimator achieves an $\\ell_1$-error rate whose dependence on the vocabulary size $p$ is only logarithmic. Our error bounds hold across parameter regimes, including high-dimensional settings with extremely large vocabularies, a practically important scenario that has received limited theoretical attention. Unlike many existing methods, our approach does not require the separability (or anchor-word) assumption. Synthetic and real-data experiments demonstrate that the proposed procedure is computationally efficient, statistically reliable, and effective across domains with widely varying dimensions, sparsity levels, and document lengths.",
+    "authors": [
+        "Huy Tran",
+        "Yating Liu",
+        "Claire Donnat"
+    ],
+    "emails": [
+        "huydtran@uchicago.edu",
+        "yatingliu@uchicago.edu",
+        "cdonnat@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/yatingliu2548/topic-modeling"
+        ]
+    ],
+    "id": "23-1344",
+    "issue": 59,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Sparse Topic Modeling via Spectral Decomposition and Thresholding",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "We study the problem of learning multivariate dependencies in nonparametric and high-dimensional settings. This includes but is not limited to graphical models. Our approach effectively combines several features that are missing from previous work on this problem: We show how the entire dependence structure can be learned nonparametrically while simultaneously evading the curse of dimensionality and relaxing common assumptions such as faithfulness. To this end, we introduce and study the neighbourhood lattice decomposition of a distribution, which is a compact, non-graphical representation of conditional independence (CI) that is valid in the absence of a faithful graphical representation. We show that the neighbourhood lattice decomposition exists in any graphical model and can be computed efficiently, nonparametrically, and consistently in high-dimensions without paying the usual curse of dimensionality. This gives a way to learn all of the independence relations implied by any graphical model, without requiring a priori knowledge of the graph or even the graph type. As a special case, our results provide a general solution to the problem of nonparametric estimation of high-dimensional CI structures over any graphical model.",
+    "authors": [
+        "Arash A. Amini",
+        "Bryon Aragam",
+        "Qing Zhou"
+    ],
+    "emails": [
+        "aaamini@stat.ucla.edu",
+        "bryon@chicagobooth.edu",
+        "zhou@stat.ucla.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/aaamini/nblat/"
+        ]
+    ],
+    "id": "25-1595",
+    "issue": 117,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Learning general conditional independence structures via the neighbourhood lattice",
+    "volume": 27,
+    "year": 2026
+}

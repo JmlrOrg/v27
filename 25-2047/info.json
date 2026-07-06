@@ -1,0 +1,28 @@
+{
+    "abstract": "Decision Trees (DTs) are widely used in safety-critical domains such as medical diagnosis, valued for their interpretability and effectiveness on tabular data. However, training accurate oblique DTs is challenging due to complex optimization landscapes and overfitting risks, particularly in regression. Recent advances have introduced differentiable formulations that enable gradient-based training and joint optimization of decision boundaries and leaf regressors. Yet, existing approaches typically rely on approximations, either through probabilistic softening of boundaries (soft DTs) or quantized gradients such as the Straight-Through Estimator (STE). To overcome these limitations, we propose DTSemNet, a novel, semantically equivalent, and invertible representation of hard oblique DTs as neural networks. DTSemNet enables end-to-end training with standard gradient descent, eliminating the need for approximations in both classification and regression. While classification aligns naturally with this formulation, regression remains challenging due to the joint optimization of internal nodes and leaf regressors. To address this, we analyze the limitations of STE and introduce an annealed Top-$k$ method that provides accurate gradient signals without approximation. Extensive experiments on classification and regression benchmarks show that DTSemNet-trained oblique DTs outperform state-of-the-art differentiable DTs. Furthermore, we demonstrate that DTSemNet can serve as programmatic DT policies in reinforcement learning environments, thereby broadening their applicability.",
+    "authors": [
+        "Subrat Prasad Panda",
+        "Blaise Genest",
+        "Arvind Easwaran"
+    ],
+    "emails": [
+        "subratpr001@e.ntu.edu.sg",
+        "blaise.genest@cnrsatcreate.sg",
+        "arvinde@ntu.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/CPS-research-group/dtsemnet/tree/topk"
+        ]
+    ],
+    "id": "25-2047",
+    "issue": 125,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Approximation-Free Differentiable Oblique Decision Trees",
+    "volume": 27,
+    "year": 2026
+}

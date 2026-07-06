@@ -1,0 +1,30 @@
+{
+    "abstract": "Machine learning algorithms may have disparate impacts on protected groups.  To address this, we develop methods for Bayes-optimal  fair classification, aiming to minimize classification error subject to given group fairness constraints. We introduce the notion of linear disparity measures, which are linear functions of a probabilistic classifier; and bilinear disparity measures, which are also linear in the group-wise regression functions. We show that several popular disparity measures---the deviations from demographic parity, equality of opportunity, and predictive equality---are bilinear.\r\n\r\nWe find the form of Bayes-optimal fair classifiers under a single linear disparity measure, by uncovering a connection with the Neyman-Pearson lemma. For bilinear disparity measures, we are able to find the explicit form of Bayes-optimal fair classifiers as group-wise thresholding rules with explicitly characterized thresholds. We develop similar algorithms for when the protected attribute cannot be used at the prediction phase. Moreover, we obtain analogous theoretical characterizations of optimal classifiers for a multi-class protected attribute and for equalized odds.  \r\n   \r\nLeveraging our theoretical results, we design methods that learn fair Bayes-optimal classifiers under bilinear disparity constraints. Our methods cover three popular approaches to fairness-aware classification, via pre-processing (Fair Up- and Down-Sampling), in-processing\r\n(Fair cost-sensitive Classification) and post-processing (a Fair Plug-In Rule). Our methods control disparity directly while achieving near-optimal fairness-accuracy tradeoffs. We show empirically  that our methods have state-of-the-art performance compared to existing algorithms. In particular, our pre-processing method can  reach a higher accuracy than prior pre-processing methods at low disparity levels.",
+    "authors": [
+        "Xianli Zeng",
+        "Kevin Jiang",
+        "Guang Cheng",
+        "Edgar Dobriban"
+    ],
+    "emails": [
+        "xlzeng@xmu.edu.cn",
+        "kcjiang@wharton.upenn.edu",
+        "guangcheng@ucla.edu",
+        "dobriban@wharton.upenn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/XianliZeng/Bayes-Optimal-Fair-Classification"
+        ]
+    ],
+    "id": "24-0188",
+    "issue": 65,
+    "pages": [
+        1,
+        87
+    ],
+    "title": "Bayes-Optimal Fair Classification  with Linear Disparity Constraints via Pre-, In-, and Post-processing",
+    "volume": 27,
+    "year": 2026
+}

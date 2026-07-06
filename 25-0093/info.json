@@ -1,0 +1,22 @@
+{
+    "abstract": "Extremile regression, as a least squares analog of quantile regression, is potentially a useful tool for modeling and understanding the extreme tails of a distribution. However, existing extremile regression methods, as nonparametric approaches, may face challenges in high-dimensional settings due to data sparsity, computational inefficiency, and the risk of overfitting. While linear regression, particularly in high-dimensional settings, serves as the foundation for many other statistical and machine learning models due to its simplicity, interpretability, and relatively easy implementation, this paper introduces a novel definition of linear extremile regression along with an accompanying estimation methodology. The regression coefficient estimators of this method achieve root n consistency, which nonparametric extremile regression may not provide. In particular, while semi-supervised learning can leverage unlabeled data to make more accurate predictions and avoid overfitting to small labeled datasets in high-dimensional spaces, we propose a semi-supervised learning to enhance estimation efficiency, even when the specified linear extremile regression model may be misspecified. Both simulation studies and real data analyses demonstrate the finite sample performance of our proposed methods.",
+    "authors": [
+        "Rong Jiang",
+        "Jiangfeng Wang",
+        "Keming Yu"
+    ],
+    "emails": [
+        "jiangrong@suibe.edu.cn",
+        "wjf2929@163.com",
+        "keming.yu@brunel.ac.uk"
+    ],
+    "id": "25-0093",
+    "issue": 95,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Semi-supervised learning for linear extremile regression",
+    "volume": 27,
+    "year": 2026
+}

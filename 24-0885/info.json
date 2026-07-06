@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we discuss vector-valued Gaussian processes for the approximation of divergence- or rotation-free functions. We establish the theory for such Gaussian processes, then link the theory to multivariate approximation theory, and finally give error estimates for\r\nthe predictive mean in various situations.",
+    "authors": [
+        "Quoc Thong Le Gia",
+        "Ian Hugh Sloan",
+        "Holger Wendland"
+    ],
+    "emails": [
+        "qlegia@unsw.edu.au",
+        "i.sloan@unsw.edu.au",
+        "holger.wendland@uni-bayreuth.de"
+    ],
+    "id": "24-0885",
+    "issue": 74,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Vector-Valued Gaussian Processes for Approximating Divergence- or Rotation-free Vector Fields",
+    "volume": 27,
+    "year": 2026
+}

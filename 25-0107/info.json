@@ -1,0 +1,32 @@
+{
+    "abstract": "Conditional independence tests (CITs) test for conditional dependence between random variables given a vector of conditioning or confounder variables. As existing CITs are limited in their applicability to complex, high-dimensional variables such as images, we introduce deep nonparametric CITs (DNCITs). The DNCITs combine embedding maps, which extract feature representations of high-dimensional variables, with nonparametric CITs applicable to these feature representations. For the embedding maps, we derive general properties on their parameter estimators to obtain valid DNCITs and show that these properties include embedding maps learned through (conditional) unsupervised or transfer learning. For the nonparametric CITs, appropriate tests are selected and adapted to be applicable to  feature representations. Through simulations, we investigate the performance of the DNCITs for different embedding maps and nonparametric CITs under varying confounder dimensions and confounder relationships. We apply the DNCITs to brain MRI scans and behavioral traits, given confounders, of healthy individuals from the UK Biobank, confirming null results from a number of ambiguous personality neuroscience studies, now with a larger data set and with our more powerful tests. In addition, in a confounder control study, we apply the DNCITs to brain MRI scans and a confounder set to test for sufficient confounder control. We provide an R package implementing the proposed DNCITs.",
+    "authors": [
+        "Marco Simnacher",
+        "Xiangnan Xu",
+        "Hani Park",
+        "Christoph Lippert",
+        "Sonja Greven"
+    ],
+    "emails": [
+        "marco.simnacher@hu-berlin.de",
+        "xiangnan.xu@hu-berlin.de",
+        "hani.park@hpi.de",
+        "Christoph.Lippert@hpi.de",
+        "sonja.greven@hu-berlin.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MSimnach/DNCIT"
+        ]
+    ],
+    "id": "25-0107",
+    "issue": 96,
+    "pages": [
+        1,
+        73
+    ],
+    "title": "Deep Nonparametric Conditional Independence Tests for Images",
+    "volume": 27,
+    "year": 2026
+}

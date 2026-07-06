@@ -1,0 +1,30 @@
+{
+    "abstract": "Best Arm Identification (BAI) problems are progressively used for data-sensitive applications, such as designing adaptive clinical trials, tuning hyper-parameters, and conducting user studies. Motivated by the data privacy concerns invoked by these applications, we study the problem of BAI with fixed confidence in both the local and central models, i.e. under $\\epsilon$-local and $\\epsilon$-global Differential Privacy (DP). First, to quantify the cost of privacy,\r\nwe derive lower bounds on the sample complexity of any $\\delta$-correct BAI algorithm satisfying$\\epsilon$-global DP or $\\epsilon$-local DP. Our lower bounds suggest the existence of two privacy regimes. In the high-privacy regime, the hardness depends on a coupled effect of privacy and novel information-theoretic quantities involving the Total Variation distance. In the low-privacy regime, the lower bounds reduce to the non-private lower bounds. We propose $\\epsilon$-local DP and $\\epsilon$-global DP variants of a Top Two algorithm, namely CTB-TT and AdaP-TT$\\star$, respectively. For $\\epsilon$-local DP, CTB-TT is asymptotically optimal by plugging in a private estimator of the means based on Randomised Response. For $\\epsilon$-global DP, our private estimator of the mean runs in arm-dependent adaptive episodes and adds Laplace noise to\r\nensure a good privacy-utility trade-off. By adapting the transportation costs, the expected sample complexity of AdaP-TT$\\star$ reaches the asymptotic lower bound in the asymptotic high-privacy regime, up to a small multiplicative constant.",
+    "authors": [
+        "Achraf Azize",
+        "Marc Jourdan",
+        "Aymen Al Marjani",
+        "Debabrota Basu"
+    ],
+    "emails": [
+        "achraf.azize@ensae.fr",
+        "marc.jourdan@epfl.ch",
+        "almarjan@amazon.lu",
+        "debabrota.basu@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/achraf-azize/DP-BAI"
+        ]
+    ],
+    "id": "24-0880",
+    "issue": 73,
+    "pages": [
+        1,
+        85
+    ],
+    "title": "Differentially Private Best-Arm Identification",
+    "volume": 27,
+    "year": 2026
+}

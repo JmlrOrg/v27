@@ -1,0 +1,26 @@
+{
+    "abstract": "Many machine learning methods look for low-dimensional representations of the data. The underlying subspace can be estimated by first choosing a dimension q and then optimizing a certain objective function over the space of q-dimensional subspaces (the Grassmannian). Trying different q generally yields non-nested subspaces, which raises an important issue of consistency between the data representations. In this paper, we propose a simple and easily implementable principle to enforce nestedness in subspace learning methods. It consists in lifting Grassmannian optimization criteria to flag manifolds (the space of nested subspaces of increasing dimension) via nested projectors. We apply the flag trick to several classical machine learning methods and show that it successfully addresses the nestedness issue.",
+    "authors": [
+        "Tom Szwagier",
+        "Xavier Pennec"
+    ],
+    "emails": [
+        "tom.szwagier@inria.fr",
+        "xavier.pennec@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tomszwagier/flag-trick"
+        ]
+    ],
+    "id": "25-0807",
+    "issue": 106,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Nested Subspace Learning with Flags",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the problem of nonparametric density estimation under privacy constraints in an adversarial framework. To this end, we study minimax rates over Sobolev spaces under local differential privacy. We first obtain a lower bound  which allows us to quantify the impact of privacy compared with the classical framework. Next, we introduce a new Coordinate block privacy mechanism that guarantees local differential privacy, which, coupled with a projection estimator, achieves the minimax optimal rates. Finally, we develop an adaptive procedure which is optimal in the minimax sense up to logarithmic terms.",
+    "authors": [
+        "M{\\'{e}}lisande Albert",
+        "Juliette Chevallier",
+        "B{\\'{e}}atrice Laurent",
+        "Ousmane Sacko"
+    ],
+    "emails": [
+        "melisande.albert@insa-toulouse.fr",
+        "juliette.chevallier@insa-toulouse.fr",
+        "beatrice.laurent@insa-toulouse.fr",
+        "osacko@parisnanterre.fr"
+    ],
+    "id": "24-0494",
+    "issue": 69,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Minimax density estimation in the adversarial framework under local differential privacy",
+    "volume": 27,
+    "year": 2026
+}

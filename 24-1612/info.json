@@ -1,0 +1,22 @@
+{
+    "abstract": "Motivated by real-world applications that necessitate responsible experimentation, we introduce the problem of best arm identification (BAI) with minimal regret. This variant of the multi-armed bandit problem elegantly amalgamates two of its  most ubiquitous objectives: regret minimization and BAI. More precisely, the agent's goal is to identify the best arm with a prescribed confidence level $\\delta$, while minimizing the cumulative regret up to the stopping time. Focusing on single-parameter exponential families of distributions, we leverage information-theoretic techniques to establish an instance-dependent lower bound on the expected cumulative regret. Moreover, we present an impossibility result that underscores the tension between cumulative regret and sample complexity in fixed-confidence BAI. Complementarily, we design and analyze the Double KL-UCB algorithm, which achieves asymptotic optimality as the confidence level tends to zero. Notably, this algorithm employs two distinct confidence bounds to guide arm selection in a randomized manner. Our findings elucidate a fresh perspective on the inherent connections between regret minimization and BAI.",
+    "authors": [
+        "Junwen Yang",
+        "Vincent Y. F. Tan",
+        "Tianyuan Jin"
+    ],
+    "emails": [
+        "junwen_yang@u.nus.edu",
+        "vtan@nus.edu.sg",
+        "tianyuan@u.nus.edu"
+    ],
+    "id": "24-1612",
+    "issue": 86,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Best Arm Identification with Minimal Regret",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Neural collapse (${\\cal NC}$) is a phenomenon that emerges at the terminal phase of the training (TPT) of deep neural networks (DNNs). The features of the data in the same class collapse to their respective sample means and the sample means exhibit a simplex equiangular tight frame (ETF). In the past few years, there has been a surge of works that focus on explaining why the ${\\cal NC}$ occurs and how it affects generalization. Since the DNNs are notoriously difficult to analyze, most works mainly focus on the unconstrained feature model (UFM). While the UFM explains the ${\\cal NC}$ to some extent, it fails to provide a complete picture of how the network architecture and the dataset affect ${\\cal NC}$. In this work, we focus on shallow ReLU neural networks and try to understand how the width, depth, data dimension, and statistical property of the training dataset influence the neural collapse. We provide a complete characterization of when the ${\\cal NC}$ occurs for two or three-layer neural networks. For two-layer ReLU neural networks, a sufficient condition on when the global minimizer of the regularized empirical risk function exhibits the ${\\cal NC}$ configuration depends on the data dimension, sample size, and the signal-to-noise ratio in the data instead of the network width. For three-layer neural networks, we show that the ${\\cal NC}$ occurs as long as the first layer is sufficiently wide. Regarding the connection between ${\\cal NC}$ and generalization, we show the generalization heavily depends on the SNR (signal-to-noise ratio) in the data: even if the ${\\cal NC}$ occurs, the generalization can still be bad provided that the SNR in the data is too low. Our results significantly extend the state-of-the-art theoretical analysis of the ${\\cal NC}$ under the UFM by characterizing the emergence of the ${\\cal NC}$ under shallow nonlinear networks and showing how it depends on data properties and network architecture.",
+    "authors": [
+        "Wanli Hong",
+        "Shuyang Ling"
+    ],
+    "emails": [
+        "wh992@nyu.edu",
+        "sl3635@nyu.edu"
+    ],
+    "id": "24-1429",
+    "issue": 82,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Beyond Unconstrained Features: Neural Collapse for Shallow Neural Networks with General Data",
+    "volume": 27,
+    "year": 2026
+}

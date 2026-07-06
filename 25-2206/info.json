@@ -1,0 +1,30 @@
+{
+    "abstract": "The impact of inference-time data perturbation (e.g., adversarial attacks) has been extensively studied in machine learning, leading to well-established certification techniques for adversarial robustness. In contrast, certifying models against training data perturbations remains a relatively under-explored area. These perturbations can arise in three critical contexts: adversarial data poisoning, where an adversary manipulates training samples to corrupt model performance; machine unlearning, which requires certifying model behavior under the removal of specific training data; \r\nand differential privacy, where guarantees must be given with respect to substituting individual data points. This work introduces Abstract Gradient Training (AGT), a unified framework for certifying robustness of a given model and training procedure to training data perturbations, including bounded perturbations, the removal of data points, and the addition of new samples. By bounding the reachable set of parameters, i.e., establishing provable parameter-space bounds, AGT provides a formal approach to analyzing the behavior of models trained via first-order optimization methods.",
+    "authors": [
+        "Philip Sosnin",
+        "Matthew Wicker",
+        "Josh Collyer",
+        "Calvin Tsay"
+    ],
+    "emails": [
+        "p.sosnin23@imperial.ac.uk",
+        "m.wicker@imperial.ac.uk",
+        "jcollyer@turing.ac.uk",
+        "c.tsay@imperial.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/psosnin/AbstractGradientTraining"
+        ]
+    ],
+    "id": "25-2206",
+    "issue": 128,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Abstract Gradient Training: A Unified Certification Framework for Data Poisoning, Unlearning, and Differential Privacy",
+    "volume": 27,
+    "year": 2026
+}

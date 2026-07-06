@@ -1,0 +1,26 @@
+{
+    "abstract": "We study the sample complexity of stochastic convex optimization when problem parameters such as the distance to optimality and the Lipschitz constant are unknown. We pursue two strategies. First, we develop a reliable model selection method that avoids overfitting to the validation set. This method allows us to generically tune the learning rate of stochastic optimization methods to match the optimal known-parameter sample complexity up to $\\log\\log$ factors. Second, we develop a regularization-based method that is specialized to the case that only the distance to optimality is unknown. More specifically, it uses norm-regularized empirical risk minimization to estimate the distance to optimality to within a constant factor, allowing known-parameter stochastic optimization methods to achieve optimal sample complexity. This method provides perfect adaptability to unknown distance to optimality, demonstrating a separation between the sample and computational complexity of parameter-free stochastic convex optimization. Combining these two methods allows us to simultaneously adapt to multiple problem structures. \r\n\r\nExperiments performing few-shot learning on CIFAR-10 by fine-tuning CLIP models and prompt engineering Gemini to count shapes indicate that our reliable model selection method can help mitigate overfitting to small validation sets.",
+    "authors": [
+        "Jared Lawrence",
+        "Ari Kalinsky",
+        "Hannah Bradfield",
+        "Yair Carmon",
+        "Oliver Hinder"
+    ],
+    "emails": [
+        "jpl86@pitt.edu",
+        "ajk245@pitt.edu",
+        "hmb78@pitt.edu",
+        "ycarmon@tauex.tau.ac.il",
+        "ohinder@pitt.edu"
+    ],
+    "id": "25-2383",
+    "issue": 133,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "The Sample Complexity of Parameter-Free Stochastic Convex Optimization",
+    "volume": 27,
+    "year": 2026
+}

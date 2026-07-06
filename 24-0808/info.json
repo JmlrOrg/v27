@@ -1,0 +1,22 @@
+{
+    "abstract": "Corruption is notoriously widespread in data collection. Despite extensive research, the existing literature predominantly focuses on specific settings and learning scenarios, lacking a\r\nunified view of corruption modelization and mitigation. In this work, we develop a general\r\ntheory of corruption, which incorporates all modifications to a supervised learning problem,\r\nincluding changes in model class and loss. Focusing on changes to the underlying probability distributions via Markov kernels, our approach leads to three novel opportunities.\r\nFirst, it enables the construction of a novel, provably exhaustive corruption framework,\r\ndistinguishing among different corruption types. This serves to unify existing models and\r\nestablish a consistent nomenclature. Second, it facilitates a systematic analysis of corruption consequences on learning tasks, by considering Bayes risks in the clean and corrupted\r\nscenarios. Notably, while label corruptions affect only the loss function, attribute corruptions additionally influence the hypothesis class. Third, building upon these results, we\r\ninvestigate mitigations for various corruption types. We expand existing loss-correction\r\nmethods for label corruption to handle dependent corruption types. Our findings highlight\r\nthe necessity to generalize this classical corruption-corrected learning framework to a new\r\nparadigm with weaker requirements to encompass more corruption types. We provide such\r\na paradigm as well as loss correction formulas in the attribute and joint corruption cases.",
+    "authors": [
+        "Laura Iacovissi",
+        "Nan Lu",
+        "Robert C. Williamson"
+    ],
+    "emails": [
+        "laura.iacovissi@uni-tuebingen.de",
+        "nan.lu@uni-tuebingen.de",
+        "bob.williamson@uni-tuebingen.de"
+    ],
+    "id": "24-0808",
+    "issue": 72,
+    "pages": [
+        1,
+        73
+    ],
+    "title": "Corruptions of Supervised Learning Problems: Typology and Mitigations",
+    "volume": 27,
+    "year": 2026
+}

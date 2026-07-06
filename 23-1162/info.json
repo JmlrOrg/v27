@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a novel generative model for time series based on Schr{\\\"{o}}dinger bridge (SB) approach. This consists in the entropic interpolation via optimal transport between a reference probability measure on path space and a target measure consistent with the joint data distribution of the time series. The solution is characterized by a stochastic differential equation on finite horizon with a path-dependent drift function, hence respec\\-ting  the temporal dynamics of the time series distribution.\r\nWe  estimate the drift function from data samples by nonparametric, e.g. kernel regression methods, and the simulation of the SB diffusion  yields new synthetic data samples of the time series.  The performance of our generative model is evaluated through a series of numerical experiments.  First, we test with autoregressive models, a GARCH Model, and the example of fractional Brownian motion,  and measure the accuracy of our algorithm with marginal, temporal dependencies metrics, and predictive scores. \r\nNext, we use our SB generated synthetic samples for the application to deep hedging on real-data sets.",
+    "authors": [
+        "Mohamed Hamdouche",
+        "Pierre Henry-Labord{\\`{e}}re",
+        "Huy{\\^{e}}n Pham"
+    ],
+    "emails": [
+        "mohamed.hamdouche@qube-rt.com",
+        "pierre.henrylabordere@qube-rt.com",
+        "huyen.pham@polytechnique.edu"
+    ],
+    "id": "23-1162",
+    "issue": 58,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Nonparametric generative modeling for time series  via Schr{\\\"{o}}dinger bridge",
+    "volume": 27,
+    "year": 2026
+}

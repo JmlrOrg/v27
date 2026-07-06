@@ -1,0 +1,28 @@
+{
+    "abstract": "The Deep Graph Generation's panorama spans two extremes: one-shot and sequential models. The former generates nodes and edges jointly, while the latter samples them autoregressively. Each method performs better in different graph domains depending on size and topology, but neither is applicable to all graph categories. For instance, one-shot methods struggle with generating large graphs, while sequential methods underperform on smaller graphs. A possible way to overcome these limitations is to flexibly combine the two methods in a unique system. In this work, we propose the FLAGG (Flexible Autoregressive Graph Generation) framework, which sequentially generates portions of graphs with one-shot models. FLAGG can apply any one-shot model to make it autoregressive, allowing flexibility in choosing the sequential policy. This policy is specified through a stochastic node removal process, which an Insertion Model learns to reverse. We evaluate FLAGG with the DiGress one-shot model on several data sets of different graph sizes and domains. We show that the approach outperforms both one-shot and autoregressive baselines in terms of sampling quality.",
+    "authors": [
+        "Samuel Cognolato",
+        "Alessandro Sperduti",
+        "Luciano Serafini"
+    ],
+    "emails": [
+        "samuel.cognolato@phd.unipd.it",
+        "alessandro.sperduti@unipd.it",
+        "serafini@fbk.eu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/CognacS/flagg-graphgen"
+        ]
+    ],
+    "id": "25-0994",
+    "issue": 107,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "FLAGG: Flexible Autoregressive Graph Generation",
+    "volume": 27,
+    "year": 2026
+}

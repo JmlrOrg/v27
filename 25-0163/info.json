@@ -1,0 +1,30 @@
+{
+    "abstract": "This paper proposes a method for dimension reduction that preserves information in unsupervised learning with high-dimensional heterogeneous data, specifically targeting change point detection and clustering analysis. Our main strategy is to apply a  Corrected Kernel Principal Component Analysis (CKPCA) method to construct the so-called kernel mean embedding deviation subspace. The approach efficiently identifies distributional changes in these dimension reduction subspaces for unsupervised dimension reduction.\r\nFor change point detection, we demonstrate that the locations and number of change points in the dimension-reduced subspaces are identical to those in the original data.\r\nFurthermore, we extend this approach to clustering by embedding the original data into nonlinear lower-dimensional spaces, providing enhanced capabilities for clustering analysis.\r\nAdditionally, we explain the necessity of using CKPCA, as the classical KPCA fails to identify the kernel mean embedding deviation subspace in these problems.\r\nNumerical studies on synthetic and real data sets suggest that the dimension reduction versions of existing methods for change point detection and clustering significantly improve the performance of current approaches in finite sample scenarios.",
+    "authors": [
+        "Luoyao Yu",
+        "Lixing Zhu",
+        "Ruoqing Zhu",
+        "Xuehu Zhu"
+    ],
+    "emails": [
+        "luoyaoyu20@stu.xjtu.edu.cn",
+        "lzhu@bnu.edu.cn",
+        "rqzhu@illinois.edu",
+        "zhuxuehu@xjtu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/L-Yu20/CKPCA.git"
+        ]
+    ],
+    "id": "25-0163",
+    "issue": 97,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Kernel Mean Embedding Deviation Subspace for Unsupervised Learning with Heterogeneous Data",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The success of machine learning (ML) has been intimately linked with the availability of\r\nlarge amounts of data, typically collected from heterogeneous sources and processed on\r\nvast networks of computing devices (also called workers). Beyond accuracy, the use of ML\r\nin critical domains such as healthcare and autonomous driving calls for robustness against\r\ndata poisoning and some faulty workers. The problem of Byzantine ML formalizes these\r\nrobustness issues by considering a distributed ML environment in which workers (storing\r\na portion of the global dataset) can deviate arbitrarily from the prescribed algorithm.\r\nAlthough the problem has attracted a lot of attention from a theoretical point of view, its\r\npractical importance for addressing realistic faults (where the behavior of any worker is\r\nlocally constrained) remains unclear. It has been argued that the seemingly weaker threat\r\nmodel where only workers' local datasets get poisoned is more reasonable. We prove that,\r\nwhile tolerating a wider range of faulty behaviors, Byzantine ML yields solutions that are,\r\nin a precise sense, optimal even under the weaker data poisoning threat model. Then, we\r\nstudy a generic data poisoning model wherein some workers have fully-poisonous local data, i.e., their datasets are entirely corruptible, and the remainders have partially-poisonous local data, i.e., only a fraction of their local datasets is corruptible. We prove that Byzantine-robust schemes yield optimal solutions against both these forms of data poisoning, and that the former is more harmful when workers have heterogeneous local data.",
+    "authors": [
+        "Sadegh Farhadkhani",
+        "Rachid Guerraoui",
+        "Nirupam Gupta",
+        "Rafael Pinot"
+    ],
+    "emails": [
+        "sadegh.farhadkhani@epfl.ch",
+        "rachid.guerraoui@epfl.ch",
+        "nigu@di.ku.dk",
+        "pinot@lpsm.paris"
+    ],
+    "id": "24-1748",
+    "issue": 87,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "On the Relevance of Byzantine Robust Optimization Against Data Poisoning",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we focus on the decentralized stochastic subgradient-based methods in minimizing nonsmooth nonconvex functions without Clarke regularity, especially in the decentralized training of nonsmooth neural networks. We propose a general framework that\r\nunifies various decentralized subgradient-based methods, such as decentralized stochastic subgradient descent (DSGD), DSGD with gradient-tracking technique (DSGD-T), and DSGD with momentum (DSGD-M). To establish the convergence properties of our proposed framework, we relate the discrete iterates to the trajectories of a continuous-time\r\ndifferential inclusion, which is assumed to have a coercive Lyapunov function with a stable set A. We prove the asymptotic convergence of the iterates to the stable set A with sufficiently small and diminishing step-sizes. These results provide first convergence guarantees for some well-recognized of decentralized stochastic subgradient-based methods\r\nwithout Clarke regularity of the objective function. Preliminary numerical experiments demonstrate that our proposed framework yields highly efficient decentralized stochastic subgradient-based methods with convergence guarantees in the training of nonsmooth\r\nneural networks.",
+    "authors": [
+        "Siyuan Zhang",
+        "Nachuan Xiao",
+        "Xin Liu"
+    ],
+    "emails": [
+        "zhangsiyuan@amss.ac.cn",
+        "xncxy@cuhk.edu.cn",
+        "liuxin@lsec.cc.ac.cn"
+    ],
+    "id": "25-1030",
+    "issue": 109,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Convergence of Decentralized Stochastic Subgradient-based Methods for Nonsmooth Nonconvex Optimization",
+    "volume": 27,
+    "year": 2026
+}

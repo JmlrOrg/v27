@@ -1,0 +1,30 @@
+{
+    "abstract": "Penalized empirical risk minimization with a surrogate loss function is often used to learn a high-dimensional linear decision rule in classification problems. Although much of the literature focus on the generalization error, there is a lack of inference procedures for identifying the driving factors of the estimated decision rule, especially when the surrogate loss is non-differentiable. We propose a kernel-smoothed decorrelated score to construct hypothesis tests and interval estimators for a linear decision rule estimated using a piece-wise linear surrogate loss, which has a discontinuous gradient and non-regular Hessian. Specifically, we adopt kernel approximations to smooth the discontinuous gradient near discontinuity points and approximate the non-regular Hessian of the surrogate loss. In applications where additional nuisance parameters are involved, we propose a novel cross-fitted version to accommodate flexible nuisance estimates and kernel approximations. We establish the limiting distribution of the kernel-smoothed decorrelated score and its cross-fitted version in a high-dimensional setup. Simulation and real data analysis are conducted to demonstrate the validity and the superiority of the proposed method.",
+    "authors": [
+        "Muxuan Liang",
+        "Yang Ning",
+        "Maureen A Smith",
+        "Ying-Qi Zhao"
+    ],
+    "emails": [
+        "mliang2@mdanderson.org",
+        "yn265@cornell.edu",
+        "maureensmith@wisc.edu",
+        "yqzhao@fredhutch.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/muxuanliang/InferClassHighDim"
+        ]
+    ],
+    "id": "23-0126",
+    "issue": 53,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Inference with non-differentiable surrogate loss in a general high-dimensional classification framework",
+    "volume": 27,
+    "year": 2026
+}

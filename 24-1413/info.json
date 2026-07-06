@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper proposes new methodologies for conducting practical differentially private (DP) estimation and inference in high-dimensional linear regression. We first introduce a DP Bayesian Information Criterion (DP-BIC) for selecting the unknown sparsity parameter in differentially private sparse linear regression (DP-SLR), eliminating the need for prior knowledge of model sparsity, which is a requisite in the existing literature. Next, we develop the DP debiased algorithm that enables privacy-preserving inference on a particular subset of regression parameters. Our proposed method enables privacy-preserving inference on the regression parameters by leveraging the inherent sparsity of high-dimensional linear regression models. Additionally, we address private feature selection by considering multiple testing in high-dimensional linear regression by introducing a DP multiple testing procedure that controls the false discovery rate (FDR). This allows for accurate and privacy-preserving identification of significant predictors in the regression model. Through extensive simulations and real data analyses, we demonstrate the effectiveness of our proposed methods in conducting inference for high-dimensional linear models while safeguarding privacy and controlling the FDR.",
+    "authors": [
+        "Zhanrui Cai",
+        "Sai Li",
+        "Xintao Xia",
+        "Linjun Zhang"
+    ],
+    "emails": [
+        "zhanruic@hku.hk",
+        "saili@tsinghua.edu.cn",
+        "xintaox@zju.edu.cn",
+        "lz412@stat.rutgers.edu"
+    ],
+    "id": "24-1413",
+    "issue": 81,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Differentially Private Estimation and Inference in High-Dimensional Regression with FDR Control",
+    "volume": 27,
+    "year": 2026
+}

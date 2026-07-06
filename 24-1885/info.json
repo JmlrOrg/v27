@@ -1,0 +1,24 @@
+{
+    "abstract": "An unsolved issue in widely used methods such as Support Vector Data Description (SVDD) and Small Sphere and Large Margin SVM (SSLM) for anomaly detection is their nonconvexity, which hampers the analysis of optimal solutions in a manner similar to SVMs and limits their applicability in large-scale scenarios. In this paper, we introduce a novel convex SSLM formulation which has been demonstrated to revert to a convex quadratic programming problem for hyperparameter values of interest. Leveraging the convexity of our method, we derive numerous results that are unattainable with traditional nonconvex approaches. We conduct a thorough analysis of how hyperparameters influence the optimal solution, pointing out scenarios where optimal solutions can be trivially found and identifying instances of illposedness. Most notably, we establish connections between our method and traditional approaches, providing a clear determination of when the optimal solution is unique-a task unachievable with traditional nonconvex methods. We also derive the $\\nu$-property to elucidate the interactions between hyperparameters and the fractions of support vectors and margin errors in both positive and negative classes.",
+    "authors": [
+        "Hongying Liu",
+        "Hao Wang",
+        "Haoran Chu",
+        "Yibo Wu"
+    ],
+    "emails": [
+        "liuhongying@buaa.edu.cn",
+        "haw309@gmail.com",
+        "chuhr2023@shanghaitech.edu.cn",
+        "wybmath@buaa.edu.cn"
+    ],
+    "id": "24-1885",
+    "issue": 89,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Towards Convexity in Anomaly Detection: A New Formulation of SSLM with Unique Optimal Solutions",
+    "volume": 27,
+    "year": 2026
+}

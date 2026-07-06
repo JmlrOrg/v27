@@ -1,0 +1,22 @@
+{
+    "abstract": "Unlinked regression, in which covariates and responses are observed separately without known correspondence, has recently gained increasing attention.\r\nDeconvolution, on the other hand, is a fundamental and challenging problem in nonparametric statistics with the aim of estimating the distribution of a latent random variable $Z$ based on observations contaminated by some additive noise. The complexity of this task is heavily influenced by the smoothness of the noise distribution and often leads to slow estimation rates.\r\nIn this paper, we combine the recent unlinked linear regression problem with the classical deconvolution framework. Specifically, we study nonparametric deconvolution under the assumption that $Z$ is a linear function of an observable multidimensional covariate. This structural constraint allows us to introduce a nonparametric estimator of the distribution of $Z$ which achieves the parametric rate of convergence in the Wasserstein distance of order 1, where the smoothness of the noise does not affect the rate.\r\nFurthermore, we introduce nonparametric estimators for the unconditional density of $Z$ and the conditional density of $Z$ given an observed response. This allows us to study the problem of estimating the value of the latent linear predictor, whose link to the observed response is not accessible. Through several simulations, we illustrate the fast convergence rate of our deconvolution estimator and the performance of the proposed conditional estimators of the latent predictor in different simulation scenarios.",
+    "authors": [
+        "Fadoua Balabdaoui",
+        "Antonio Di Noia",
+        "C{\\'{e}}cile Durot"
+    ],
+    "emails": [
+        "fadoua.balabdaoui@stat.math.ethz.ch",
+        "antonio.dinoia@stat.math.ethz.ch",
+        "cecile.durot@parisnanterre.fr"
+    ],
+    "id": "25-0516",
+    "issue": 101,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Deconvolution in unlinked linear models",
+    "volume": 27,
+    "year": 2026
+}

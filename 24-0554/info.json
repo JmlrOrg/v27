@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper studies minimax optimization problems defined over infinite-dimensional function classes of over-parameterized two-layer neural networks. In particular, we consider the minimax optimization problem stemming from estimating linear functional equations defined by conditional expectations, where the objective functions are quadratic in the functional spaces.  We address (i) the convergence of the stochastic gradient descent-ascent algorithm and (ii) the representation learning of the neural networks.  We establish convergence in the mean-field regime by considering the continuous-time, infinite-width limit of the optimization dynamics.\r\nUnder this regime, stochastic gradient descent-ascent corresponds to a Wasserstein gradient flow over the space of probability measures defined over the space of neural network parameters. We prove that the Wasserstein gradient flow converges globally to a stationary point of the minimax objective at a $\\mathcal{O}(T^{-1} + \\alpha^{-1} ) $ sublinear rate, and additionally finds the solution to the functional equation when the regularizer of the minimax objective is strongly convex. Here $T$ denotes the time and $\\alpha$ is a scaling parameter of the neural networks. In terms of representation learning, our results show that the feature representation induced by the neural networks may deviate from the initial representation by a factor of $\\mathcal{O}(\\alpha^{-1})$, measured by the Wasserstein distance. Finally, we apply our general results to concrete examples, including policy evaluation, nonparametric instrumental variable regression, and asset pricing.",
+    "authors": [
+        "Yuchen Zhu",
+        "Yufeng Zhang",
+        "Zhaoran Wang",
+        "Zhuoran Yang",
+        "Xiaohong Chen"
+    ],
+    "emails": [
+        "yzhu738@gatech.edu",
+        "yufengzhang2023@u.northwestern.edu",
+        "zhaoranwang@gmail.com",
+        "zhuoran.yang@yale.edu",
+        "xiaohong.chen@yale.edu"
+    ],
+    "id": "24-0554",
+    "issue": 70,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "A Mean-Field Analysis of Neural Stochastic Gradient Descent-Ascent for Functional Minimax Optimization",
+    "volume": 27,
+    "year": 2026
+}

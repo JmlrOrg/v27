@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper focuses on approximation and learning performances of deep convolutional neural networks   with zero-padding and max-pooling. We prove that,   to approximate $r$-smooth function, the approximation rates of deep convolutional neural networks with depth $L$ are of order $ (L/\\log L)^{-2r/d} $, which is optimal up to a logarithmic factor. Furthermore, we deduce almost optimal generalization errors for implementing empirical risk minimization over deep convolutional neural networks.  Our theoretical results are verified by several numerical experiments to show the power of the convolutional structure, zero-padding and max-pooling.",
+    "authors": [
+        "Jinxin Wang",
+        "Shao-Bo Lin"
+    ],
+    "emails": [
+        "jinxinwangxjtu@gmail.com",
+        "sblin1983@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DataScienceGroupOfManagement/eDCNN-maxpooling"
+        ]
+    ],
+    "id": "24-0314",
+    "issue": 67,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "Optimal Approximation and Generalization Errors for Deep Convolutional Neural Networks",
+    "volume": 27,
+    "year": 2026
+}

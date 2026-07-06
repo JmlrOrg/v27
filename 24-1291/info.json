@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper investigates the accuracy of generative models and the impact of knowledge transfer on their generation precision. Specifically, we examine a generative model for a target task, fine-tuned using a pre-trained model from a source task. Building on the \"Shared Embedding\" concept, which bridges the source and target tasks, we introduce a novel framework for transfer learning\r\nunder distribution metrics such as the Kullback-Leibler divergence. This framework underscores the importance of leveraging inherent similarities between diverse tasks despite their distinct data distributions. Our theory suggests that the shared structures can augment the generation accuracy for a target task, reliant on the capability of a source model to identify shared structures and effective knowledge transfer from source to target learning. To demonstrate the practical utility of this framework, we explore the theoretical implications for two specific generative models: diffusion and normalizing flows. The results show enhanced performance in both models over their non-transfer counterparts, indicating advancements for diffusion models and providing fresh insights into normalizing flows in transfer and non-transfer settings. These results highlight the significant contribution of knowledge transfer in boosting the generation capabilities of these models.",
+    "authors": [
+        "Xinyu Tian",
+        "Xiaotong Shen"
+    ],
+    "emails": [
+        "tianx@umn.edu",
+        "xshen@umn.edu"
+    ],
+    "id": "24-1291",
+    "issue": 79,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Enhancing Accuracy in Generative Models via Knowledge Transfer",
+    "volume": 27,
+    "year": 2026
+}

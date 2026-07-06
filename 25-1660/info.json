@@ -1,0 +1,30 @@
+{
+    "abstract": "Implicit generative models are often trained adversarially, which can yield unstable dynamics and mode collapse. The invariant statistical loss (ISL) offers a fully sample-based alternative by comparing empirical ranks of real and generated samples. In this work, we formally characterize ISL as a proper divergence over continuous distributions and establish key regularity properties, showing that it is continuous and differentiable, thereby enabling stable gradient-based optimization without adversarial games. We further enhance ISL along two practical axes. First, to better model heavy-tailed data, where Gaussian latent priors can limit tail expressivity, we introduce Pareto-ISL, which replaces Gaussian noise with a generalized Pareto latent distribution to improve the representation of both typical and extreme events. Second, to handle multivariate data at scale, we propose ISL-slicing: a computationally efficient procedure that projects samples onto random one-dimensional subspaces, computes rank-based losses per projection, and averages them to capture high-dimensional structure. Experiments demonstrate improved tail fidelity with Pareto-ISL and show that ISL-slicing scales effectively to high dimensions. Specifically, in high dimensional settings we show that ISL can be used either as a standalone criterion or as a strong pretraining objective for subsequent adversarial fine-tuning.",
+    "authors": [
+        "Jos{\\'{e}} Manuel de Frutos",
+        "Manuel A. V{\\'{a}}zquez",
+        "Pablo M. Olmos",
+        "Joaqu{\\'{i}}n M{\\'{i}}guez"
+    ],
+    "emails": [
+        "jofrutos@ing.uc3m.es",
+        "mavazque@ing.uc3m.es",
+        "pamartin@ing.uc3m.es",
+        "joaquin.miguez@uc3m.es"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/josemanuel22/isl-implicit-generative-models"
+        ]
+    ],
+    "id": "25-1660",
+    "issue": 122,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Robust training of implicit generative models for multivariate and heavy-tailed distributions with an invariant statistical loss",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose generalized resubstitution error estimators for regression. Each error estimator in this class corresponds to a choice of an empirical probability measure and a loss function. The standard empirical probability measure and the quadratic loss lead to the standard sum of squares error estimator. Other choices of empirical probability measure lead to more general estimators with superior bias and variance properties. We prove that these error estimators are consistent under broad assumptions. In addition, procedures for choosing the empirical measure based on the method of moments and maximum pseudo-likelihood are proposed and investigated.  Detailed experimental results using polynomial regression demonstrate empirically the superior finite-sample bias and variance properties of the proposed estimators. The R code for the experiments is provided.",
+    "authors": [
+        "Diego Marcondes",
+        "Ulisses Braga-Neto"
+    ],
+    "emails": [
+        "diego.marcondes@anu.edu.au",
+        "ulisses@tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dmarcondes/genree"
+        ]
+    ],
+    "id": "24-1905",
+    "issue": 91,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Generalized Resubstitution for Regression Error Estimation",
+    "volume": 27,
+    "year": 2026
+}

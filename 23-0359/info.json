@@ -1,0 +1,32 @@
+{
+    "abstract": "As machine learning models and datasets continue to grow, developing complex models has become increasingly computationally demanding. Knowledge distillation reduces deployment cost by compressing a large, well-trained teacher model into a compact student model, but it does not address settings where constructing the teacher itself is the bottleneck. Motivated by this challenge, we introduce Knowledge Cascade, a reverse knowledge distillation framework that uses information from a small, inexpensive student model to guide the development of a more complex teacher model. Although this direction is counterintuitive because the teacher typically has greater representational capacity, we show that student-to-teacher transfer can be principled when supported by statistical scaling relationships. We first develop Knowledge Cascade for nonparametric multivariate functional estimation in reproducing kernel Hilbert spaces via smoothing splines, where selecting multiple smoothing parameters is a major computational bottleneck. Knowledge Cascade transfers student-selected smoothing parameters to the full-sample regime through asymptotic scaling laws, substantially reducing computational cost for high-dimensional and large-scale datasets while retaining theoretical guarantees. Beyond smoothing splines, we illustrate the same principle through kernel density estimation and deep learning hyperparameter transfer. Simulations and real-data experiments show that Knowledge Cascade achieves substantial computational savings while maintaining strong statistical performance, and can sometimes outperform the corresponding full-sample procedure.",
+    "authors": [
+        "Luyang Fang",
+        "Haoran Lu",
+        "Yongkai Chen",
+        "Wenxuan Zhong",
+        "Ping Ma"
+    ],
+    "emails": [
+        "luyang.fang@uga.edu",
+        "haoran.lu@uga.edu",
+        "yongkai.chen@uga.edu",
+        "wenxuan@uga.edu",
+        "pingma@uga.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LuyangFang/KCas"
+        ]
+    ],
+    "id": "23-0359",
+    "issue": 54,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Knowledge Cascade: Reverse Knowledge Distillation on Nonparametric Multivariate Functional Estimation",
+    "volume": 27,
+    "year": 2026
+}

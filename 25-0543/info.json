@@ -1,0 +1,22 @@
+{
+    "abstract": "We present statistical convergence results for the learning of (possibly) non-linear mappings in infinite-dimensional spaces. Specifically, given a \r\n  map $G_0:\\mathcal X\\to\\mathcal Y$ between two separable Hilbert spaces, we analyze the problem of recovering $G_0$ from $n\\in\\mathbb{N}$ noisy input-output pairs $(x_i, y_i)_{i=1}^n$ with $y_i = G_0 (x_i)+\\varepsilon_i$; here the $x_i\\in\\mathcal{X}$ represent randomly drawn \"design\" points, and the $\\varepsilon_i$ are assumed to be either i.i.d. white noise processes or subgaussian random variables in $\\mathcal{Y}$.\r\n  We provide general convergence results for least-squares-type empirical risk minimizers over compact regression classes $\\mathbf{G}\\subseteq L^{\\infty}(\\mathcal{X},\\mathcal{Y})$, in terms of their approximation properties and metric entropy bounds, which are derived using empirical process techniques. This generalizes classical results from finite-dimensional nonparametric regression to an infinite-dimensional setting.\r\n  As a concrete application, we study an encoder-decoder based neural operator architecture termed FrameNet.\r\n  Assuming $G_0$ to be holomorphic, we prove algebraic (in the sample size $n$) convergence rates in this setting, thereby overcoming the curse of dimensionality.\r\n  To illustrate the wide applicability, as a prototypical example we discuss the learning of the non-linear solution operator to a parametric elliptic partial differential equation.",
+    "authors": [
+        "Niklas Reinhardt",
+        "Sven Wang",
+        "Jakob Zech"
+    ],
+    "emails": [
+        "niklas.reinhardt@iwr.uni-heidelberg.de",
+        "sven.wang@epfl.ch",
+        "jakob.zech@uni-heidelberg.de"
+    ],
+    "id": "25-0543",
+    "issue": 102,
+    "pages": [
+        1,
+        82
+    ],
+    "title": "Statistical Learning Theory for Neural Operators",
+    "volume": 27,
+    "year": 2026
+}

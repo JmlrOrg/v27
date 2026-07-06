@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper investigates causal influences between agents linked by a social graph and interacting over time. In particular, the work examines the dynamics of social learning models and distributed decision-making protocols, and derives expressions that reveal the causal relations between pairs of agents and explain the flow of influence over the network. The results turn out to be dependent on the graph topology and the level of information that each agent has about the inference problem they are trying to solve. Using these conclusions, the paper proposes an algorithm to rank the overall influence between agents to discover highly influential agents. It also provides a method to learn the necessary model parameters from raw observational data. The results and the proposed algorithm are illustrated by considering both synthetic data and real social media data.",
+    "authors": [
+        "Mert Kayaalp",
+        "Ali H. Sayed"
+    ],
+    "emails": [
+        "mert.kayaalp@idsia.ch",
+        "ali.sayed@epfl.ch"
+    ],
+    "id": "23-0910",
+    "issue": 56,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Causal Influences over Social Learning Networks",
+    "volume": 27,
+    "year": 2026
+}

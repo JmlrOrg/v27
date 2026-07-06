@@ -1,0 +1,24 @@
+{
+    "abstract": "We study gradient descent (GD) for logistic regression on linearly separable data with stepsizes that adapt to the current risk, scaled by a constant hyperparameter \\(\\eta\\). We show that after at most \\(1/\\gamma^2\\) burn-in steps, GD achieves a risk upper bounded by \\(\\exp(-\\Theta(\\eta))\\), where \\(\\gamma\\) is the margin of the dataset. As \\(\\eta\\) can be arbitrarily large, GD attains an arbitrarily small risk immediately after the burn-in steps, though the risk evolution may be non-monotonic.\r\n\r\nWe further construct hard datasets with margin \\(\\gamma\\), where any batch (or online) first-order method requires \\(\\Omega(1/\\gamma^2)\\) steps to find a linear separator. Thus, GD with large, adaptive stepsizes matches the worst-case $1/\\gamma^2$ dependence when the sample size is unrestricted. Notably, the classical Perceptron, a first-order online method, also achieves a step complexity of \\(1/\\gamma^2\\), matching GD even in constants.\r\n\r\nFinally, our GD analysis extends to a broad class of loss functions and certain two-layer networks.",
+    "authors": [
+        "Ruiqi Zhang",
+        "Jingfeng Wu",
+        "Licong Lin",
+        "Peter L. Bartlett"
+    ],
+    "emails": [
+        "rqzhang@berkeley.edu",
+        "uuujf@berkeley.edu",
+        "liconglin@berkeley.edu",
+        "peter@berkeley.edu"
+    ],
+    "id": "25-1941",
+    "issue": 124,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Minimax Optimal Convergence of Gradient Descent in Logistic Regression via Large and Adaptive Stepsizes",
+    "volume": 27,
+    "year": 2026
+}

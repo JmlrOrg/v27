@@ -1,0 +1,30 @@
+{
+    "abstract": "Multi-relational networks among entities are frequently observed in the era of big data. Quantifying the effects of multiple networks has attracted significant research interest recently. In this work, we model multiple network effects through an autoregressive framework for tensor-valued time series. To characterize the potential heterogeneity of the networks and handle the high dimensionality of the time series data simultaneously, we assume a separate group structure for entities in each network and estimate all group memberships in a data-driven fashion. Specifically, we propose a group tensor network autoregression (GTNAR) model, which assumes that within each network, entities in the same group share the same set of model parameters, and the parameters differ across networks. An iterative algorithm is developed to estimate the model parameters and the latent group memberships simultaneously. Theoretically, we show that the group-wise parameters and group memberships can be consistently estimated when the group numbers are correctly or possibly over-specified. An information criterion for estimating the group number for each network is also provided to consistently select the group numbers. Lastly, we apply the GTNAR method to a Yelp dataset to illustrate its usefulness.",
+    "authors": [
+        "Yimeng Ren",
+        "Xuening Zhu",
+        "Ganggang Xu",
+        "Yanyuan Ma"
+    ],
+    "emails": [
+        "ymren@ust.hk",
+        "xueningzhu@fudan.edu.cn",
+        "gangxu@bus.miami.edu",
+        "yanyuanma@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MelodyRen1998/GTNAR/"
+        ]
+    ],
+    "id": "24-1191",
+    "issue": 78,
+    "pages": [
+        1,
+        135
+    ],
+    "title": "Multi-relational Network Autoregression Model with Latent Group Structures",
+    "volume": 27,
+    "year": 2026
+}

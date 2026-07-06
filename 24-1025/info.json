@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the dynamics of a continuous-time model of stochastic gradient descent (SGD) for the least-square problem. Indeed, pursuing the work of, we analyze stochastic differential equations (SDEs) that model SGD either in the case of the training loss (finite samples) or the population one (online setting). A key qualitative feature of the dynamics is the existence of a perfect interpolator of the data, irrespective of the sample size. In both scenarios, we provide precise, non-asymptotic rates of convergence to the (possibly degenerate) stationary distribution. Additionally, we describe this asymptotic distribution, offering estimates of its mean, deviations from it, and a proof of the emergence of heavy-tails related to the step-size magnitude. Numerical simulations supporting our findings are also presented.",
+    "authors": [
+        "Adrien Schertzer",
+        "Loucas Pillaud-Vivien"
+    ],
+    "emails": [
+        "adrien.schertzer@ens-lyon.fr",
+        "loucas.pillaud-vivien@enpc.fr"
+    ],
+    "id": "24-1025",
+    "issue": 75,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Stochastic Differential Equations models for Least-Squares Stochastic Gradient Descent",
+    "volume": 27,
+    "year": 2026
+}

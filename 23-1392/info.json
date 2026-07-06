@@ -1,0 +1,20 @@
+{
+    "abstract": "We study manifold learning with multidimensional scaling for samples of metric space valued data. By adopting a global version of ISOMAP we obtain low-dimensional Euclidean representations. A key \r\ninnovation is that we demonstrate that  global Fr{\\'{e}}chet regression\r\ncan be utilized for mapping the elements of a convex set in the Euclidean representation space back to the metric space where the objects reside. We refer to this approach as  Fr{\\'{e}}chet manifold learning and showcase it with \r\n one-dimensional distributions as random objects, equipped with the Wasserstein metric, which is an important special case of our general approach. The \r\nresulting low-dimensional representations mimic the parametric representation in a parametric family of distributions but are entirely learned from the data without postulating any parametric model. These Wasserstein representations of distributional data can be viewed as  an empirical \r\nparametrization of a sample of distributions. The utility of these representations rests on the map from the low-dimensional Euclidean representation space to \r\nthe space of distributions, which  is obtained with global Fr{\\'{e}}chet regression. We illustrate  the  proposed approach with distributional data for  baby names,   bike rentals and age pyramids and further \r\ndemonstrate how it can be applied for\r\na novel distributional regression method that  features one-dimensional distributions as predictors.",
+    "authors": [
+        "{\\'{A}}lvaro Gajardo",
+        "Hans-Georg M{\\\"{u}}ller"
+    ],
+    "emails": [
+        "aedogajardo@gmail.com",
+        "hgmueller@ucdavis.edu"
+    ],
+    "id": "23-1392",
+    "issue": 61,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Global Fr{\\'{e}}chet Manifold Learning for Random Objects, With Application to Low-Dimensional Wasserstein  Representations of Distributional Data",
+    "volume": 27,
+    "year": 2026
+}

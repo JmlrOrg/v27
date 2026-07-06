@@ -1,0 +1,28 @@
+{
+    "abstract": "A novel approach for generating conditional probabilistic rainfall downscaling at finer scales from deterministic weather variables at coarser scales with temporal and spatial dependence is introduced. A two-step procedure is employed. Firstly, marginal location-specific distributions are jointly modelled conditional on the deterministic coarse weather variables. Secondly, a spatial dependency structure is learned to ensure spatial coherence among these distributions.\r\nTo learn marginal distributions over rainfall values, we introduce joint generalised neural models that expand generalised linear models with a deep neural network architecture to jointly fit parameters of the distributions.\r\nThe spatial dependency structure is modelled using a censored latent Gaussian copula leveraging the underlying spatial structure. We construct a distance matrix between locations, transformed into a correlation matrix by a Gaussian Process Kernel depending on a small set of parameters. To estimate these parameters, we propose a general framework for the estimation of latent Gaussian copulas employing scoring rules as a measure of divergence between distributions. \r\nUniting our two contributions, namely the joint generalised neural model and the censored latent Gaussian copulas into a single model, our probabilistic approach provides downscaled rainfall. We demonstrate its efficacy using a large UK data set, outperforming existing methods.",
+    "authors": [
+        "David Huk",
+        "Rilwan A. Adewoyin",
+        "Ritabrata Dutta"
+    ],
+    "emails": [
+        "david.huk@warwick.ac.uk",
+        "rilwan.ade1@gmail.com",
+        "ritabrata.dutta@warwick.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Huk-David/SpaDep_VCop/tree/4Paper"
+        ]
+    ],
+    "id": "23-1381",
+    "issue": 60,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Probabilistic Rainfall Downscaling: Joint Generalized Neural Models with Censored Spatial Gaussian Copula",
+    "volume": 27,
+    "year": 2026
+}

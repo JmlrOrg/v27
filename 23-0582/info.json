@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we study the neural exploration strategy for contextual bandits.\r\nThe dilemma of exploitation and exploration widely exists in real-world applications such as recommender systems, online advertising, and clinical trials.\r\nContextual bandits provide principled methods to solve this dilemma, including two prevalent techniques: Thompson Sampling (TS), and Upper Confidence Bound (UCB).\r\nNeural contextual bandits have been studied to adapt to the non-linear reward function, combined with TS or UCB strategies for exploration.\r\nIn this paper, we introduce, EE-Net, which is a novel framework to utilize another neural network to learn the potential gain of exploitation neural network for exploration, different from UCB-based and TS-based approaches that rely on the large-deviation-based statistical confidence bound. In addition, we provide an instance-based $\\widetilde{\\mathcal{O}}(\\sqrt{T})$ regret upper bound for EE-Net with a new proof workflow. Empirically, we show that EE-Net outperforms related linear and neural contextual bandit baselines on real-world datasets.",
+    "authors": [
+        "Yikun Ban",
+        "Yuchen Yan",
+        "Arindam Banerjee",
+        "Jingrui He"
+    ],
+    "emails": [
+        "yikunb2@illinois.edu",
+        "yucheny5@illinois.edu",
+        "arindamb@illinois.edu",
+        "jingrui@illinois.edu"
+    ],
+    "id": "23-0582",
+    "issue": 55,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Neural Exploitation and Exploration of Contextual Bandits",
+    "volume": 27,
+    "year": 2026
+}

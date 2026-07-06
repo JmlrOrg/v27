@@ -1,0 +1,30 @@
+{
+    "abstract": "In this paper, we propose a new numerical method for the underdamped Langevin diffusion (ULD) and present a non-asymptotic analysis of its sampling error in the 2-Wasserstein distance when the $d$-dimensional target distribution $p(x)\\propto e^{-f(x)}$ is strongly log-concave and has varying degrees of smoothness. Precisely, under the assumptions that the gradient and Hessian of $f$ are Lipschitz continuous, our algorithm achieves a 2-Wasserstein error of $\\varepsilon$ in $\\mathcal{O}\\big(\\sqrt{d}/\\varepsilon\\big)$ and $\\mathcal{O}\\big(\\sqrt{d}/\\sqrt{\\varepsilon}\\big)$ steps respectively. Therefore, our algorithm has a similar complexity as other popular Langevin MCMC algorithms under matching assumptions. However, if we additionally assume that the third derivative of $f$ is Lipschitz continuous, then our algorithm achieves a 2-Wasserstein error of $\\varepsilon$ in $\\mathcal{O}\\big(\\sqrt{d}/\\varepsilon^{\\frac{1}{3}}\\big)$ steps. To the best of our knowledge, this is the first gradient-only method for ULD with third order convergence. To support our theory, we perform Bayesian logistic regression across a range of real-world datasets, where our algorithm achieves competitive performance compared to an existing underdamped Langevin MCMC algorithm and the popular No U-Turn Sampler (NUTS).",
+    "authors": [
+        "Maximilian Scott",
+        "D{\\'{a}}ire O'Kane",
+        "Andra{\\v{z}} Jelin{\\v{c}}i{\\v{c}}",
+        "James Foster"
+    ],
+    "emails": [
+        "ms4314@bath.ac.uk",
+        "dok29@bath.ac.uk",
+        "aj2382@bath.ac.uk",
+        "jmf68@bath.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/andyElking/ThirdOrderLMC"
+        ]
+    ],
+    "id": "25-2122",
+    "issue": 126,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Underdamped Langevin MCMC with third order convergence",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In this work, we investigate the convergence properties of the backward regularized Wasserstein proximal (BRWP) method for sampling a target distribution. The BRWP approach can be shown as a semi-implicit time discretization for a probability flow ODE  with the score function whose density satisfies the Fokker-Planck equation of the overdamped Langevin dynamics. Specifically, the evolution of the density-hence the score function-is approximated via a kernel representation derived from the regularized Wasserstein proximal operator. By applying the dual formulation and a localized Taylor series to obtain the asymptotic expansion of this kernel formula, we establish guaranteed convergence in terms of the Kullback-Leibler divergence for the BRWP method towards a strongly log-concave target distribution. Our analysis also identifies the optimal and maximum step sizes for convergence. Furthermore, we demonstrate that the deterministic and semi-implicit BRWP scheme outperforms many classical Langevin Monte Carlo methods, such as the Unadjusted Langevin Algorithm (ULA), by offering faster convergence and reduced bias. Numerical experiments further validate the convergence analysis of the BRWP method.",
+    "authors": [
+        "Fuqun Han",
+        "Stanley Osher",
+        "Wuchen Li"
+    ],
+    "emails": [
+        "fqhan@math.ucla.edu",
+        "sjo@math.ucla.edu",
+        "wuchen@mailbox.sc.edu"
+    ],
+    "id": "24-1560",
+    "issue": 85,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Convergence of Noise-Free Sampling Algorithms with Regularized Wasserstein Proximals",
+    "volume": 27,
+    "year": 2026
+}

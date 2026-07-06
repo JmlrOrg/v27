@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider one-shot distributed learning problems in a reproducing kernel Hilbert space framework. Current results are limited to the least-squares loss and extensions beyond this meet with some significant technical challenges. We establish the optimal rate of distributed learning for some general class of convex loss functions satisfying mild assumptions, using a novel empirical process on the Bregman divergence induced by the loss, which is essential for carrying out a quadratic approximation in the infinite-dimensional space. The empirical process is bounded by relating the Bregman divergence induced by the loss to the supremum norm and the $L^2$-norm of the functions. This framework incorporates many commonly used losses, including strongly smooth loss functions as well as Lipschitz continuous losses such as the quantile loss.",
+    "authors": [
+        "Heng Lian",
+        "Xu Guo"
+    ],
+    "emails": [
+        "henglian@cityu.edu.hk",
+        "xustat12@bnu.edu.cn"
+    ],
+    "id": "23-1592",
+    "issue": 63,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Kernel-based Distributed Learning",
+    "volume": 27,
+    "year": 2026
+}

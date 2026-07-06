@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose an Embedding Network Autoregressive Model for multivariate networked longitudinal data. We assume the network is generated from a latent variable model, and these unobserved variables are included in a structural peer effect model or a time series network autoregressive model. This approach takes a unified view of two related yet different problems: (1) modeling and predicting multivariate networked time series data and (2) causal peer influence estimation in the presence of confounding due to homophily from finite-time longitudinal data. Our estimation strategy comprises estimating latent variables from the observed network, followed by least squares estimation of the network autoregressive model. We show that the momentum and peer effect parameters estimated with our method are consistent and asymptotically normally distributed in setups with a growing number of network vertices ($N$) while considering both a growing number of time points $T$ (for the time series problem) and finite $T$ cases (for the peer effect problem). We allow the number of latent vectors $K$ to grow at appropriate rates. We also develop a selection criterion when $K$ is unknown that provably does not under-select. We show that the theoretical guarantees hold with the selected number for $K$, and study the bias rates when $K$ is misspecified. With the new methods, we study peer effects in conflict and school climate perception using data on more than 7000 students from 23 schools.",
+    "authors": [
+        "Jae Ho Chang",
+        "Subhadeep Paul"
+    ],
+    "emails": [
+        "chang.2090@osu.edu",
+        "paul.963@osu.edu"
+    ],
+    "id": "25-1223",
+    "issue": 111,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "Embedding Network Autoregression for Time Series Analysis and Causal Peer Effect Inference",
+    "volume": 27,
+    "year": 2026
+}

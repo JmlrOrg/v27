@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the implicit bias of the general family of steepest descent algorithms with infinitesimal learning rate in deep homogeneous neural networks. We show that: (a) an algorithm-dependent geometric margin starts increasing once the networks reach perfect training accuracy, and (b) any limit point of the training trajectory corresponds to a KKT point of the corresponding margin-maximization problem. We experimentally zoom into the trajectories of neural networks optimized with various steepest descent algorithms, highlighting connections to the implicit bias of popular adaptive methods (Adam and Shampoo).",
+    "authors": [
+        "Nikolaos Tsilivis",
+        "Eitan Gronich",
+        "Julia Kempe",
+        "Gal Vardi"
+    ],
+    "emails": [
+        "nt2231@nyu.edu",
+        "eitan.gronich@weizmann.ac.il",
+        "kempe@meta.com",
+        "gal.vardi@weizmann.ac.il"
+    ],
+    "id": "25-0634",
+    "issue": 104,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Flavors of Margin: Implicit Bias of Steepest Descent in Homogeneous Neural Networks",
+    "volume": 27,
+    "year": 2026
+}

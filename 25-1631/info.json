@@ -1,0 +1,36 @@
+{
+    "abstract": "Transformer models have achieved exceptional performance in various domains, including computer vision and time-series analysis. Their core attention mechanism is widely used to interpret model decisions by assigning importance weights to input regions, such as image patches or time series intervals. However, the reliability of these interpretations remains a major concern. High-attention weights do not necessarily indicate genuinely significant features; they may instead be artifacts of the model's computation, undermining their reliabilities in high-stakes applications such as medical diagnostics. To address this, we propose a novel statistical framework designed to quantify the significance of high-attention regions in Transformer models. Our framework is built on selective inference (SI) to correct for the inherent selection bias that arises from testing regions chosen through the complex attention computation of the Transformer models. A key contribution of this work is a novel computational method that extends SI to the complex non-linearity of self-attention, enabling the computation of valid $p$-values for high-attention regions. These $p$-values serve as a reliable measure of significance, strengthening the interpretability of Transformer decisions. The validity and effectiveness of our approach are demonstrated through numerical experiments and applications to brain image diagnosis and electroencephalography (EEG) data analysis.",
+    "authors": [
+        "Tomohiro Shiraishi",
+        "Daiki Miwa",
+        "Teruyuki Katsuoka",
+        "Vo Nguyen Le Duy",
+        "Shuichi Nishino",
+        "Kouichi Taji",
+        "Ichiro Takeuchi"
+    ],
+    "emails": [
+        "shiraishi.tomohiro.nagoyaml@gmail.com",
+        "miwa.daiki.mllab.nit@gmail.com",
+        "katsuoka.teruyuki.nagoyaml@gmail.com",
+        "duy.mllab.nit@gmail.com",
+        "nishino.shuichi.nagoyaml@gmail.com",
+        "taji@nagoya-u.jp",
+        "takeuchi.ichiro.n6@f.mail.nagoya-u.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/shirara1016/statistical_test_for_attention_in_transformers"
+        ]
+    ],
+    "id": "25-1631",
+    "issue": 119,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Statistical Test for Attention in Transformers for Images and Time Series",
+    "volume": 27,
+    "year": 2026
+}

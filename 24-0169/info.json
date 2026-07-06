@@ -1,0 +1,20 @@
+{
+    "abstract": "Since its introduction in 2017, the Transformer has emerged as the leading neural network architecture, catalyzing revolutionary advancements in many AI disciplines. The key innovation in Transformer is a Self-Attention (SA) mechanism designed to capture contextual information. However, stacking up more layers of the same design has failed to produce trainable deeper Transformers. Thus far, various architectural modifications to the original design have been proposed to enable deeper depths for Transformer models, but a thorough understanding of this depth issue remains lacking. In this paper, we conduct a comprehensive investigation to substantiate the claim that the depth problem is caused by a phenomenon called token similarity escalation; that is, tokens grow increasingly alike after repeated applications of the SA mechanism. Our analysis reveals that, driven by the invariant leading eigenspace and large spectral gaps of attention matrices, token similarity provably escalates at a linear rate as the depth increases. This insight suggests a simple technique that surgically removes excessive token similarity without reducing the overall role of the SA mechanism, as is done by existing approaches. We perform a set of proof- of-concept, small-scale experiments to show the viability of the proposed depth-enabling technique.",
+    "authors": [
+        "Yueyao Yu",
+        "Yin Zhang"
+    ],
+    "emails": [
+        "yueyaoyu@link.cuhk.edu.cn",
+        "yinzhang@cuhk.edu.cn"
+    ],
+    "id": "24-0169",
+    "issue": 64,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Why \"Classic\" Transformers Are Shallow and A Depth-Enabling Technique",
+    "volume": 27,
+    "year": 2026
+}

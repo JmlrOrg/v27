@@ -1,0 +1,28 @@
+{
+    "abstract": "We propose a scalable preconditioned primal-dual hybrid gradient algorithm for solving partial differential equations (PDEs). We multiply the PDE with a dual test function to obtain an inf-sup problem whose loss functional involves lower-order differential operators. The Primal-Dual Hybrid Gradient (PDHG) algorithm is then leveraged for this saddle point problem. By introducing suitable precondition operators to the proximal steps in the PDHG algorithm, we obtain an alternative natural gradient ascent-descent optimization scheme for updating the neural network parameters. We apply the Krylov subspace method (MINRES) to evaluate the natural gradients efficiently. Such treatment readily handles the inversion of precondition matrices via matrix-vector multiplication. An a posteriori convergence analysis is established for the time-continuous version of the proposed algorithm for general linear PDEs. By incorporating appropriate boundary loss terms, we further obtain a refined a priori convergence result for elliptic equations in divergence form. The algorithm is tested on various types of PDEs with dimensions ranging from $1$ to $50$, including linear and nonlinear elliptic equations, reaction-diffusion equations, and Monge-Ampere equations stemming from the $L^2$ optimal transport problems. We compare the performance of the proposed method with several commonly used deep learning algorithms such as physics-informed neural networks (PINNs), the DeepRitz method and weak adversarial networks (WANs) using either the Adam or the L-BFGS optimizer. The numerical results suggest that the proposed method performs efficiently and robustly and converges more stably with higher accuracy.",
+    "authors": [
+        "Shu Liu",
+        "Stanley Osher",
+        "Wuchen Li"
+    ],
+    "emails": [
+        "sliu11@fsu.edu",
+        "sjo@math.ucla.edu",
+        "wuchen@mailbox.sc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LSLSliushu/NPDG"
+        ]
+    ],
+    "id": "24-1929",
+    "issue": 92,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "A Natural Primal-Dual Hybrid Gradient Method for Adversarial Neural Network Training on Solving Partial Differential Equation",
+    "volume": 27,
+    "year": 2026
+}

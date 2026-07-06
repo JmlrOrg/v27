@@ -1,0 +1,24 @@
+{
+    "abstract": "A central question in vector- and function-valued learning is how to design kernels that capture both local and non-local interactions while remaining computationally tractable. Existing operator-valued kernels offer only partial answers: separable kernels are efficient but fail to model interactions across the function domain, while commutative kernels capture only pointwise structure. To address this, we propose spectral truncation kernels, a new class of positive definite kernels for vector- and function-valued learning based on spectral truncation and C*-algebra.  By allowing noncommutative products in the kernel construction, the proposed kernels induce interactions across the data function domain and fill the gap between existing separable and commutative kernels. In addition, by using the C*-algebraic framework, we reduce the computational cost compared to the existing vector-valued RKHS framework with operator-valued kernels.",
+    "authors": [
+        "Yuka Hashimoto",
+        "Ayoub Hafid",
+        "Masahiro Ikeda",
+        "Hachem Kadri"
+    ],
+    "emails": [
+        "yuka.hashimoto@ntt.com",
+        "hafid@ms.u-tokyo.ac.jp",
+        "ikeda@ist.osaka-u.ac.jp",
+        "hachem.kadri@lis-lab.fr"
+    ],
+    "id": "25-0509",
+    "issue": 100,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Spectral Truncation Kernels: Noncommutativity in C*-algebraic Kernel Machines",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Probabilistic generative models based on measure transport, such as diffusion and flow-based models, are often formulated in the language of Markovian stochastic dynamics, where the choice of the underlying process impacts both algorithmic design choices and theoretical analysis. In this paper, we aim to establish a rigorous mathematical foundation for denoising Markov models, a broad class of generative models that postulate a forward process transitioning from the target distribution to a simple, easy-to-sample distribution, alongside a backward process particularly constructed to enable efficient sampling in the reverse direction. Leveraging deep connections with nonequilibrium statistical mechanics and generalized Doob's $h$-transform, we propose a minimal set of assumptions that ensure: (1) explicit construction of the backward generator, (2) a unified variational objective directly minimizing the measure transport discrepancy, and (3) adaptations of the classical score-matching approach across diverse dynamics. Our framework unifies existing formulations of continuous and discrete diffusion models, identifies the most general form of denoising Markov models under certain regularity assumptions on forward generators, and provides a systematic recipe for designing denoising Markov models driven by arbitrary L{\\'{e}}vy-type processes. We illustrate the versatility and practical effectiveness of our approach through novel denoising Markov models employing geometric Brownian motion and jump processes as forward dynamics, highlighting the framework's potential flexibility and capability in modeling complex distributions.",
+    "authors": [
+        "Yinuo Ren",
+        "Grant M. Rotskoff",
+        "Lexing Ying"
+    ],
+    "emails": [
+        "yinuoren@stanford.edu",
+        "rotskoff@stanford.edu",
+        "lexing@stanford.edu"
+    ],
+    "id": "25-0693",
+    "issue": 105,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "A Unified Approach to Analysis and Design of Denoising Markov Models",
+    "volume": 27,
+    "year": 2026
+}

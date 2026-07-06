@@ -1,0 +1,26 @@
+{
+    "abstract": "Conformal prediction, a powerful framework for constructing prediction intervals for response variables using any regression function estimators, often faces the challenge of producing overly broad intervals with limited target data. In this paper, we study the transfer learning problem in conformal prediction, aiming to improve the precision of the prediction interval of the target data with insufficient data by leveraging related auxiliary source datasets. Allowing for the potential non-exchangeability between source and target datasets, we propose two transfer conformal prediction algorithms designed for scenarios where knowledge of informative source data is either present or absent. Our approach uses conditional Kullback-Leibler divergence to effectively identify relevant source datasets for transfer. A comprehensive theoretical analysis of the non-asymptotic properties of the proposed algorithms is provided, including lower and upper bounds, and the prediction interval width. These results illustrate the potential to achieve more efficient, narrower intervals without compromising coverage accuracy. Empirical results from extensive simulations and real-world data confirm the efficacy of our methods, demonstrating significant improvements in prediction interval precision by leveraging source data, achieving narrower intervals while maintaining desired coverage levels.",
+    "authors": [
+        "Ce Zhang",
+        "Ting Li",
+        "Jinhan Xie",
+        "Linglong Kong",
+        "Bei Jiang"
+    ],
+    "emails": [
+        "ce5@ualberta.ca",
+        "tingli@mail.shufe.edu.cn",
+        "jinhanxie@ynu.edu.cn",
+        "lkong@ualberta.ca",
+        "bei1@ualberta.ca"
+    ],
+    "id": "24-1899",
+    "issue": 90,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Transfer Conformal Predictive Inference for Regression",
+    "volume": 27,
+    "year": 2026
+}

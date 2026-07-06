@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper explores the theoretical foundations of fair regression under the constraint of demographic parity within the unawareness framework, where disparate treatment is prohibited, extending existing results where such treatment is permitted. Specifically, we aim to characterize the optimal fair regression function when minimizing the quadratic loss. Our results reveal that this function is given by the solution to a barycenter problem with optimal transport costs. Additionally, we study the connection between optimal fair cost-sensitive classification, and optimal fair regression. We demonstrate that nestedness of the decision sets of the classifiers is both necessary and sufficient to establish a form of equivalence between classification and regression. Under this nestedness assumption, the optimal classifiers can be derived by applying thresholds to the optimal fair regression function; conversely, the optimal fair regression function is characterized by the family of cost-sensitive classifiers.",
+    "authors": [
+        "Vincent Divol",
+        "Solenne Gaucher"
+    ],
+    "emails": [
+        "vincent.divol@ensae.fr",
+        "solenne.gaucher@polytechnique.edu"
+    ],
+    "id": "24-1338",
+    "issue": 80,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Demographic Parity in Regression and Classification Within the Unawareness Framework",
+    "volume": 27,
+    "year": 2026
+}

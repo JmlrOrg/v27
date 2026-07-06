@@ -1,0 +1,22 @@
+{
+    "abstract": "In two-time-scale stochastic approximation (SA), two iterates are updated at varying speeds using different step sizes, with each update influencing the other. Previous studies on linear two-time-scale SA have shown that the convergence rates of the mean-square errors for these updates depend solely on their respective step sizes,\r\na phenomenon termed decoupled convergence. However, achieving decoupled convergence in nonlinear SA remains less understood. Our research investigates the potential for finite-time decoupled convergence in nonlinear two-time-scale SA. We demonstrate that, under a nested local linearity assumption, finite-time decoupled convergence rates can be achieved with suitable step size selection. To derive this result, we conduct a convergence analysis of the matrix cross term between the iterates and leverage fourth-order moment convergence rates to control the higher-order error terms induced by local linearity. To further investigate the necessity of local linearity for decoupled convergence, we also construct an example showing that, even when the fast-time-scale update is linear, the nonlinearity of the slow-time-scale update alone can destroy decoupled convergence.",
+    "authors": [
+        "Yuze Han",
+        "Xiang Li",
+        "Zhihua Zhang"
+    ],
+    "emails": [
+        "hanyuze97@ruc.edu.cn",
+        "lx10077@pku.edu.cn",
+        "zhzhang@math.pku.edu.cn"
+    ],
+    "id": "25-1449",
+    "issue": 112,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Finite-Time Decoupled Convergence in Nonlinear Two-Time-Scale Stochastic Approximation",
+    "volume": 27,
+    "year": 2026
+}

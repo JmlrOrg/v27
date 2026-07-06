@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper proposes an asymptotic theory for online inference of the stochastic gradient descent (SGD) iterates with dropout regularization in linear regression. Specifically, we establish the geometric-moment contraction (GMC) for constant step-size SGD dropout iterates to show the existence of a unique stationary distribution of the dropout recursive function. Based on the GMC property, we use the functional dependence measure to provide quenched central limit theorems (CLT) for the gradient descent iterates with dropout regularization. Moreover, we obtain CLTs for the Ruppert-Polyak averaged GD (AGD) and averaged SGD (ASGD) iterates with dropout. Based on these asymptotic normality results, we further introduce an online estimator for the long-run covariance matrix of ASGD dropout to facilitate inference in a recursive manner with efficiency in computational time and memory. The numerical experiments demonstrate that for large samples, the proposed confidence intervals for ASGD with dropout achieve the nominal coverage probability.",
+    "authors": [
+        "Jiaqi Li",
+        "Johannes Schmidt-Hieber",
+        "Wei Biao Wu"
+    ],
+    "emails": [
+        "jqli@uchicago.edu",
+        "a.j.schmidt-hieber@utwente.nl",
+        "wbwu@uchicago.edu"
+    ],
+    "id": "24-1484",
+    "issue": 83,
+    "pages": [
+        1,
+        78
+    ],
+    "title": "Asymptotics of Stochastic Gradient Descent with Dropout Regularization in Linear Models",
+    "volume": 27,
+    "year": 2026
+}

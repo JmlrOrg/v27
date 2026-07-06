@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the best-arm identification problem with fixed confidence when contextual (covariate) information is available in stochastic bandits. In each round, we observe contextual information before selecting an arm. The distribution of the reward associated with the selected arm depends on the observed contextual information. We are interested in finding the arm with the maximum mean reward marginalized over the contextual distribution and not the mean reward conditioned on contexts. Our goal is to identify the best arm with a minimal number of samples under a given error probability. First, we derive the instance-specific sample-complexity lower bounds under the contextual information. Then, we propose a context-aware version of the Track-and-Stop strategy, wherein the proportions of arm draws track the set of optimal allocations, and prove that the expected number of arm draws asymptotically matches the lower bound. We demonstrate that the contextual information can be used to improve the efficiency of the identification of the best marginalized mean reward when compared with the results of Garivier and Kaufmann\r\n(2016). Furthermore, we experimentally confirm that contextual information contributes to faster best-arm identification.",
+    "authors": [
+        "Masahiro Kato",
+        "Kaito Ariu"
+    ],
+    "emails": [
+        "mkato-csecon@g.ecc.u-tokyo.ac.jp",
+        "ariu@kth.se"
+    ],
+    "id": "22-0358",
+    "issue": 51,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "The Role of Contextual Information in Best Arm Identification",
+    "volume": 27,
+    "year": 2026
+}

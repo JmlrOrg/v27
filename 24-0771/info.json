@@ -1,0 +1,36 @@
+{
+    "abstract": "This work introduces a novel principle for disentanglement we call mechanism sparsity regularization, which applies when the latent factors of interest depend sparsely on observed auxiliary variables and/or past latent factors. We propose a representation learning method that induces disentanglement by simultaneously learning the latent factors and the sparse causal graphical model that explains them. We develop a nonparametric identifiability theory that formalizes this principle and shows that the latent factors can be recovered by regularizing the learned causal graph to be sparse, under some assumptions such as the absence of instantaneous causal effects between latent factors. More precisely, we show identifiability up to a novel equivalence relation we call consistency, which allows some latent factors to remain entangled (hence the term partial disentanglement). To describe the structure of this entanglement, we introduce the notions of entanglement graphs and graph preserving functions. We further provide a graphical criterion which guarantees complete disentanglement, that is identifiability up to permutations and element-wise transformations. We demonstrate the scope of the mechanism sparsity principle as well as the assumptions it relies on with several worked out examples. For instance, the framework shows how one can leverage multi-node interventions with unknown targets on the latent factors to disentangle them. We further draw connections between our nonparametric results and the now popular exponential family assumption. Lastly, we propose an estimation procedure based on variational autoencoders and a sparsity constraint and demonstrate it on various synthetic datasets. This work is meant to be a significantly extended version of a work published at CLeaR 2022.",
+    "authors": [
+        "S{\\'{e}}bastien Lachapelle",
+        "Pau Rodr{\\'{i}}guez L{\\'{o}}pez",
+        "Yash Sharma",
+        "Katie Everett",
+        "R{\\'{e}}mi Le Priol",
+        "Alexandre Lacoste",
+        "Simon Lacoste-Julien"
+    ],
+    "emails": [
+        "s.lachapelle@samsung.com",
+        "pau.rodriguez@servicenow.com",
+        "yash.sharma@bethgelab.org",
+        "everettke@gmail.com",
+        "lepriolr@mila.quebec",
+        "alexandre.lacoste@servicenow.com",
+        "slacoste@iro.umontreal.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/slachapelle/disentanglement_via_mechanism_sparsity"
+        ]
+    ],
+    "id": "24-0771",
+    "issue": 71,
+    "pages": [
+        1,
+        90
+    ],
+    "title": "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies",
+    "volume": 27,
+    "year": 2026
+}

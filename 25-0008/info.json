@@ -1,0 +1,26 @@
+{
+    "abstract": "Stochastic gradient descent (SGD) or stochastic approximation has been widely used in model training and stochastic optimization. While there is a huge literature on analyzing its convergence, inference on the obtained solutions from SGD has only been recently studied, yet it is important due to the growing need for uncertainty quantification. We investigate two computationally cheap resampling-based methods to construct confidence intervals for SGD solutions. One uses multiple, but few, SGDs in parallel via resampling with replacement from the data, and another operates this in an online fashion. Our methods can be regarded as enhancements of established bootstrap schemes to substantially reduce the computation effort in terms of resampling requirements, while bypassing the intricate mixing conditions in existing batching methods. We achieve these via a recent so-called cheap bootstrap idea and refinement of a Berry-Esseen-type bound for SGD.",
+    "authors": [
+        "Henry Lam",
+        "Zitong Wang"
+    ],
+    "emails": [
+        "henry.lam@columbia.edu",
+        "zw2690@columbia.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/BeetrootWang/Cheap-Bootstrap-for-Fast-Uncertainty-Quantification-of-Stochastic-Gradient-Descent"
+        ]
+    ],
+    "id": "25-0008",
+    "issue": 93,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Cheap Bootstrap for Fast Uncertainty Quantification of Stochastic Gradient Descent",
+    "volume": 27,
+    "year": 2026
+}

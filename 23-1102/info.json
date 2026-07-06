@@ -1,0 +1,30 @@
+{
+    "abstract": "Statistically consistent algorithms have been widely employed for dealing with noisy labels. Their objective functions are designed so that minimizing the expected risk on noisy data leads to the same minimizer as minimizing the expected risk on clean data. From the weak law of large numbers, penalizing the variance of losses would reduce the discrepancy between the average loss and the expected risk on the clean data when there is a finite training sample, and the estimation error in the model's parameters can be reduced. Interestingly, we found that the variance of losses needs to be encouraged for label-noise learning. Specifically, encouraging a large variance of losses would boost the memorization effect and reduce the harmfulness of incorrect labels. Regularizers can be easily designed to encourage a large variance of losses and be plugged into many existing algorithms. Empirically, the proposed method by encouraging a large variance of losses could improve the generalization ability of baselines on both synthetic and real-world datasets.",
+    "authors": [
+        "Yexiong Lin",
+        "Yu Yao",
+        "Yuxuan Du",
+        "Jun Yu",
+        "Bo Han",
+        "Mingming Gong",
+        "Tongliang Liu"
+    ],
+    "emails": [
+        "ylin6547@uni.sydney.edu.au",
+        "yu.yao@sydney.edu.au",
+        "duyuxuan123@gmail.com",
+        "harryjun@ustc.edu.cn",
+        "bhanml@comp.hkbu.edu.hk",
+        "mingming.gong@unimelb.edu.au",
+        "tongliang.liu@sydney.edu.au"
+    ],
+    "id": "23-1102",
+    "issue": 57,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Do We Need to Penalize Variance of Losses for Learning with Label Noise?",
+    "volume": 27,
+    "year": 2026
+}

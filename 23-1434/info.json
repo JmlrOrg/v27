@@ -1,0 +1,28 @@
+{
+    "abstract": "We study policy evaluation of offline contextual bandits subject to unobserved confounders. Sensitivity analysis methods are commonly used to estimate the policy value under the worst-case confounding scenario within a given uncertainty set. However, existing work often resorts to some coarse relaxation of the uncertainty set for the sake of tractability, leading to overly conservative estimation of the policy value. In this paper, we propose a general estimator that provides a sharp lower bound of the policy value using convex programming. The generality of our estimator enables various extensions such as sensitivity analysis using f-divergence, model selection with cross validation and information criterion, and robust policy learning with the sharp lower bound. Furthermore, our estimation method can be reformulated as an empirical risk minimization problem thanks to the strong duality, which enables us to provide strong theoretical guarantees of the proposed estimator using M-estimation techniques.",
+    "authors": [
+        "Kei Ishikawa",
+        "Niao He",
+        "Takafumi Kanamori"
+    ],
+    "emails": [
+        "k.stoneriv@gmail.com",
+        "niao.he@inf.ethz.ch",
+        "kanamori@comp.isct.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/kstoneriv3/confounding-robust-inference"
+        ]
+    ],
+    "id": "23-1434",
+    "issue": 62,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "A Convex Framework for Confounding Robust Inference",
+    "volume": 27,
+    "year": 2026
+}

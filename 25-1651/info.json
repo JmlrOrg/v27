@@ -1,0 +1,26 @@
+{
+    "abstract": "We prove that all 'gradient span algorithms' have asymptotically deterministic behavior on scaled Gaussian random functions as the dimension tends to infinity. This is a functional generalization of similar results for random quadratic functions and spin glasses. They explain the counterintuitive phenomenon that different training runs of many large machine learning models result in approximately equal cost curves despite random initialization on a complicated non-convex landscape. This 'predictable progress' phenomenon is exploited by the AutoML community: Since the optimization progress of a single run is already representative, multiple retries with the same hyperparameters are not necessary.",
+    "authors": [
+        "Felix Benning",
+        "Leif D{\\\"{o}}ring"
+    ],
+    "emails": [
+        "felix.benning@gmail.com",
+        "doering@uni-mannheim.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/FelixBenning/pyGRF"
+        ]
+    ],
+    "id": "25-1651",
+    "issue": 121,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Gradient Span Algorithms Make Predictable Progress in High Dimension",
+    "volume": 27,
+    "year": 2026
+}

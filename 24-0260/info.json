@@ -1,0 +1,32 @@
+{
+    "abstract": "It is becoming increasingly common in regression to train neural networks that model the entire distribution even if only the mean is required for prediction. This additional modeling often comes with performance gains, and the reasons behind the improvement are not fully known. This paper investigates a recent approach to regression, the histogram loss, which involves learning the conditional distribution of the target variable by minimizing the cross-entropy between a target distribution and a flexible histogram prediction. The resulting loss corresponds to a classification loss: a cross-entropy  between the outputs and a smoothed label vector. We design theoretical and empirical analyses to determine why and when this performance gain appears and how different components of the loss contribute to it. Our results suggest that the benefits of learning distributions in this setup come from improvements in optimization rather than modeling extra information. We then demonstrate the viability of the histogram loss in common deep learning applications without the need for costly hyperparameter tuning.",
+    "authors": [
+        "Ehsan Imani",
+        "Kai Luedemann",
+        "Sam Scholnick-Hughes",
+        "Esraa Elelimy",
+        "Martha White"
+    ],
+    "emails": [
+        "imani@ualberta.ca",
+        "kluedema@ualberta.ca",
+        "scholnic@ualberta.ca",
+        "elelimy@ualberta.ca",
+        "whitem@ualberta.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/marthawhite/Histogram_loss"
+        ]
+    ],
+    "id": "24-0260",
+    "issue": 66,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Investigating the Histogram Loss in Regression",
+    "volume": 27,
+    "year": 2026
+}

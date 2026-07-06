@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper introduces a set of techniques for learning game state evaluation functions through reinforcement learning. First, we generalize tree bootstrapping, i.e. learning the values of states encountered during search rather than restricting updates to states observed during matches, to the setting of reinforcement learning with non-linear function approximation. Second, we modifies Unbounded Best-First Minimax by extending best action sequences to terminal states. Third, we replace the traditional binary game outcome $+1/-1$ with richer reinforcement signals, including quick wins, delayed losses, and scoring. Fourth, we propose a completion mechanism that exploits state resolution.\r\nFinally, we introduce a novel action-selection distribution, referred to as the ordinal distribution.\r\n\r\nExperimental results show that each of these techniques contributes to substantial improvements in playing strength. We integrate them into a unified algorithm, Ath{\\'{e}}nan, and compare it against ExIt, a leading self-play reinforcement learning approach without prior knowledge.\r\nOur results demonstrate that Ath{\\'{e}}nan consistently outperforms ExIt.\r\n\r\nWe further evaluate Ath{\\'{e}}nan on the games Hex, Othello, and Arimaa, where it surpasses state-of-the-art performance without relying on domain-specific knowledge. In addition, we consider the single-player game Morpion Solitaire, in which Ath{\\'{e}}nan again reaches state-of-the-art results under the same constraint.\r\n\r\nOverall, these results show that reinforcement learning, when combined with the proposed techniques, can achieve state-of-the-art performance across a diverse range of games without the need for handcrafted heuristics or expert knowledge.",
+    "authors": [
+        "Quentin Cohen-Solal"
+    ],
+    "emails": [
+        "quentin.cohen-solal@dauphine.psl.eu"
+    ],
+    "id": "25-2259",
+    "issue": 130,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Learning to Play Two-Player Perfect-Information Games without Knowledge",
+    "volume": 27,
+    "year": 2026
+}

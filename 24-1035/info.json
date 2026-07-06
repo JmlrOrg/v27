@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we study second-order algorithms for the convex-concave minimax problem, which has attracted much attention in many fields such as machine learning in recent years. We propose a Lipschitz-free cubic regularization (LF-CR) algorithm for solving the convex-concave minimax optimization problem without knowing the Lipschitz constant. It can be shown that the iteration complexity of the LF-CR algorithm to obtain an $\\epsilon$-optimal solution with respect to the restricted primal-dual gap  is upper bounded by $\\mathcal{O}(\\rho^{2/3}\\|z_0-z^*\\|^2\\epsilon^{-2/3})$ , where $z_0=(x_0,y_0)$ is a pair of initial points, $z^*=(x^*,y^*)$ is a pair of optimal solutions, and $\\rho$ is the Lipschitz constant. We further propose a fully parameter-free cubic regularization (FF-CR) algorithm that does not require any parameters of the problem, including the Lipschitz constant and the upper bound of the distance from the initial point to the optimal solution. We also prove that the iteration complexity of the FF-CR algorithm to obtain an $\\epsilon$-optimal solution with respect to the gradient norm is upper bounded by $\\mathcal{O}(\\rho^{2/3}\\|z_0-z^*\\|^{4/3}\\epsilon^{-2/3}) $. Numerical experiments show the efficiency of both algorithms. To the best of our knowledge, the proposed FF-CR algorithm is a completely parameter-free second-order algorithm, and its iteration complexity is currently the best in terms of $\\epsilon$  under the termination criterion of the gradient norm.",
+    "authors": [
+        "Jun-Lin Wang",
+        "Zi Xu",
+        "Hui-Ling Zhang"
+    ],
+    "emails": [
+        "wjl37@shu.edu.cn",
+        "xuzi@shu.edu.cn",
+        "zhanghl@amss.ac.cn"
+    ],
+    "id": "24-1035",
+    "issue": 76,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "A Fully Parameter-Free Second-Order Algorithm for Convex-Concave Minimax Problems",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "Parameter transfer aims to improve parameter estimation accuracy by leveraging knowledge from related sources. This paper studies the parameter transfer problem from heterogeneous sources for high-dimensional M-estimators. Specifically, we propose a novel one-step estimator with a fused-regularizer and a target-data-oriented constraint, which can robustly capture parameter knowledge from source data in the presence of different types of data distribution shifts. Nonasymptotic bound is provided for the estimation error of target parameter, showing the proposed estimator could achieve effective parameter transfer under distribution shifts, and is guaranteed to perform no worse than any estimators learned only from the target data. We further show that the proposed estimator can achieve the minimax-optimal rate under much weaker conditions than existing methods. In addition, we extend the method to a distributed setting, requiring just one round of communication with source parameter estimators, while retaining the estimation accuracy of the centralized version. Extensive simulations and real data analysis further verify the effectiveness of the method.",
+    "authors": [
+        "Zelin He",
+        "Ying Sun",
+        "Jingyuan Liu",
+        "Runze Li"
+    ],
+    "emails": [
+        "zbh5185@psu.edu",
+        "ybs5190@psu.edu",
+        "jingyuan@xmu.edu.cn",
+        "rzli@psu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ZLHe0/TransMission"
+        ]
+    ],
+    "id": "25-0437",
+    "issue": 99,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "High-dimensional Parameter Transfer With Fused-Regularizer",
+    "volume": 27,
+    "year": 2026
+}

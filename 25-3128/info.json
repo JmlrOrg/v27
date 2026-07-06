@@ -1,0 +1,32 @@
+{
+    "abstract": "Auto-Regressive Video Diffusion Models (AR-VDMs) have shown strong capabilities in generating long, photorealistic videos, but suffer from two key limitations: (i) history forgetting, where the model loses track of previously generated content, and (ii) temporal degradation, where frame quality deteriorates over time. Yet a rigorous theoretical analysis of these phenomena is lacking, and existing empirical understanding remains insufficiently grounded. In this paper, we introduce Meta-ARVDM, a unified analytical framework that studies both errors through the shared autoregressive structure of AR-VDMs. We show that history forgetting is characterized by the conditional mutual information between the generated output and preceding frames, conditioned on inputs, and prove that incorporating more past frames monotonically alleviates history forgetting, thereby theoretically justifying a common belief in existing works. Moreover, our theory reveals that standard metrics fail to capture this effect, motivating a new evaluation protocol based on a ``needle-in-a-haystack'' task in closed-ended environments (DMLab and Minecraft). We further show that temporal degradation can be quantified by the cumulative sum of per-step errors, enabling prediction of degradation for different schedulers without video rollout. Finally, our evaluation uncovers a strong empirical correlation between history forgetting and temporal degradation, a connection not previously reported.",
+    "authors": [
+        "Jing Wang",
+        "Fengzhuo Zhang",
+        "Xiaoli Li",
+        "Vincent Y.~ F. Tan",
+        "Tianyu Pang",
+        "Chao Du",
+        "Aixin Sun",
+        "Zhuoran Yang"
+    ],
+    "emails": [
+        "jing005@e.ntu.edu.sg",
+        "fzzhang@u.nus.edu",
+        "xiaoli_li@sutd.edu.sg",
+        "vtan@nus.edu.sg",
+        "tianyupang@sea.com",
+        "duchao@sea.com",
+        "axsun@ntu.edu.sg",
+        "zhuoran.yang@yale.edu"
+    ],
+    "id": "25-3128",
+    "issue": 135,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Error Analyses of Auto-Regressive Video Diffusion Models",
+    "volume": 27,
+    "year": 2026
+}

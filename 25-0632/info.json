@@ -1,0 +1,24 @@
+{
+    "abstract": "We propose a new stochastic proximal quasi-Newton method for minimizing the sum of two convex functions in the particular context that one of the functions is the average of a large number of smooth functions and the other one is nonsmooth. The new method integrates a simple single-loop SVRG (L-SVRG) technique for sampling the gradient and a stochastic limited-memory BFGS (L-BFGS) scheme for approximating the Hessian of the smooth function components. The globally linear convergence rate of the new method is proved under mild assumptions. It is also shown that the new method covers a proximal variant of the L-SVRG as a special case, and it allows for various generalization through the integration with other variance reduction methods. For example, the L-SVRG can be replaced with the SAGA or SEGA in the proposed new method and thus other new stochastic proximal quasi-Newton methods with rigorously guaranteed convergence can be proposed accordingly. Moreover, we meticulously analyze the resulting nonsmooth subproblem at each iteration and leverage a compact representation of the L-BFGS matrix with the storage of some auxiliary matrices. As a result, we propose a very efficient and easily implementable semismooth Newton solver for solving the involved subproblems, whose arithmetic operations per iteration are merely order of O(d), where d denotes the dimensionality of the problem. With this efficient inner solver, the new method performs well and its numerical efficiency is validated through extensive experiments on a  regularized logistic regression problem.",
+    "authors": [
+        "Yongcun Song",
+        "Zimeng Wang",
+        "Xiaoming Yuan",
+        "Hangrui Yue"
+    ],
+    "emails": [
+        "yongcun.song@ntu.edu.sg",
+        "zimeng.wang@umu.se",
+        "xmyuan@hku.hk",
+        "yuehangrui@gmail.com"
+    ],
+    "id": "25-0632",
+    "issue": 103,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "A Single-Loop Stochastic Proximal Quasi-Newton Method for Large-Scale Nonsmooth Convex Optimization",
+    "volume": 27,
+    "year": 2026
+}

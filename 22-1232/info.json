@@ -1,0 +1,22 @@
+{
+    "abstract": "To understand the training dynamics of neural networks, prior studies have considered the mean-field (MF) limit of two-layer NNs as the width tends to infinity, establishing theoretical guarantees for its convergence under gradient flow training as well as approximation and generalization capabilities. In this work, we study the infinite-width limit of a type of three-layer neural network where the first-layer weights are untrained. To rigorously define the limiting model, we extend the MF theory by lifting the representation of neurons from Euclidean to functional spaces. This allows us to establish the MF training dynamics as a functional gradient flow with a time-varying kernel that remains positive-definite under suitable assumptions, thus proving a linear-rate convergence of its training loss. Furthermore, we define novel function spaces that contain the solutions obtained through the MF training dynamics and prove Rademacher complexity bounds for these spaces. Notably, our analysis applies to a range of scaling choices of the model, resulting in two distinct regimes of the MF limit that both exhibit feature learning through training.",
+    "authors": [
+        "Zhengdao Chen",
+        "Eric Vanden-Eijnden",
+        "Joan Bruna"
+    ],
+    "emails": [
+        "zhengdao.c3@gmail.com",
+        "eve2@cims.nyu.edu",
+        "bruna@cims.nyu.edu"
+    ],
+    "id": "22-1232",
+    "issue": 52,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "A Functional-Space Mean-Field Theory of Partially-Trained Three-Layer Neural Networks",
+    "volume": 27,
+    "year": 2026
+}
