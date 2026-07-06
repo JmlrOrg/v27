@@ -1,0 +1,26 @@
+{
+    "abstract": "Domain-invariant representation learning and domain augmentation algorithms are two principal methodological paradigms for addressing domain generalization. They are widely employed in the machine learning literature to enhance domain invariance and domain diversity, respectively. However, existing risk bounds for domain generalization do not simultaneously capture the contributions of both approaches. This limitation arises because bounds derived directly in the original latent space are typically too coarse-grained and ambiguous to characterize how invariance and diversity jointly influence generalization. Since these two properties are often regarded as being inherently contradictory, it becomes difficult to disentangle and rigorously characterize their individual effects. To address this issue, we first observe that the latent representation space can be decomposed into several distinct subspaces, each exhibiting different characteristics and therefore being better suited for analyzing the respective roles of domain invariance and domain diversity. Building on this observation, we propose a unified analytical framework for domain generalization. Specifically, we introduce a Tri-Space Latent Representation and establish its unique decomposability via a direct-sum decomposition. Under this decomposition, each data representation can be uniquely partitioned into three components: domain-invariant features, spurious invariant features, and domain-variant features. Within this framework, we derive a finer-grained bound on the target-domain risk, which consists of two principal terms corresponding to domain diversity and invariant factors. By theoretically analyzing these two terms, we show that domain-invariant representation learning and domain augmentation are both effective and, crucially, compatible strategies for addressing domain generalization. Finally, we design two sets of experiments to empirically validate the relationship between domain invariance and domain diversity, and to examine their respective effects on domain generalization performance.",
+    "authors": [
+        "Xi Wang",
+        "Liang Bai",
+        "Xian Yang",
+        "Richard Yi Da Xu",
+        "Jiye Liang"
+    ],
+    "emails": [
+        "wangxi7@sxu.edu.cn",
+        "bailiang@sxu.edu.cn",
+        "xian.yang@manchester.ac.uk",
+        "xuyida@hkbu.edu.hk",
+        "ljy@sxu.edu.cn"
+    ],
+    "id": "25-0399",
+    "issue": 137,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Bridging Domain Invariance and Diversity: A Fine-Grained Risk Bound for Domain Generalization",
+    "volume": 27,
+    "year": 2026
+}
