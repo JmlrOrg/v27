@@ -1,0 +1,35 @@
+{
+  "abstract": "The growing popularity of generative flow networks (GFlowNets or GFNs) among a range of researchers with diverse backgrounds and areas of expertise necessitates a library that facilitates the testing of new features (e.g., training losses and training policies) against standard benchmark implementations, or on a set of common environments. We present torchgfn, a PyTorch library that aims to address this need. Its core contribution is a modular and decoupled architecture which treats environments, neural network modules, and training objectives as interchangeable components. This provides users with a simple yet powerful API to facilitate rapid prototyping and novel research. Multiple examples are provided, replicating and unifying published results. The library is available on GitHub (https://github.com/GFNOrg/torchgfn) and on PyPI (https://pypi.org/project/torchgfn/).",
+  "authors": [
+    "Joseph D. Viviano",
+    "Omar G. Younis",
+    "Sanghyeok Choi",
+    "Victor Schmidt",
+    "Yoshua Bengio",
+    "Salem Lahlou"
+  ],
+  "emails": [
+    "joseph@viviano.ca",
+    "omar.younis@mila.quebec",
+    "sanghyeok.choi@ed.ac.uk",
+    "victor.schmidt@entalpic.ai",
+    "yoshua.bengio@umontreal.ca",
+    "salem.lahlou@mbzuai.ac.ae"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/GFNOrg/torchgfn"
+    ]
+  ],
+  "id": "23-1095",
+  "issue": 142,
+  "pages": [
+    1,
+    15
+  ],
+  "special_issue": "MLOSS",
+  "title": "torchgfn: A PyTorch GFlowNet Library",
+  "volume": 27,
+  "year": 2026
+}

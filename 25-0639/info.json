@@ -1,0 +1,32 @@
+{
+  "abstract": "Gaussian Mixture Models (GMMs) range among the most frequently used models in machine learning. However, training large, general GMMs becomes computationally prohibitive for data sets that have many data points $N$ of high-dimensionality $D$. For GMMs with arbitrary covariances, we here derive a highly efficient variational approximation, which is then integrated with mixtures of factor analyzers (MFAs). For GMMs with $C$ components, our proposed algorithm substantially reduces runtime complexity from $\\mathcal{O}(NCD^2)$ per iteration to a complexity scaling linearly with $D$ and sublinearly with $NC$. In numerical experiments, we first validate that the complexity reduction results in a sublinear scaling for the entire GMM optimization process. Second, we show on large-scale benchmarks that the sublinear algorithm results in speed-ups of an order-of-magnitude compared to the state-of-the-art. Third, as a proof of concept, we finally train GMMs with over 10 billion parameters on about 100 million images, observing training times of less than nine hours on a single state-of-the-art CPU. Finally, and fourth, we demonstrate the effectiveness of large-scale GMMs on the task of zero-shot image denoising, where sublinear training results in state-of-the-art denoising times while competitive denoising performance is maintained.",
+  "authors": [
+    "Sebastian Salwig",
+    "Till Kahlke",
+    "Florian Hirschberger",
+    "Dennis Forster",
+    "J{{\\\"o}}rg L{{\\\"u}}cke"
+  ],
+  "emails": [
+    "sebastian.salwig@uibk.ac.at",
+    "till.kahlke@uibk.ac.at",
+    "florian.hirschberger@uol.de",
+    "dennis.forster@fb3.fra-uas.de",
+    "joerg.luecke@uibk.ac.at"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/variational-sublinear-clustering/vamm"
+    ]
+  ],
+  "id": "25-0639",
+  "issue": 167,
+  "pages": [
+    1,
+    70
+  ],
+  "title": "Sublinear Variational Optimization of Gaussian Mixture Models with Millions to Billions of Parameters",
+  "volume": 27,
+  "year": 2026
+}

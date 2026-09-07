@@ -1,0 +1,26 @@
+{
+  "abstract": "Building artificially intelligent geospatial systems requires rapid delivery of spatial data analysis on massive scales with minimal human intervention. Depending on their intended use, learning about underlying spatial processes can also involve model assessment and uncertainty quantification. We devise transfer learning frameworks for deployment in artificially intelligent systems, where a massive data set is split into smaller data sets that stream into the analytical framework to propagate learning and assimilate learning for the entire data set. Specifically, we develop Bayesian predictive stacking for multivariate spatial data and demonstrate rapid automated probabilistic learning from massive spatial data sets. We illustrate the effectiveness of our approach through extensive simulation experiments and through the analysis of a massive dataset on vegetation index that are indistinguishable from traditional (and more expensive) statistical approaches.",
+  "authors": [
+    "Luca Presicce",
+    "Sudipto Banerjee"
+  ],
+  "emails": [
+    "l.presicce@campus.unimib.it",
+    "sudipto@ucla.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://cran.r-project.org/package=spBPS"
+    ]
+  ],
+  "id": "26-0307",
+  "issue": 196,
+  "pages": [
+    1,
+    60
+  ],
+  "title": "Bayesian Transfer Learning for Artificially Intelligent Geospatial Systems: A Predictive Stacking Approach",
+  "volume": 27,
+  "year": 2026
+}

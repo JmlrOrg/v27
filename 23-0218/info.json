@@ -1,0 +1,26 @@
+{
+  "abstract": "Existing Optimal Transport (OT) methods mainly derive the optimal transport plan/matching under the criterion of transport cost/distance minimization, which may cause incorrect matching in some cases. In real applications, annotating a few matched keypoints across domains is reasonable or even effortless in annotation burden. It is valuable to investigate how to leverage the annotated keypoints to guide the correct matching in OT. In this paper, we propose a novel KeyPoint-Guided model by ReLation preservation (KPG-RL) that searches for the optimal matching (i.e., transport plan) guided by the keypoints in OT. KPG-RL exploits a mask-based constraint of the transport plan to preserve the matching of keypoint pairs in transport, and guides the matching by relation of each data point to the keypoints. The KPG-RL is developed in both balanced and unbalanced/partial transport settings in Kantorovich and Gromov-Wasserstein formulations. Moreover, we deduce the dual formulation of χ²-regularized KPG-RL model, from which we learn the transport based on deep learning techniques, scaling better to larger numbers of data. With the learned transport plan, two novel neural transport strategies, named manifold barycentric projection and manifold sampling, are developed to transport source data to the target domain data manifold. As applications, we apply the proposed approach to the heterogeneous domain adaptation, multi-omic single-cell alignment, and image-to-image translation. Experiments verified the effectiveness of our approach.",
+  "authors": [
+    "Xiang Gu",
+    "Yucheng Yang",
+    "Wei Zeng",
+    "Jian Sun",
+    "Zongben Xu"
+  ],
+  "emails": [
+    "xianggu@xjtu.edu.cn",
+    "ycyang@stu.xjtu.edu.cn",
+    "wz@xjtu.edu.cn",
+    "jiansun@xjtu.edu.cn",
+    "zbxu@xjtu.edu.cn"
+  ],
+  "id": "23-0218",
+  "issue": 139,
+  "pages": [
+    1,
+    60
+  ],
+  "title": "Keypoint-Guided Optimal Transport: Models, Algorithms, and Applications",
+  "volume": 27,
+  "year": 2026
+}

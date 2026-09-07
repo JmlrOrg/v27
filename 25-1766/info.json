@@ -1,0 +1,26 @@
+{
+  "abstract": "Domain adaptation enables generalizable and efficient data-driven research. However, existing work has largely focused on domain adaptation for some intrinsically homogeneous target cohort, overlooking inherent heterogeneity within the target, which can exacerbate biases and unfairness in the presence of subgroups with imbalanced sample sizes. We develop a novel domain adaptation framework that addresses a more complicated target dataset that consists of heterogeneous and data-sparse subgroups and lacks gold-standard label observations. Our method simultaneously handles high-dimensionality, covariate shift, and outcome model heterogeneity by combining a model-assisted debiasing step used for covariate shift correction with an adaptive knowledge-guided sparsification procedure used to mitigate the issue of sample disparity. We also introduce a new model selection strategy to avoid negative knowledge transfer in the absence of labels in the target data. Our method is theoretically justified for being robust to nuisance model misspecification and adaptive to heterogeneity between the subgroups. Numerical experiments and two real-world applications, including genetic risk modeling of type 2 diabetes and prediction of mutation-induced protein stability changes, demonstrate the practical advantages of our method.",
+  "authors": [
+    "Doudou Zhou",
+    "Mengyan Li",
+    "Yun Wang",
+    "Tianxi Cai",
+    "Molei Liu"
+  ],
+  "emails": [
+    "ddzhou@nus.edu.sg",
+    "mengyanli@bentley.edu",
+    "yunwang@stu.pku.edu.cn",
+    "tcai@hsph.harvard.edu",
+    "moleiliu@bjmu.edu.cn"
+  ],
+  "id": "25-1766",
+  "issue": 181,
+  "pages": [
+    1,
+    65
+  ],
+  "title": "Domain Adaptation Targeting Heterogeneous and Imbalanced Subgroups",
+  "volume": 27,
+  "year": 2026
+}

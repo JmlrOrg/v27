@@ -1,0 +1,26 @@
+{
+  "abstract": "This work introduces Dirichlet Active Learning (DiAL), a Bayesian-inspired approach to the design of active learning algorithms. Our framework models feature-conditional class probabilities as a Dirichlet random field and lends observational strength between similar features in order to calibrate the random field. This random field can then be utilized in learning tasks: in particular, we can use current estimates of mean and variance to conduct classification and active learning in the context where labeled data is scarce. We demonstrate the applicability of this model to low-label rate graph learning by constructing ``propagation operators'' based upon the graph Laplacian, and offer computational studies demonstrating the method's competitiveness with the state of the art. Finally, we provide rigorous guarantees regarding the ability of this approach to ensure both exploration and exploitation, expressed respectively in terms of cluster exploration and increased attention to decision boundaries.",
+  "authors": [
+    "Kevin Miller",
+    "Ryan Murray"
+  ],
+  "emails": [
+    "ksmiller@mathematics.byu.edu",
+    "rwmurray@ncsu.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/millerk22/dirichlet-active-learning.git"
+    ]
+  ],
+  "id": "23-1489",
+  "issue": 144,
+  "pages": [
+    1,
+    63
+  ],
+  "title": "Dirichlet Active Learning",
+  "volume": 27,
+  "year": 2026
+}

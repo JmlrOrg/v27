@@ -1,0 +1,30 @@
+{
+  "abstract": "Surrogate variables play an important role in various fields due to the scarcity or absence of gold-standard labels. We develop a novel approach named SASH for Surrogate-Assisted and data-Shielding High-dimensional integrative regression. It is a semi-supervised approach that efficiently leverages sizable unlabeled samples with error-prone surrogate outcomes from multiple local sites to improve model estimation using the small gold-labeled sample. To facilitate stable and efficient knowledge extraction from the surrogates, our method first obtains a preliminary supervised estimator, and then uses it to assist in training a regularized single-index model (SIM) for the surrogates. Interestingly, through a chain of convex and properly penalized sparse regressions that approximate the SIM loss using bias correction, our method avoids the problem of local minima in the SIM, and fully eliminates the impact of the preliminary estimator's excessive error. In addition, it protects individual-level information through the aggregation of summary statistics from local sites, leveraging a similar idea of bias-corrected approximation. Through simulation studies, we demonstrate that our method outperforms existing approaches. Finally, we apply our method to develop a genetic risk model for type 2 diabetes using large-scale data sets from UK and Mass General Brigham biobanks, where only a small fraction of subjects in one site are labeled through manual chart review.",
+  "authors": [
+    "Yue Liu",
+    "Molei Liu",
+    "Zijian Guo",
+    "Tianxi Cai"
+  ],
+  "emails": [
+    "yueliu@fas.harvard.edu",
+    "moleiliu@bjmu.edu.cn",
+    "zijguo@zju.edu.cn",
+    "tcai.hsph@gmail.com"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/moleibobliu/SASH"
+    ]
+  ],
+  "id": "23-1235",
+  "issue": 143,
+  "pages": [
+    1,
+    53
+  ],
+  "title": "Efficient Modeling of Surrogates to Improve Multi-source High-dimensional Integrative Regression",
+  "volume": 27,
+  "year": 2026
+}

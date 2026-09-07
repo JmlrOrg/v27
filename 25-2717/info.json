@@ -1,0 +1,22 @@
+{
+  "abstract": "In many real-world applications, researchers aim to deploy models trained in a source domain to a target domain, where obtaining labeled data is often expensive, time-consuming, or even infeasible. While most existing literature assumes that the source and target data follow the same joint distribution, distribution shifts are common in practice. This paper considers a particular type of distribution shift, label shift, and develops an efficient inference procedure for general parameters characterizing the unlabeled target population. A central idea is to model the outcome density ratio between the labeled source data and unlabeled target data. To this end, we propose a progressive estimation strategy that unfolds in three stages: an initial heuristic guess, a consistent estimation, and ultimately, an efficient estimation. This self-evolving process is novel in the statistical literature and of independent interest. We also highlight the connection between our approach and prediction-powered inference (PPI), which uses machine learning models to improve statistical inference in related settings. We rigorously establish the asymptotic properties of the proposed estimators and demonstrate their superior performance compared to existing methods. Through simulation studies and multiple real-world applications, we illustrate both the theoretical contributions and practical benefits of our approach.",
+  "authors": [
+    "Seong-ho Lee",
+    "Yanyuan Ma",
+    "Jiwei Zhao"
+  ],
+  "emails": [
+    "seongho@uos.ac.kr",
+    "yzm63@psu.edu",
+    "jiwei.zhao@wisc.edu"
+  ],
+  "id": "25-2717",
+  "issue": 193,
+  "pages": [
+    1,
+    50
+  ],
+  "title": "Efficient Inference under Label Shift in Unsupervised Domain Adaptation",
+  "volume": 27,
+  "year": 2026
+}

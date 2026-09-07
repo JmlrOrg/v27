@@ -1,0 +1,47 @@
+{
+  "abstract": "scikit-activeml is a user-friendly open-source Python library for active learning on top of scikit-learn. Included are implementations of a large collection of query strategies, models, and visualization tools in pool- and stream-based active learning for classification or regression tasks with single or multiple annotators. The flexible design of the active learning cycle enables individual adaptations to a variety of learning scenarios. Our source code with comprehensive documentation is available at https://scikit-activeml.github.io.",
+  "authors": [
+    "Marek Herde",
+    "Minh Tuan Pham",
+    "Daniel Kottke",
+    "Alexander Benz",
+    "Lukas L{{\\\"u}}hrs",
+    "Pascal Mergard",
+    "Christoph Sandrock",
+    "Jiaying Cheng",
+    "Atal Roghman",
+    "Mehmet M{{\\\"u}}jde",
+    "Lukas Rauch",
+    "Bernhard Sick"
+  ],
+  "emails": [
+    "marek.herde@uni-kassel.de",
+    "tuan.pham@uni-kassel.de",
+    "research@kottke.eu",
+    "alexbenzdev@gmail.com",
+    "lukas.luehrs@uni-kassel.de",
+    "p.mergard@uni-kassel.de",
+    "christoph.sandrock@tuwien.ac.at",
+    "uk059469@student.uni-kassel.de",
+    "roghmanatal@gmail.com",
+    "mehmet.muejde@uni-kassel.de",
+    "lukas.rauch@uni-kassel.de",
+    "bsick@uni-kassel.de"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/scikit-activeml/scikit-activeml"
+    ]
+  ],
+  "id": "25-1999",
+  "issue": 184,
+  "pages": [
+    1,
+    20
+  ],
+  "special_issue": "MLOSS",
+  "title": "scikit-activeml: A Comprehensive and User-Friendly Active Learning Library",
+  "volume": 27,
+  "year": 2026
+}

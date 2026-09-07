@@ -1,0 +1,26 @@
+{
+  "abstract": "We consider a sequential decision making problem, where we aim to optimize an unknown function via noisy evaluations that do not violate an a-priori unknown (safety) constraint. As both the objective and the constraint are unknown, a common approach is to model them using a Gaussian process and restrict evaluations to those regions that are safe with high probability. Most current methods rely on a discretization of the domain and cannot be directly extended to the continuous case. Moreover, they make regularity assumptions about the safety constraint that introduce an additional critical hyperparameter. Instead, in this paper, we propose an information-theoretic safe exploration criterion that exploits solely the GP posterior to identify the safe parameters that are most informative about the safety of other parameters. The combination of this exploration criterion with a well known Bayesian optimization acquisition function yields a novel safe Bayesian optimization selection criterion. Our approach is naturally applicable to continuous domains and does not require additional explicit hyperparameters. We theoretically analyze the method and show that the proposed acquisition function can learn about the reachable safe optimum up to arbitrary precision, while only evaluating safe parameters with high probability. Empirical evaluations demonstrate data-efficiency and scalability of our approach.",
+  "authors": [
+    "Alessandro G. Bottero",
+    "Carlos E. Luis",
+    "Julia Vinogradska",
+    "Felix Berkenkamp",
+    "Jan Peters"
+  ],
+  "emails": [
+    "alessandrogiacomo.bottero@bosch.com",
+    "carlosenrique.luisgoncalves@bosch.com",
+    "julia.vinogradska@de.bosch.com",
+    "felix.berkenkamp@de.bosch.com",
+    "jan.peters@tu-darmstadt.de"
+  ],
+  "id": "23-1687",
+  "issue": 145,
+  "pages": [
+    1,
+    42
+  ],
+  "title": "Information-Theoretic Safe Bayesian Optimization",
+  "volume": 27,
+  "year": 2026
+}

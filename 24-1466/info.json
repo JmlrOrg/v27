@@ -1,0 +1,28 @@
+{
+  "abstract": "Rested and Restless Bandits are two well-known bandit settings that are useful to model real-world sequential decision-making problems in which the expected reward of an arm evolves over time due to the actions we perform or due to the nature. In this work, we propose Graph-Triggered Bandits (GTBs), a unifying framework to generalize and extend rested and restless bandits. In this setting, the evolution of the arms' expected rewards is governed by a graph defined over the arms. An edge connecting a pair of arms (i,j) represents the fact that a pull of arm i triggers the evolution of arm j, and vice versa. Interestingly, rested and restless bandits are both special cases of our model for some suitable (degenerated) graph. As relevant case studies for this setting, we focus on two specific types of monotonic bandits: rising, where the expected reward of an arm grows as the number of triggers increases, and rotting, where the opposite behavior occurs. For these cases, we study the optimal policies. We provide suitable algorithms for all scenarios and discuss their theoretical guarantees, highlighting the complexity of the learning problem concerning instance-dependent terms that encode specific properties of the underlying graph structure.",
+  "authors": [
+    "Gianmarco Genalti",
+    "Marco Mussi",
+    "Nicola Gatti",
+    "Marcello Restelli",
+    "Matteo Castiglioni",
+    "Alberto Maria Metelli"
+  ],
+  "emails": [
+    "gianmarco.genalti@polimi.it",
+    "marco.mussi@polimi.it",
+    "nicola.gatti@polimi.it",
+    "marcello.restelli@polimi.it",
+    "matteo.castiglioni@polimi.it",
+    "albertomaria.metelli@polimi.it"
+  ],
+  "id": "24-1466",
+  "issue": 151,
+  "pages": [
+    1,
+    46
+  ],
+  "title": "Bridging Rested and Restless Bandits with Graph-Triggering: Rising and Rotting",
+  "volume": 27,
+  "year": 2026
+}

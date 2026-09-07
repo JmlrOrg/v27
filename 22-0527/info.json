@@ -1,0 +1,18 @@
+{
+  "abstract": "Self-training (ST) is a simple yet effective semi-supervised learning method. However, why and how ST improves generalization performance by using potentially erroneous pseudo-labels is still not well understood.  To deepen the understanding of ST, we derive and analyze a sharp characterization of the behavior of iterative ST when training a linear classifier by minimizing the ridge-regularized convex loss on binary Gaussian mixtures, in the asymptotic limit where input dimension and data size diverge proportionally. The results show that ST improves generalization in different ways depending on the number of iterations.  When the number of iterations is small, ST improves generalization performance by fitting the model to relatively reliable pseudo-labels and updating the model parameters by a large amount at each iteration. This suggests that ST works intuitively. On the other hand, with many iterations, ST can gradually improve the direction of the classification plane by updating the model parameters incrementally, using soft labels and small regularization. It is argued that this is because the small update of ST can extract information from the data in an almost noiseless way. However, in the presence of label imbalance, the generalization performance of ST underperforms supervised learning with true labels. To overcome this, two heuristics are proposed to enable ST to achieve nearly compatible performance with supervised learning even with significant label imbalance.",
+  "authors": [
+    "Takashi Takahashi"
+  ],
+  "emails": [
+    "takashi-takahashi@g.ecc.u-tokyo.ac.jp"
+  ],
+  "id": "22-0527",
+  "issue": 138,
+  "pages": [
+    1,
+    68
+  ],
+  "title": "The Role of Pseudo-Labels in Self-Training Linear Classifiers on High-Dimensional Gaussian Mixture Data",
+  "volume": 27,
+  "year": 2026
+}

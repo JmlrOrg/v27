@@ -1,0 +1,32 @@
+{
+  "abstract": "We develop a weak adversarial approach to solving obstacle problems using neural networks. By employing (generalised) regularised gap functions and their properties we rewrite the obstacle problem (which is an elliptic variational inequality) as a minmax problem, providing a natural formulation amenable to learning. Our approach, in contrast to much of the literature, does not require the elliptic operator to be symmetric. We provide an error analysis for suitable discretisations of the continuous problem, estimating in particular the approximation and statistical errors.  Parametrising the solution and test function as neural networks, we apply a modified gradient descent ascent algorithm to treat the problem and conclude the paper with various examples and experiments. Our solution algorithm is in particular able to easily handle obstacle problems that feature biactivity (or lack of strict complementarity), a situation that poses difficulty for traditional numerical methods.",
+  "authors": [
+    "Amal Alphonse",
+    "Michael Hinterm{{\\\"u}}ller",
+    "Alexander Kister",
+    "Chin Hang Lun",
+    "Clemens Sirotenko"
+  ],
+  "emails": [
+    "alphonse@wias-berlin.de",
+    "hintermueller@wias-berlin.de",
+    "alexander.kister@bam.de",
+    "clun@tripadvisor.com",
+    "sirotenko@wias-berlin.de"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/amal-alphonse/NNVI"
+    ]
+  ],
+  "id": "25-0034",
+  "issue": 157,
+  "pages": [
+    1,
+    48
+  ],
+  "title": "A Neural Network Approach to Learning Solutions of a Class of Elliptic Variational Inequalities",
+  "volume": 27,
+  "year": 2026
+}

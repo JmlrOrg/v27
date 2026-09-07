@@ -1,0 +1,20 @@
+{
+  "abstract": "We consider a high-probability non-asymptotic confidence estimation in the $\\ell^2$-regularized non-linear least-squares setting with fixed design. In particular, we study confidence estimation for local minimizers of the regularized training loss. We show a pointwise confidence bound, meaning that it holds for the prediction on any given fixed test input $x$. Importantly, the proposed confidence bound scales with similarity of the test input to the training data in the implicit feature space of the predictor (for instance, becoming very large when the test input lies far outside of the training data). This desirable last feature is captured by the weighted norm involving the inverse-Hessian matrix of the objective function, which is a generalized version of its counterpart in the linear setting, $x^{\\top} \\text{Cov}^{-1} x$. Our generalized result can be regarded as a non-asymptotic counterpart of the classical confidence interval based on asymptotic normality of the MLE estimator. We propose an efficient method for computing the weighted norm, which only mildly exceeds the cost of a gradient computation of the loss function. Finally, we complement our analysis with empirical evidence showing that the proposed confidence bound provides better coverage/width trade-off compared to a confidence estimation by bootstrapping, which is a gold-standard method in many applications involving non-linear predictors such as neural networks.",
+  "authors": [
+    "Ilja Kuzborskij",
+    "Yasin Abbasi Yadkori"
+  ],
+  "emails": [
+    "iljak@google.com",
+    "yasin.abbasi@gmail.com"
+  ],
+  "id": "25-2325",
+  "issue": 189,
+  "pages": [
+    1,
+    43
+  ],
+  "title": "Pointwise Confidence Estimation in the Non-linear $\\ell^2$-regularized Least Squares",
+  "volume": 27,
+  "year": 2026
+}

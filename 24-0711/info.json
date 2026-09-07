@@ -1,0 +1,26 @@
+{
+  "abstract": "The number of methods for learning causal models from data is growing rapidly, as evidenced by the exponential increase in causal discovery publications each year. Due to a lack of real-world datasets with known causal ground truth, most \"causal discovery\" or \"causal structure learning\" algorithms are primarily validated with simulation studies. However, the simulation study designs being used (i) vary from one study to another, (ii) have never been formally characterized, and (iii) have not been proven to have desirable properties. As one might expect, publications often report conflicting performance statistics---even for simulation results on purely linear models. Appropriately, several manuscripts have now criticized the most common simulation designs. We propose to resolve the above-mentioned challenges with a novel simulation design: the DAG-adaptation of the Onion (DaO) method. The DaO method takes a directed acyclic graph (DAG) as input and randomly generates coefficient and error-variance parameters of a linear model whose additive error terms may follow any distribution with finite variance. DaO simulations are fundamentally different from existing simulations because the DaO method prioritizes sampling the distribution of correlations rather than the distribution of linear effects. Specifically, the DaO method uniformly samples the space of correlation matrices Markov to a DAG. We compare the DaO method against two alternative simulation designs and provide implementations of the DaO method in Python and R: https://github.com/bja43/DaO_simulation; the Python implementation is available on PyPI: https://pypi.org/project/daosim. We posit that the DaO method is uniform, complete, well characterized, and fair, and should be adopted as a field simulation standard.",
+  "authors": [
+    "Bryan Andrews",
+    "Erich Kummerfeld"
+  ],
+  "emails": [
+    "andr1017@umn.edu",
+    "erichk@umn.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/bja43/DaO_simulation"
+    ]
+  ],
+  "id": "24-0711",
+  "issue": 147,
+  "pages": [
+    1,
+    42
+  ],
+  "title": "Better Simulations for Validating Causal Discovery with the DAG-Adaptation of the Onion Method",
+  "volume": 27,
+  "year": 2026
+}

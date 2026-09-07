@@ -1,0 +1,34 @@
+{
+  "abstract": "The importance of explainability in stock prediction is increasingly recognized, especially for audit and regulatory purposes. Meanwhile, financial news corpora are often key drivers behind stock price fluctuations. However, the raw news data obtained is usually highly noisy, has a highly variable scope of influence in time and space, and is not precisely synchronized with stock price data. In this paper, we propose a prediction-explanation network called AgentPEN, which can provide clear explanations for complex temporal price patterns. Specifically, AgentPEN jointly aligns text and price streams by an LLM-based Representation Fusion Agent and then adopts a Deep Recurrent Generation module to explore the distribution of stock movements. The LLM-based Representation Fusion Agent is designed in a Selection-Memory-Fusion manner: the Text Selection Module picks up useful information from massive text data; the Text Memory Module evaluates and writes the text memory from a two-view perspective, including Temporal Memory and Spatial Memory; the Information Fusion Module models the interaction between text and price data. Next, the fused representation is sent to the Deep Recurrent Generation module to convert insights into stock movement predictions. Experiments on multiple real-world datasets have shown that AgentPEN surpasses the state-of-the-art baselines both in prediction accuracy and explainability.",
+  "authors": [
+    "Shuqi Li",
+    "Mengyao Guo",
+    "Yunzhong Zheng",
+    "Siqi Li",
+    "Xin Gao",
+    "Rui Yan"
+  ],
+  "emails": [
+    "shuqi.li@kaust.edu.sa",
+    "guomy7299@ruc.edu.cn",
+    "yz9712@nyu.edu",
+    "Tsiku0620@gmail.com",
+    "xin.gao@kaust.edu.sa",
+    "ruiyan@ruc.edu.cn"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/Shuqi-li/AgentPEN-US"
+    ]
+  ],
+  "id": "25-2175",
+  "issue": 187,
+  "pages": [
+    1,
+    37
+  ],
+  "title": "AgentPEN: A Prediction-Explanation Network for Sequential Stock Movement via LLMs and Recurrent Generation",
+  "volume": 27,
+  "year": 2026
+}

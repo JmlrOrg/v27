@@ -1,0 +1,32 @@
+{
+  "abstract": "Concept-based Models aim to improve interpretability by predicting high-level intermediate concepts, representing a promising approach for deployment in high-risk scenarios. However, they are known to suffer from information leakage, whereby models exploit unintended information encoded within the learned concepts. We introduce an information-theoretic framework to rigorously characterise and quantify leakage, and define two complementary measures: the concepts-task leakage (CTL) and interconcept leakage (ICL) scores. We show that these measures are strongly predictive of model behaviour under interventions and outperform existing alternatives. Using this framework, we identify the primary causes of leakage and, as a case study, analyse how it manifests in Concept Embedding Models, revealing interconcept and alignment leakage in addition to the concepts-task leakage present by design. Finally, we present a set of practical guidelines for designing concept-based models to reduce leakage and ensure interpretability.",
+  "authors": [
+    "Enrico Parisini",
+    "Tapabrata Chakraborti",
+    "Chris Harbron",
+    "Ben D. MacArthur",
+    "Christopher R.S. Banerji"
+  ],
+  "emails": [
+    "enrico.parisini@kcl.ac.uk",
+    "tchakraborty@turing.ac.uk",
+    "chris.harbron@roche.com",
+    "bdm@soton.ac.uk",
+    "cbanerji@turing.ac.uk"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/enricoparisini/xai-concept-leakage"
+    ]
+  ],
+  "id": "25-1121",
+  "issue": 174,
+  "pages": [
+    1,
+    40
+  ],
+  "title": "Leakage and Interpretability in Concept-Based Models",
+  "volume": 27,
+  "year": 2026
+}

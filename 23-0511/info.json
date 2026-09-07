@@ -1,0 +1,30 @@
+{
+  "abstract": "Deep neural networks (DNNs) are highly vulnerable to adversarial attacks. Ideally, a robust model should perform well on both perturbed training data and unseen perturbed test data. While DNNs can fit perturbed training data, generalizing to perturbed test data remains a significant challenge. This motivates the study of generalization guarantees from a learning theory perspective. This paper focuses on adversarial Rademacher complexity (ARC), first introduced by Khim and Loh (2018) and Yin et al. (2019). Their work primarily addressed linear functions and highlighted the open question of how to bound ARC for neural networks. Since then, several attempts have been made, with the latest results applying ARC only to two-layer neural networks. The main challenge arises from the dynamic nature and unknown closed-form solution of adversarial examples. In this paper, we resolve this issue and provide the first bound on ARC for deep neural networks. Our bound is qualitatively comparable to Rademacher complexity bounds in similar settings. The key ingredient is a new concept we introduce, termed intermediate adversarial examples, along with a framework for calculating the covering number that is compatible with them. Finally, we present experiments to analyze poor robust generalization, demonstrating that the weight norm is a crucial factor influencing the robust generalization gap.",
+  "authors": [
+    "Jiancong Xiao",
+    "Yanbo Fan",
+    "Ruoyu Sun",
+    "Zhi-Quan Luo"
+  ],
+  "emails": [
+    "jiancongxiao@link.cuhk.edu.cn",
+    "yanbofan@nju.edu.cn",
+    "sunruoyu@cuhk.edu.cn",
+    "luozq@cuhk.edu.cn"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/JiancongXiao/Adversarial-Rademacher-Complexity"
+    ]
+  ],
+  "id": "23-0511",
+  "issue": 140,
+  "pages": [
+    1,
+    46
+  ],
+  "title": "Adversarial Rademacher Complexity of Deep Neural Networks",
+  "volume": 27,
+  "year": 2026
+}

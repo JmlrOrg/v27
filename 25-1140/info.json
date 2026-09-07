@@ -1,0 +1,28 @@
+{
+  "abstract": "Data fusion, the process of combining observational and experimental data, can enable the identification of causal effects that would otherwise remain non-identifiable. Although identification algorithms have been developed for specific scenarios, do-calculus remains the only general-purpose tool for causal data fusion, particularly when variables are present in some data sources but not others. However, approaches based on do-calculus may encounter computational challenges as the number of variables increases and the causal graph grows in complexity. Consequently, there exists a need to reduce the size of such models while preserving the essential features. For this purpose, we propose pruning (removing unnecessary variables) and clustering (combining variables) as preprocessing operations for causal data fusion. We generalize earlier results on a single data source and derive conditions for applying pruning and clustering in the case of multiple data sources. We give sufficient conditions for inferring the identifiability or non-identifiability of a causal effect in a larger graph based on a smaller graph and show how to obtain the corresponding identifying functional for identifiable causal effects. Examples from epidemiology and social science demonstrate the use of the results.",
+  "authors": [
+    "Otto Tabell",
+    "Santtu Tikka",
+    "Juha Karvanen"
+  ],
+  "emails": [
+    "otto.h.e.tabell@jyu.fi",
+    "santtu.tikka@jyu.fi",
+    "juha.t.karvanen@jyu.fi"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/ottotabell/clustering-pruning"
+    ]
+  ],
+  "id": "25-1140",
+  "issue": 175,
+  "pages": [
+    1,
+    56
+  ],
+  "title": "Clustering and Pruning in Causal Data Fusion",
+  "volume": 27,
+  "year": 2026
+}

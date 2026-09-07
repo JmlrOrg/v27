@@ -1,0 +1,22 @@
+{
+  "abstract": "We study the limiting dynamics of a large class of noisy gradient descent systems in the overparameterized regime. In this regime the zero-loss set of global minimizers of the loss is large, and when initialized in a neighbourhood of this zero-loss set a noisy gradient descent algorithm slowly evolves along this set. In some cases this slow evolution has been related to better generalization properties. We characterize this evolution for the broad class of noisy gradient descent systems in the limit of small learning rate. Our results show that the structure of the noise affects not just the form of the limiting process, but also the time scale at which the evolution takes place. We apply the theory to Dropout, label noise and classical SGD (minibatching) noise, and show that these evolve on two different time scales. Classical SGD even yields a trivial evolution on both time scales, implying that additional noise is required for regularization. The results are inspired by the training of neural networks, but the theorems apply to noisy gradient descent of any loss that has a non-trivial zero-loss set.",
+  "authors": [
+    "Anna Shalova",
+    "Andr{{\\'e}} Schlichting",
+    "Mark Peletier"
+  ],
+  "emails": [
+    "a.shalova@uva.nl",
+    "andre.schlichting@uni-ulm.de",
+    "m.a.peletier@tue.nl"
+  ],
+  "id": "24-0571",
+  "issue": 146,
+  "pages": [
+    1,
+    56
+  ],
+  "title": "Singular-limit analysis of gradient descent with noise injection",
+  "volume": 27,
+  "year": 2026
+}

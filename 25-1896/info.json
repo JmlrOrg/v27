@@ -1,0 +1,22 @@
+{
+  "abstract": "We initiate the study of locally differentially private (LDP) learning with public features. We define semi-feature LDP, where some features are publicly available while the remaining ones, along with the label, require protection under local differential privacy. Under semi-feature LDP, we consider three fundamental estimation problems: non-parametric density estimation, classification, and regression. Given the smoothness assumption, we show that the minimax convergence rate is significantly improved compared to classical LDP. Then, we propose HistOfTree, an estimator that fully leverages the information contained in both public and private features. Theoretically, HistOfTree reaches the minimax optimal convergence rate. Empirically, HistOfTree achieves superior performance on both synthetic and real data. We also explore scenarios where users have the flexibility to select features for protection manually. In such cases, we propose an estimator and a data-driven parameter tuning strategy, leading to analogous theoretical and empirical results.",
+  "authors": [
+    "Yuheng Ma",
+    "Hanfang Yang",
+    "Ke Jia"
+  ],
+  "emails": [
+    "yhma@sfs.ecnu.edu.cn",
+    "hyang@ruc.edu.cn",
+    "jiake1999@ruc.edu.cn"
+  ],
+  "id": "25-1896",
+  "issue": 183,
+  "pages": [
+    1,
+    58
+  ],
+  "title": "Locally Private Estimation with Public Features",
+  "volume": 27,
+  "year": 2026
+}

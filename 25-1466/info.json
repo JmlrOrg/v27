@@ -1,0 +1,26 @@
+{
+  "abstract": "Contrastive learning leverages data augmentation to develop feature representation without relying on large labeled data sets. However, despite its empirical success, the theoretical foundations of contrastive learning remain incomplete, with many essential guarantees left unaddressed, particularly the realizability assumption concerning neural approximability of an optimal spectral contrastive loss solution. In this work, we overcome these limitations by analyzing pointwise and spectral consistency of the augmentation graph Laplacian. We establish that, under specific conditions for data generation and graph connectivity, as the augmented data set size increases, the augmentation graph Laplacian converges to a weighted Laplace-Beltrami operator on the natural data manifold. These consistency results ensure that the graph Laplacian spectrum effectively captures the manifold geometry. Consequently, they give way to a robust framework for establishing neural approximability, directly resolving the realizability assumption in a current paradigm.",
+  "authors": [
+    "Chenghui Li",
+    "A. Martina Neuman"
+  ],
+  "emails": [
+    "cli539@wisc.edu",
+    "neumana53@univie.ac.at"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/chl781/Augmented_spectral_contrastive_learning"
+    ]
+  ],
+  "id": "25-1466",
+  "issue": 178,
+  "pages": [
+    1,
+    68
+  ],
+  "title": "Consistency of Augmentation Graph and Network Approximability in Contrastive Learning",
+  "volume": 27,
+  "year": 2026
+}

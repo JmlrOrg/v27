@@ -1,0 +1,32 @@
+{
+  "abstract": "Kernel ridge regression (KRR) is a fundamental computational tool, appearing in problems that range from computational chemistry to health analytics, with a particular interest due to its starring role in Gaussian process regression. However, full KRR solvers are challenging to scale to large datasets: both direct (e.g., Cholesky decomposition) and iterative methods (e.g., PCG) incur prohibitive computational and storage costs. The standard approach to scale KRR to large datasets chooses a set of inducing points and solves an approximate version of the problem, inducing points KRR. However, the resulting solution tends to have worse predictive performance than the full KRR solution. In this work, we introduce a new solver, ASkotch, for full KRR that provides better solutions faster than state-of-the-art solvers for full and inducing points KRR. ASkotch is a scalable, accelerated, iterative method for full KRR that provably obtains linear convergence. Under appropriate conditions, we show that ASkotch obtains condition-number-free linear convergence. This convergence analysis rests on the theory of ridge leverage scores and determinantal point processes. ASkotch outperforms state-of-the-art KRR solvers on a testbed of 23 large-scale KRR regression and classification tasks derived from a wide range of application domains, demonstrating the superiority of full KRR over inducing points KRR. Our work opens up the possibility of as-yet-unimagined applications of full KRR across a number of disciplines.",
+  "authors": [
+    "Pratik Rathore",
+    "Zachary Frangella",
+    "Jiaming Yang",
+    "Micha{{\\l}} Derezi{{\\'n}}ski",
+    "Madeleine Udell"
+  ],
+  "emails": [
+    "pratikr@alumni.stanford.edu",
+    "zfrangella@alumni.stanford.edu",
+    "jiamyang@umich.edu",
+    "derezin@umich.edu",
+    "udell@stanford.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/pratikrathore8/fast_krr"
+    ]
+  ],
+  "id": "25-0385",
+  "issue": 162,
+  "pages": [
+    1,
+    48
+  ],
+  "title": "Have ASkotch: A Neat Solution for Large-Scale Kernel Ridge Regression",
+  "volume": 27,
+  "year": 2026
+}

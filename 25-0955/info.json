@@ -1,0 +1,28 @@
+{
+  "abstract": "Differential privacy is a probabilistic framework that protects privacy while preserving data utility. To protect the privacy of the individuals in the data set, differential privacy requires adding a precise amount of noise to a statistic of interest; however, this noise addition alters the resulting sampling distribution, making statistical inference challenging. One of the main differential privacy goals in Bayesian analysis is to make statistical inference based on the private posterior distribution. While existing methods have strengths in specific conditions, they can be limited by poor mixing, strict assumptions, or low acceptance rates. We propose a novel particle filtering algorithm, which features (i) consistent estimates, (ii) Monte Carlo error estimates and asymptotic confidence intervals, (iii) computational efficiency, and (iv) accommodation to a wide variety of priors, models, and privacy mechanisms with minimal assumptions. We empirically evaluate our algorithm through a variety of simulation settings as well as an application to a 2021 Canadian census data set, demonstrating the efficacy and adaptability of the proposed sampler.",
+  "authors": [
+    "Yu-Wei Chen",
+    "Pranav Sanghi",
+    "Jordan Awan"
+  ],
+  "emails": [
+    "chen4357@purdue.edu",
+    "psanghi04@gmail.com",
+    "jaa557@pitt.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/psanghi04/DP-PF"
+    ]
+  ],
+  "id": "25-0955",
+  "issue": 170,
+  "pages": [
+    1,
+    44
+  ],
+  "title": "Particle Filter for Bayesian Inference on Privatized Data",
+  "volume": 27,
+  "year": 2026
+}

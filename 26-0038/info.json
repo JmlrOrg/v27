@@ -1,0 +1,22 @@
+{
+  "abstract": "This paper proposes a novel class of block quasi-Newton methods for convex optimization which we call symmetric rank-$k$ (SR-$k$) methods. Each iteration of SR-$k$ incorporates the curvature information with $k$ Hessian-vector products achieved from the greedy or random strategy. We prove that SR-$k$ methods have the local superlinear convergence rate of $\\mathcal{O}\\big((1-k/d)^{t(t-1)/2}\\big)$ for minimizing smooth and strongly convex functions, where $d$ is the problem dimension and $t$ is the iteration counter. This is the first explicit superlinear convergence rate for block quasi-Newton methods, and it successfully explains why block quasi-Newton methods converge faster than ordinary quasi-Newton methods in practice. We also leverage the idea of SR-$k$ methods to study the block BFGS and block DFP methods, showing their superior convergence rates.",
+  "authors": [
+    "Chengchang Liu",
+    "Cheng chen",
+    "Luo Luo"
+  ],
+  "emails": [
+    "liuchengchang@westlake.edu.cn",
+    "chchen@sei.ecnu.edu.cn",
+    "luoluo@fudan.edu.cn"
+  ],
+  "id": "26-0038",
+  "issue": 195,
+  "pages": [
+    1,
+    33
+  ],
+  "title": "Symmetric Rank-k Methods",
+  "volume": 27,
+  "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+  "abstract": "Randomized clinical trials are the gold standard for analyzing treatment effects. However, increasing costs and ethical concerns may limit trial recruitment, resulting in insufficient sample sizes and potentially invalid inference. Incorporating external trial data with similar characteristics (treatments, diseases, biomarkers, etc.) into the analysis appears promising for addressing these issues. Transfer learning, which in our context utilizes external trials as the source domain and current trials as the target domain, may offer a viable approach. In this paper, we present a formal framework for applying transfer learning to the analysis of clinical trials, considering three key perspectives: transfer algorithm, theoretical foundation, and inference method. To cover broad types of randomized trials, we study this problem under stratified randomization, or more generally, covariate-adaptive randomization. For the algorithm, we adopt a parameter-based transfer learning approach to enhance the lasso-adjusted stratum-specific estimator developed for estimating the treatment effect. A key component in constructing the transfer learning estimator is deriving the regression coefficient estimation within each stratum, accounting for the bias between source and target data. To provide a theoretical foundation, we derive the convergence rate for the estimated regression coefficients and subsequently establish the asymptotic normality for the transfer learning estimator. Our results show that when external trial data resemble current trial data, the sample size requirements can be reduced compared to using only current trial data. Finally, we propose a consistent nonparametric variance estimator to facilitate inference that is robust to model misspecifications and applicable to various commonly used randomization procedures. Numerical studies demonstrate the effectiveness and robustness of our proposed estimator across various scenarios. Our study highlights the potential of transfer learning in analyzing randomized clinical trials.",
+  "authors": [
+    "Yujia Gu",
+    "Hanzhong Liu",
+    "Wei Ma"
+  ],
+  "emails": [
+    "guyj@mail.tsinghua.edu.cn",
+    "lhz2016@tsinghua.edu.cn",
+    "mawei@ruc.edu.cn"
+  ],
+  "id": "25-1011",
+  "issue": 172,
+  "pages": [
+    1,
+    61
+  ],
+  "title": "Incorporating external data for analyzing randomized clinical trials: A transfer learning approach",
+  "volume": 27,
+  "year": 2026
+}

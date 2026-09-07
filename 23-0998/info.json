@@ -1,0 +1,18 @@
+{
+  "abstract": "Conformal prediction (CP) was developed to provide finite-sample probabilistic prediction guarantees.  While CP algorithms are a relatively general purpose approach to uncertainty quantification, with finite-sample guarantees, they lack versatility.  Namely, the CP approach does not prescribe how to quantify the degree to which a data set provides evidence in support of (or against) an arbitrary event from a general class of events.  This paper uses tools from imprecise probability theory to build a formal connection between CP and generalized fiducial (GF) inference.  These new insights establish a more general inferential lens from which CP can be understood, and demonstrate the pragmatism of fiducial ideas.  The formal connection establishes a context in which epistemically-derived GF probability matches aleatoric/frequentist probability.  Beyond this fact, this work illustrates how tools from imprecise probability theory, namely lower and upper probability functions, can be applied in the context of the imprecise GF distribution to provide posterior-like, prescriptive inference that is not possible within the CP framework alone.  In addition to the primary CP generalization that is contributed, fundamental connections are synthesized between this new model-free GF and three other areas of contemporary research: nonparametric predictive inference (NPI), conformal predictive systems/distributions, and inferential models (IMs).",
+  "authors": [
+    "Jonathan P Williams"
+  ],
+  "emails": [
+    "jwilli27@ncsu.edu"
+  ],
+  "id": "23-0998",
+  "issue": 141,
+  "pages": [
+    1,
+    28
+  ],
+  "title": "Model-free generalized fiducial inference",
+  "volume": 27,
+  "year": 2026
+}

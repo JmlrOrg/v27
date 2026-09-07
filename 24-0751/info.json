@@ -1,0 +1,22 @@
+{
+  "abstract": "Exploring and detecting community structures hold significant importance in genetics, social sciences, biology, neuroscience and finance, among others. Graphical models are a useful and key tool for community detection through the exploration of sets of variables with group-like properties. In this paper, within the framework of Gaussian graphical models, we propose a decomposition of the underlying graphical structure into low-rank diagonal blocks and a sparse component. This new approach captures the non-overlapping community structure, while uncovering the underlying connectivity, both within and between communities.  We show the significance of this decomposition through two modeling perspectives and propose a three-stage estimation procedure with an efficient algorithm to estimate the sparse structure and communities. We provide conditions to ensure local identifiability and extend the traditional irrepresentability condition to an adaptive form by constructing an effective norm that guarantees the consistency of model selection for the adaptive $\\ell_1$ penalized estimator in the second stage. We also provide the clustering error bound for the $K$-means procedure in the third stage. We conduct extensive numerical experiments to assess the performance of the proposed method and compare it with existing methods. Finally, we apply our method to a dataset of stock returns, demonstrating its capability to accurately identify non-overlapping community structures.",
+  "authors": [
+    "Dapeng Shi",
+    "Tiandong Wang",
+    "Zhiliang Ying"
+  ],
+  "emails": [
+    "dapengshi@cuhk.edu.hk",
+    "td_wang@fudan.edu.cn",
+    "zy9@columbia.edu"
+  ],
+  "id": "24-0751",
+  "issue": 148,
+  "pages": [
+    1,
+    63
+  ],
+  "title": "Simultaneous Identification of  Sparse Structures and Communities in Heterogeneous Graphical Models",
+  "volume": 27,
+  "year": 2026
+}

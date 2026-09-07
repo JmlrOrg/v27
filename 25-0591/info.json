@@ -1,0 +1,22 @@
+{
+  "abstract": "This paper aims to develop tuning-free and robust regularized methods for partially linear models based on partial residual methods. In order to preserve the near-oracle rate of rank Lasso, we construct a new estimator via a data-splitting procedure and name the resulting estimator as data-splitting (DS) rank Lasso, which is based on partial prediction residuals. Thus, the proposed estimation procedure is distinguished from the traditional partial residual based methods, which are based on the model-fitting residuals. We show that the DS rank Lasso enjoys several appealing features including tuning-free property and robust property to heavy-tailed random  errors, and possesses near-oracle rate. We further propose statistical inference procedures for individual coefficients using the debiased Lasso techniques. The resulting estimator is termed the debiased DS rank Lasso estimator. This paper reveals an interesting theoretical finding: the DS rank Lasso estimate achieves near-oracle rate and the proposed debiased DS rank Lasso estimator does not suffer asymptotic efficiency loss due to the use of data-splitting.  We further establish a simultaneous inference procedure based on multiplier bootstrap.  We conduct Monte Carlo studies to assess finite sample performance of the proposed procedures, and illustrate the proposed methodology via an empirical analysis of a real-world data set.",
+  "authors": [
+    "Songshan Yang",
+    "Delin Zhao",
+    "Runze Li"
+  ],
+  "emails": [
+    "yangss@ruc.edu.cn",
+    "dlzhao@fzu.edu.cn",
+    "rzli@psu.edu"
+  ],
+  "id": "25-0591",
+  "issue": 166,
+  "pages": [
+    1,
+    75
+  ],
+  "title": "Statistical Inference for High-dimensional Partially Linear Models via Debiased Rank Lasso",
+  "volume": 27,
+  "year": 2026
+}

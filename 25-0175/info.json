@@ -1,0 +1,28 @@
+{
+  "abstract": "Classically, Bayesian clustering interprets each component of a mixture model as a cluster. The inferred clustering posterior is highly sensitive to any inaccuracies in the kernel within each component. As this kernel is made more flexible, problems arise in identifying the underlying clusters in the data. To address this pitfall, this article proposes a fundamentally different approach to Bayesian clustering that decouples the problems of clustering and flexible modeling of the data density f. Starting with an arbitrary Bayesian model for f and a loss function for defining clusters based on f, we develop a Bayesian decision-theoretic framework for density-based clustering. Within this framework, we develop a Bayesian level set clustering method to cluster data into connected components of a level set of f. We provide  theoretical support, including clustering consistency, and highlight  performance in a variety of simulated examples. An application to astronomical data illustrates improvements over the popular DBSCAN algorithm in terms of accuracy, insensitivity to tuning parameters, and providing uncertainty quantification.",
+  "authors": [
+    "David Buch",
+    "Miheer Dewaskar",
+    "David B. Dunson"
+  ],
+  "emails": [
+    "davidbuch42@gmail.com",
+    "mdewaskar@unm.edu",
+    "dunson@duke.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/davidbuch/ballet_article"
+    ]
+  ],
+  "id": "25-0175",
+  "issue": 159,
+  "pages": [
+    1,
+    68
+  ],
+  "title": "Bayesian Level Set Clustering",
+  "volume": 27,
+  "year": 2026
+}

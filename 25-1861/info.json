@@ -1,0 +1,24 @@
+{
+  "abstract": "We study the derivative-informed learning of nonlinear operators between infinite-dimensional Hilbert spaces. Such operators can arise as solution maps of partial differential equations, and their approximation by accurate surrogate models can accelerate simulation-intensive tasks of scientific and engineering interest, including inference, control, and uncertainty quantification. Since efficiently performing such tasks often requires an accurate representation of the operator's derivatives, we analyze the approximation capabilities of neural operators measured by Sobolev norms over infinite-dimensional Gaussian input measures. We focus on the reduced basis neural operator, which employs linear encoders/decoders defined on dominant input/output subspaces. We study two methods for generating the subspaces: principal component analysis (PCA) and derivative-informed subspaces (DIS). These use the dominant eigenvectors of the covariance of the data or the derivatives as bases for the subspaces, respectively. We derive bounds for errors arising from both dimension reduction and latent neural network approximations, including sampling errors associated with the empirical estimation of the PCA/DIS subspaces. Our analysis is validated through numerical experiments, which demonstrate that subspaces informed by the underlying operator (DIS or output PCA) yield smaller generalization errors in the Sobolev norm, while input PCA may underperform unless ranks and training sample sizes are sufficiently large.",
+  "authors": [
+    "Dingcheng Luo",
+    "Thomas O'Leary-Roseberry",
+    "Peng Chen",
+    "Omar Ghattas"
+  ],
+  "emails": [
+    "dingcheng.luo@qut.edu.au",
+    "oleary-roseberry.1@osu.edu",
+    "pchen402@gatech.edu",
+    "omar@oden.utexas.edu"
+  ],
+  "id": "25-1861",
+  "issue": 182,
+  "pages": [
+    1,
+    94
+  ],
+  "title": "Dimension Reduction for Derivative-Informed Operator Learning: An Analysis of Approximation Errors",
+  "volume": 27,
+  "year": 2026
+}

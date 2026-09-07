@@ -1,0 +1,22 @@
+{
+  "abstract": "The notion of rank of a Boolean function has been a cornerstone in PAC learning, enabling quasipolynomial-time learning algorithms for polynomial-size decision trees. We present a novel characterization of rank, grounded in the well-known Transformer architecture. We show that the rank of a function $f$ corresponds to the minimum number of Chain of Thought (CoT) iterations required by a single-layer Transformer with hard attention to compute $f$. Based on this characterization, we establish tight bounds on the number of CoT iterations required for specific problems, showing that \\(\\ell\\)-fold function composition necessitates exactly \\(\\ell\\) CoT iterations. Furthermore, we analyze the problem of identifying the position of the \\(k\\)-th occurrence of 1 in a Boolean sequence, proving that it requires \\(k\\) CoT iterations. Finally, we introduce the notion of the multi-head rank that captures multi-head single-layer transformers, and perform the analysis of PAC-learnability of the classes of functions with bounded multi-head rank.",
+  "authors": [
+    "Pablo Barcel{{\\'o}}",
+    "Alexander Kozachinskiy",
+    "Tomasz Steifer"
+  ],
+  "emails": [
+    "pbarcelo@uc.cl",
+    "alexander.kozachinskyi@cenia.cl",
+    "tsteifer@ippt.pan.pl"
+  ],
+  "id": "25-2025",
+  "issue": 185,
+  "pages": [
+    1,
+    41
+  ],
+  "title": "Ehrenfeucht-Haussler Rank and  Chain of Thought",
+  "volume": 27,
+  "year": 2026
+}

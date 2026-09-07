@@ -1,0 +1,20 @@
+{
+  "abstract": "We introduce the neural tangent kernel (NTK) regime for two-layer neural operators and analyze their generalization properties. For early-stopped gradient descent (GD), we derive fast convergence rates that are known to be minimax optimal within the framework of non-parametric regression in reproducing kernel Hilbert spaces (RKHS). We provide bounds on the number of hidden neurons and the number of second-stage samples necessary for generalization. To justify our NTK regime, we additionally show that any operator approximable by a neural operator can also be approximated by an operator from the RKHS. A key application of neural operators is learning surrogate maps for the solution operators of partial differential equations (PDEs). We consider the standard Poisson equation to illustrate our theoretical findings with simulations.",
+  "authors": [
+    "Mike Nguyen",
+    "Nicole M{{\\\"u}}cke"
+  ],
+  "emails": [
+    "mike.nguyen@tu-braunschweig.de",
+    "nicole.muecke@tu-braunschweig.de"
+  ],
+  "id": "25-0507",
+  "issue": 163,
+  "pages": [
+    1,
+    78
+  ],
+  "title": "Optimal Convergence Rates for Neural Operators",
+  "volume": 27,
+  "year": 2026
+}

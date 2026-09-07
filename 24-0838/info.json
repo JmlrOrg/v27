@@ -1,0 +1,26 @@
+{
+  "abstract": "We define extrapolation as statistical inference on a conditional function (e.g., a conditional expectation or conditional quantile) evaluated outside the support of the conditioning variable. This type of extrapolation occurs in many data analysis applications and can invalidate the conclusions if not taken into account. While extrapolation is straightforward in parametric models, it becomes challenging in nonparametric models. In this work, we extend the nonparametric statistical model to explicitly allow for extrapolation and introduce a class of extrapolation assumptions that can be combined with existing inference techniques to draw extrapolation-aware conclusions. The proposed extrapolation assumptions stipulate that the conditional function attains its minimal and maximal directional derivative, in each direction, within the observed support.  We illustrate how the framework applies to several statistical applications including prediction and uncertainty quantification. We furthermore propose a consistent estimation procedure to adjust existing nonparametric estimates for extrapolation by providing lower and upper extrapolation bounds. The procedure is empirically evaluated on simulated and real-world data.",
+  "authors": [
+    "Niklas Pfister",
+    "Peter B{{\\\"u}}hlmann"
+  ],
+  "emails": [
+    "niklas.pfister@gmail.com",
+    "buhlmann@stat.math.ethz.ch"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/NiklasPfister/ExtrapolationAware-Inference"
+    ]
+  ],
+  "id": "24-0838",
+  "issue": 150,
+  "pages": [
+    1,
+    59
+  ],
+  "title": "Extrapolation-Aware Nonparametric Statistical Inference",
+  "volume": 27,
+  "year": 2026
+}

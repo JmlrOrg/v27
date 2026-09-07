@@ -1,0 +1,18 @@
+{
+  "abstract": "Multi-Objective Markov Decision Processes (MOMDPs) are among the most prevalent formal frameworks for addressing sequential decision-making problems involving multiple, potentially conflicting objectives. In most MOMDP approaches, a utility function is employed to aggregate these objectives into a single scalar criterion that encodes user preferences. Despite its widespread adoption, the theoretical foundations of MOMDPs remain incomplete in two main respects: first, there is no general characterisation of the classes of utility functions that guarantee the existence of an optimal policy; second, we do not know which preference relations can be represented by utility functions. This work advances both lines of research through a theoretical analysis of MOMDPs. Specifically, we examine each problem under the two principal formulations of utility functions for MOMDPs: the Scalarised Expected Returns (SER) criterion and the Expected Scalarised Returns (ESR) criterion. Our formal findings allow us to derive formal conditions that describe the families of utility functions and preference relations for which MOMDP algorithms should focus. These analyses can guide the development of new MOMDP algorithms explicitly grounded in our formal results.",
+  "authors": [
+    "Manel Rodriguez-Soto"
+  ],
+  "emails": [
+    "manel.rodriguez@iiia.csic.es"
+  ],
+  "id": "26-1034",
+  "issue": 197,
+  "pages": [
+    1,
+    53
+  ],
+  "title": "Optimising Utility Functions in Multi-Objective Markov Decision Processes",
+  "volume": 27,
+  "year": 2026
+}

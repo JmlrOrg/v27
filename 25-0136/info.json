@@ -1,0 +1,32 @@
+{
+  "abstract": "Existing differentially private (DP) synthetic data generation mechanisms typically assume a single-source table. In practice, data is often distributed across multiple tables with relationships across tables. In this paper, we introduce the first-of-its-kind algorithm that can be combined with any existing DP mechanisms to generate synthetic relational databases. Our algorithm iteratively refines the relationship between individual synthetic tables to minimize their approximation errors in terms of low-order marginal distributions while maintaining referential integrity. This algorithm eliminates the need to flatten a relational database into a master table (saving space), operates efficiently (saving time), and scales effectively to high-dimensional data. We provide both DP and theoretical utility guarantees for our algorithm. Through numerical experiments on real-world datasets, we demonstrate the effectiveness of our method in preserving fidelity to the original data.",
+  "authors": [
+    "Kaveh Alim",
+    "Hao Wang",
+    "Ojas Gulati",
+    "Akash Srivastava",
+    "Navid Azizan"
+  ],
+  "emails": [
+    "mrz@mit.edu",
+    "hao-wang@redhat.com",
+    "ojasg@mit.edu",
+    "akash.srivastava@ibm.com",
+    "azizan@mit.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/azizanlab/dp-relational"
+    ]
+  ],
+  "id": "25-0136",
+  "issue": 158,
+  "pages": [
+    1,
+    50
+  ],
+  "title": "Differentially Private Synthetic Data Generation for Relational Databases",
+  "volume": 27,
+  "year": 2026
+}

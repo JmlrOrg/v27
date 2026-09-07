@@ -1,0 +1,26 @@
+{
+  "abstract": "Bilevel optimization has recently attracted significant attention in machine learning due to its wide range of applications and advanced hierarchical optimization capabilities. In this paper, we propose a plug-and-play framework, named PnPBO, for developing and analyzing stochastic bilevel optimization methods. This framework integrates both modern unbiased and biased stochastic estimators into the single-loop bilevel optimization framework introduced in Dagr{{\\'e}}ou et al. (2022), with several improvements. In the implementation of PnPBO, all stochastic estimators for different variables can be independently incorporated, and an additional moving average technique is applied when using an unbiased estimator for the upper-level variable. In the theoretical analysis, we provide a unified convergence and complexity analysis for PnPBO, demonstrating that the adaptation of various stochastic estimators (including PAGE, ZeroSARAH, and mixed strategies) within the PnPBO framework achieves optimal sample complexity. Specifically, in the finite-sum setting, the resulting complexity matches the lower bound in Dagr{{\\'e}}ou et al. (2024) and is comparable to that of single-level optimization (Zhou and Gu, 2019). This resolves the open question of whether the optimal complexity bounds for solving bilevel optimization are identical to those for single-level optimization. Finally, we empirically validate our framework, demonstrating its effectiveness on several benchmark problems and confirming our theoretical findings.",
+  "authors": [
+    "Tianshu Chu",
+    "Dachuan Xu",
+    "Wei Yao",
+    "Chengming Yu",
+    "Jin Zhang"
+  ],
+  "emails": [
+    "chuts@emails.bjut.edu.cn",
+    "xudc@bjut.edu.cn",
+    "yaow@sustech.edu.cn",
+    "yucm@bupt.edu.cn",
+    "zhangj9@sustech.edu.cn"
+  ],
+  "id": "25-0957",
+  "issue": 171,
+  "pages": [
+    1,
+    41
+  ],
+  "title": "A Provably Convergent Plug-and-Play Framework for Stochastic Bilevel Optimization",
+  "volume": 27,
+  "year": 2026
+}

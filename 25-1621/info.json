@@ -1,0 +1,18 @@
+{
+  "abstract": "The z-transform of a sequence is a classical tool used in signal processing, control theory, computer science, and electrical engineering. It allows one to study sequences from their generating functions, with many operations that can be equivalently defined on the original sequence and its z-transform. In particular, the z-transform method focuses on asymptotic behaviors and allows the use of Taylor expansions. We present a sequence of results of increasing significance and difficulty for linear models and optimization algorithms, demonstrating the effectiveness and versatility of the z-transform method in deriving new asymptotic results. Starting from the simplest gradient descent iterations in an infinite-dimensional Hilbert space, we show how the spectral dimension characterizes the convergence behavior. We then extend the analysis to Nesterov acceleration, averaging techniques, and stochastic gradient descent.",
+  "authors": [
+    "Francis Bach"
+  ],
+  "emails": [
+    "francis.bach@inria.fr"
+  ],
+  "id": "25-1621",
+  "issue": 180,
+  "pages": [
+    1,
+    43
+  ],
+  "title": "On the Effectiveness of the z-Transform Method in Quadratic Optimization",
+  "volume": 27,
+  "year": 2026
+}

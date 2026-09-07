@@ -1,0 +1,28 @@
+{
+  "abstract": "We propose a novel framework for solving nonlinear PDEs using sparse radial basis function (RBF) networks. Sparsity-promoting regularization is employed to prevent over-parameterization and reduce redundant features. This work is motivated by longstanding challenges in traditional RBF collocation methods, along with the limitations of physics-informed neural networks (PINNs) and Gaussian process (GP) approaches, aiming to blend their respective strengths in a unified framework. The theoretical foundation of our approach lies in the function space of Reproducing Kernel Banach Spaces (RKBS) induced by one-hidden-layer neural networks of possibly infinite width. We prove a representer theorem showing that the sparse optimization problem in the RKBS admits a finite solution and establish error bounds that offer a foundation for generalizing classical numerical analysis.  The algorithmic framework is based on a three-phase algorithm to maintain computational efficiency through adaptive feature selection, second-order optimization, and pruning of inactive neurons. Numerical experiments demonstrate the effectiveness of our method and highlight cases where it offers notable advantages over GP approaches. This work opens new directions for adaptive PDE solvers grounded in rigorous analysis with efficient, learning-inspired implementation.",
+  "authors": [
+    "Zihan Shao",
+    "Konstantin Pieper",
+    "Xiaochuan Tian"
+  ],
+  "emails": [
+    "z6shao@ucsd.edu",
+    "pieperk@ornl.gov",
+    "xctian@ucsd.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/EddyShao/SparseKernelPDE"
+    ]
+  ],
+  "id": "25-1399",
+  "issue": 177,
+  "pages": [
+    1,
+    58
+  ],
+  "title": "Solving Nonlinear PDEs with Sparse Radial Basis Function Networks",
+  "volume": 27,
+  "year": 2026
+}

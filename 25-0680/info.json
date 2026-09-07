@@ -1,0 +1,28 @@
+{
+  "abstract": "We study the problem of estimating the spectral density of a centered stationary Gaussian time series under local differential privacy constraints. Specifically, we propose new interactive privacy mechanisms for three tasks: recovering a single covariance coefficient, recovering the spectral density at a fixed frequency, and global recovery. Our approach achieves faster rates through a two-stage process: we first apply the Laplace mechanism to the truncated value, and then use the resulting privatized sample to learn about the dependence mechanism in the time series. For spectral densities belonging to H{{\\\"o}}lder and Sobolev smoothness classes, we demonstrate that our algorithms improve upon the non-interactive mechanism of Kroll (2024) for small privacy parameter $\\alpha$, since the pointwise rates depend on $n\\alpha^2$ instead of $n\\alpha^4$. Moreover, we show that the rate $(n\\alpha^4)^{-1}$ is optimal for estimating a covariance coefficient with non-interactive mechanisms. However, the $L_2$ rate of our interactive estimator is slower than the pointwise rate. We show how to use these procedures to provide a bona fide locally differentially private estimator of the entire covariance matrix. A simulation study validates our findings.",
+  "authors": [
+    "Cristina Butucea",
+    "Karolina Klockmann",
+    "Tatyana Krivobokova"
+  ],
+  "emails": [
+    "cristina.butucea@ensae.fr",
+    "karolina.klockmann@univie.ac.at",
+    "tatyana.krivobokova@univie.ac.at"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/kklockmann/Nonparametric-Spectral-Density-Estimation-LDP"
+    ]
+  ],
+  "id": "25-0680",
+  "issue": 168,
+  "pages": [
+    1,
+    49
+  ],
+  "title": "Nonparametric Spectral Density Estimation using Interactive Mechanisms under Local Differential Privacy",
+  "volume": 27,
+  "year": 2026
+}

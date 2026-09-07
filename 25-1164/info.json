@@ -1,0 +1,18 @@
+{
+  "abstract": "Deep Q-Networks (DQNs) and related residual neural architectures are increasingly used for continuous-time reinforcement learning (CTRL), where optimal value functions solve fully nonlinear second-order Hamilton--Jacobi--Bellman (HJB) equations and may be non-smooth. In this regime, convergence should be analyzed in the viscosity-solution framework. We study a spatially-coupled monotone ResNet architecture whose one-step operator is a non-negative local aggregation, designed to satisfy monotonicity and stability at the operator level. Under a consistency assumption on the learned operator, we obtain operator-level convergence to the viscosity solution via the Barles--Souganidis framework. We then distinguish this idealized operator iteration from practical fitted value iteration with projection onto a neural function class, and discuss the resulting approximation gap. Empirically, on stochastic control benchmarks, the proposed architecture exhibits smaller overshoot near kinks and more stable numerical behavior than pointwise PINN-style baselines in our experiments.",
+  "authors": [
+    "Qian Qi"
+  ],
+  "emails": [
+    "qiqian@pku.edu.cn"
+  ],
+  "id": "25-1164",
+  "issue": 176,
+  "pages": [
+    1,
+    26
+  ],
+  "title": "Viscosity Convergence Analysis for Deep Q-Networks",
+  "volume": 27,
+  "year": 2026
+}

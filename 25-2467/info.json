@@ -1,0 +1,33 @@
+{
+  "abstract": "This paper introduces torchsom, an open-source Python library that provides a reference implementation of the Self-Organizing Map (SOM) in PyTorch. This package offers three main features: (i) dimensionality reduction, (ii) clustering, and (iii) friendly data visualization. It relies on a PyTorch backend, enabling (i) fast and efficient training of SOMs through GPU acceleration, and (ii) easy and scalable integration with the PyTorch ecosystem. torchsom also follows the scikit-learn API for ease of use and extensibility. The library is released under the Apache 2.0 license with 90% test coverage, and its source code and documentation are available at https://github.com/michelin/TorchSOM.",
+  "authors": [
+    "Louis Berthier",
+    "Ahmed Shokry",
+    "Maxime Moreaud",
+    "Guillaume Ramelet",
+    "Eric Moulines"
+  ],
+  "emails": [
+    "louis-desire-romeo.berthier@michelin.com",
+    "ahmed.shokry@polytechnique.edu",
+    "maxime.moreaud@michelin.com",
+    "guillaume.ramelet@michelin.com",
+    "eric.moulines@polytechnique.edu"
+  ],
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/michelin/TorchSOM"
+    ]
+  ],
+  "id": "25-2467",
+  "issue": 190,
+  "pages": [
+    1,
+    17
+  ],
+  "special_issue": "MLOSS",
+  "title": "torchsom: The Reference PyTorch Library for Self-Organizing Maps",
+  "volume": 27,
+  "year": 2026
+}
