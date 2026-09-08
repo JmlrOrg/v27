@@ -1,24 +1,24 @@
 {
-    "abstract": "Recently, Masked Pretraining (MPT) based on reconstruction pretraining tasks has risen to a promising self-supervised learning paradigm across various domains and achieves remarkable performance in multiple downstream tasks. However, the theoretical understanding of the working mechanism behind MPT is still limited. In this paper, we introduce a new theoretical framework to analyze MPT and understand the crucial role of masking in extracting meaningful representations. We establish theoretical connections between MPT and another popular self-supervised paradigm: contrastive learning. We prove that the masking technique implicitly creates positive pairs that are semantically similar and the reconstruction loss pulls them together in the feature space. Besides, as a result of the implicit alignment, we point out the dimensional collapse issue of MPT and propose a Uniformity-enhanced MPT (U-MPT) loss that can effectively address this issue and bring significant improvements in downstream tasks including linear evaluation, cross-dataset fine-tuning and out-of-distribution generalization on real-world data sets. Furthermore, we establish downstream guarantees of U-MPT and theoretically analyze the influence of masking strategies. Based on the theoretical analysis, we propose a new masking strategy which enhances the downstream performance of MPT and explains current improvements of masking strategies with our theoretical perspective.",
-    "authors": [
-        "Qi Zhang",
-        "Runyu Zhou",
-        "Yifei Wang",
-        "Yisen Wang"
-    ],
-    "emails": [
-        "zhangq327@stu.pku.edu.cn",
-        "runyuzhou25@stu.pku.edu.cn",
-        "yifei_w@mit.edu",
-        "yisen.wang@pku.edu.cn"
-    ],
-    "id": "25-0477",
-    "issue": 199,
-    "pages": [
-        1,
-        44
-    ],
-    "title": "A Theoretical Framework for Masked Pretraining (MPT)",
-    "volume": 27,
-    "year": 2026
+  "title": "A Theoretical Framework for Masked Pretraining (MPT)",
+  "abstract": "Recently, Masked Pretraining (MPT) based on reconstruction pretraining tasks has risen to a promising self-supervised learning paradigm across various domains and achieves remarkable performance in multiple downstream tasks. However, the theoretical understanding of the working mechanism behind MPT is still limited. In this paper, we introduce a new theoretical framework to analyze MPT and understand the crucial role of masking in extracting meaningful representations. We establish theoretical connections between MPT and another popular self-supervised paradigm: contrastive learning. We prove that the masking technique implicitly creates positive pairs that are semantically similar and the reconstruction loss pulls them together in the feature space. Besides, as a result of the implicit alignment, we point out the dimensional collapse issue of MPT and propose a Uniformity-enhanced MPT (U-MPT) loss that can effectively address this issue and bring significant improvements in downstream tasks including linear evaluation, cross-dataset fine-tuning and out-of-distribution generalization on real-world data sets. Furthermore, we establish downstream guarantees of U-MPT and theoretically analyze the influence of masking strategies. Based on the theoretical analysis, we propose a new masking strategy which enhances the downstream performance of MPT and explains current improvements of masking strategies with our theoretical perspective.",
+  "authors": [
+    "Qi Zhang",
+    "Runyu Zhou",
+    "Yifei Wang",
+    "Yisen Wang"
+  ],
+  "emails": [
+    "zhangq327@stu.pku.edu.cn",
+    "runyuzhou25@stu.pku.edu.cn",
+    "yifei_w@mit.edu",
+    "yisen.wang@pku.edu.cn"
+  ],
+  "id": "25-0477",
+  "issue": 199,
+  "pages": [
+    1,
+    46
+  ],
+  "volume": 27,
+  "year": 2026
 }
