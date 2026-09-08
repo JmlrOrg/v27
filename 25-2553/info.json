@@ -1,0 +1,47 @@
+{
+    "abstract": "We introduce MarkDiffusion, an open-source Python toolkit for generative watermarking of latent diffusion models. It comprises three key components: a unified implementation framework for streamlined watermarking algorithm integration and user-friendly interfaces; a mechanism visualization suite that intuitively presents embedded and extracted watermark patterns to aid public understanding; and a comprehensive evaluation module offering standard implementations of 24 tools for assessing detectability, robustness, and output quality, plus 8 automated evaluation pipelines. Counts reflect the initial release; see the repository for the latest version. Through MarkDiffusion, we seek to assist researchers, enhance public awareness of and engagement with generative watermarking, help build consensus, and advance research and applications. Code is available at https://github.com/THU-BPM/MarkDiffusion.",
+    "authors": [
+        "Leyi Pan",
+        "Sheng Guan",
+        "Zheyu Fu",
+        "Luyang Si",
+        "Huan Wang",
+        "Zian Wang",
+        "Hanqian Li",
+        "Xuming Hu",
+        "Irwin King",
+        "Philip S. Yu",
+        "Aiwei Liu",
+        "Lijie Wen"
+    ],
+    "emails": [
+        "panly24@mails.tsinghua.edu.cn",
+        "guansheng2022@bupt.edu.cn",
+        "fuzy23@mails.tsinghua.edu.cn",
+        "sily23@mails.tsinghua.edu.cn",
+        "huan-wan23@mails.tsinghua.edu.cn",
+        "arthurwzaa@gmail.com",
+        "hli994@connect.hkust-gz.edu.cn",
+        "xuminghu97@gmail.com",
+        "king@cuhk.edu.hk",
+        "psyu@uic.edu",
+        "liuaiwei20@gmail.com",
+        "wenlj@tsinghua.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/THU-BPM/MarkDiffusion"
+        ]
+    ],
+    "id": "25-2553",
+    "issue": 204,
+    "pages": [
+        1,
+        22
+    ],
+    "special_issue": "MLOSS",
+    "title": "MarkDiffusion: An Open-Source Toolkit for Generative Watermarking of Latent Diffusion Models",
+    "volume": 27,
+    "year": 2026
+}

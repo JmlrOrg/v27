@@ -1,0 +1,24 @@
+{
+    "abstract": "Chain-of-Thought (CoT) prompting and its variants have gained significant attention as effective methods for solving multi-step reasoning tasks with pretrained large language models (LLMs). However, their theoretical underpinnings remain insufficiently explored. We analyze CoT prompting from a statistical perspective, offering insights into why ``pretrained LLMs + CoT prompting'' performs well. Additionally, we examine the role of the transformer architecture and the inclusion of intermediate reasoning steps in enhancing performance. We introduce a multi-step latent variable model to capture the reasoning process. In this model, we show that the estimator induced by CoT prompting approximates a Bayesian estimator that solves the reasoning task by inferring the posterior distribution from examples in the prompt. We prove that the statistical error of the CoT estimator consists of (i) a prompting error, which is incurred in inferring the desired task from the prompt, and (ii) a pretraining error, which is the statistical error of the pretrained LLM. We further prove that the prompting error decreases exponentially as the number of examples in the prompt increases. For the pretrained LLM, we construct a transformer model class that explicitly approximates the target distribution and establish the generalization error under the Pac-Bayes framework.",
+    "authors": [
+        "Xinyang Hu",
+        "Fengzhuo Zhang",
+        "Siyu Chen",
+        "Zhuoran Yang"
+    ],
+    "emails": [
+        "xinyang.hu@yale.edu",
+        "fzzhang@u.nus.edu",
+        "siyu.chen.sc3226@yale.edu",
+        "zhuoran.yang@yale.edu"
+    ],
+    "id": "25-2240",
+    "issue": 202,
+    "pages": [
+        1,
+        104
+    ],
+    "title": "Unveiling the Statistical Foundations of Chain-of-Thought Prompting Methods",
+    "volume": 27,
+    "year": 2026
+}

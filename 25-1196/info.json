@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the relationship between learnability of a \"base class\" of functions on a set $X$,  and learnability of a class of  statistical functions derived from the base class. For example, we refine results showing that learnability of a family $h_p: p \\in \\Theta$ of functions implies learnability of the family of functions $h_\\mu(p) = \\mathbb{E}_\\mu[h_p]$, where $\\mathbb{E}_\\mu$ is the expectation with respect to $\\mu$, and $\\mu$ ranges over probability distributions on $X$. We will look at both  Probably Approximately Correct (PAC) learning, where example inputs and outputs are chosen at random, and online learning, where the examples are chosen adversarially. For agnostic learning, we establish improved bounds on the sample complexity of learning for statistical classes, stated in terms of combinatorial dimensions of the base class.  We connect these problems to techniques introduced in model theory for \"randomizing a structure\".  We also provide counterexamples for realizable learning, in both the PAC and online settings.",
+    "authors": [
+        "Aaron Anderson",
+        "Michael Benedikt"
+    ],
+    "emails": [
+        "awanders@sas.upenn.edu",
+        "michael.benedikt@cs.ox.ac.uk"
+    ],
+    "id": "25-1196",
+    "issue": 200,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "From learnable objects to learnable random objects",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "We discuss causal inference for observational studies with possibly invalid instrumental variables. We propose a novel methodology called two-stage curvature identification (\\texttt{TSCI}) by exploring the nonlinear treatment model with machine learning. The first-stage machine learning enables improving the instrumental variable's strength and adjusting for different forms of violating the instrumental variable assumptions. The success of \\texttt{TSCI} requires the instrumental variable's effect on treatment to differ from its violation form. A novel bias correction step is implemented to remove bias resulting from the potentially high complexity of machine learning. Our proposed \\texttt{TSCI} estimator is shown to be asymptotically unbiased and Gaussian even if the machine learning algorithm does not consistently estimate the treatment model. Furthermore, we design a data-dependent method to choose the best among several candidate violation forms. We apply \\texttt{TSCI} to study the effect of education on earnings.",
+    "authors": [
+        "Zijian Guo",
+        "Mengchu Zheng",
+        "Peter B{{\\\"u}}hlmann"
+    ],
+    "emails": [
+        "zijguo@zju.edu.cn",
+        "mz666@stat.rutgers.edu",
+        "buhlmann@stat.math.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/zijguo/TSCI-Replication"
+        ]
+    ],
+    "id": "24-0515",
+    "issue": 198,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Robustness Against Weak or Invalid Instruments: Exploring Nonlinear Treatment Models with Machine Learning",
+    "volume": 27,
+    "year": 2026
+}

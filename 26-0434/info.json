@@ -1,0 +1,45 @@
+{
+    "abstract": "We present NeuralOperator, an open-source Python library for operator learning. Neural operators generalize neural networks to maps between function spaces instead of finite-dimensional Euclidean spaces. They can be trained and inferenced on input and output functions given at various discretizations, satisfying a discretization convergence properties. Part of the official PyTorch Ecosystem, NeuralOperator provides all the tools for training and deploying neural operator models, as well as developing new ones, in a high-quality, tested, open-source package. It combines cutting-edge models and customizability with a gentle learning curve and simple user interface for newcomers and researchers.",
+    "authors": [
+        "Jean Kossaifi",
+        "Nikola Kovachki",
+        "Zongyi Li",
+        "David Pitt",
+        "Miguel Liu-Schiaffini",
+        "Robert J. George",
+        "Boris Bonev",
+        "Kamyar Azizzadenesheli",
+        "Julius Berner",
+        "Valentin Duruisseaux",
+        "Anima Anandkumar"
+    ],
+    "emails": [
+        "jean.kossaifi@gmail.com",
+        "kovachki93@gmail.com",
+        "zli@wustl.edu",
+        "david.h.pitt@gmail.com",
+        "mliuschi@caltech.edu",
+        "rgeorge@caltech.edu",
+        "bonevbs@gmail.com",
+        "kaazizzad@gmail.com",
+        "julius.berner@univie.ac.at",
+        "vduruiss@caltech.edu",
+        "animakumar@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/neuraloperator/neuraloperator"
+        ]
+    ],
+    "id": "26-0434",
+    "issue": 205,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "A Library for Learning Neural Operators",
+    "volume": 27,
+    "year": 2026
+}
