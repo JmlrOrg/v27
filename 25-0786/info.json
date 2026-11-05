@@ -1,0 +1,28 @@
+{
+    "abstract": "In real-world applications, data often reside in restricted domains with unknown boundaries, or as high-dimensional point clouds lying on a lower-dimensional, nontrivial, unknown manifold. Traditional Gaussian Processes (GPs) struggle to capture the underlying geometry in such settings. Some existing methods assume a flat space embedded in a point cloud, which can be represented by a single latent chart (latent space), while others exhibit weak performance when the point cloud is sparse or irregularly sampled. The goal of this work is to address these challenges. The main contributions are twofold: (1) We establish the Atlas Brownian Motion (BM) framework for estimating the heat kernel on point clouds with unknown geometries and nontrivial topological structures;  (2) Instead of directly using the estimated heat kernel as the GP covariance function, we construct a Riemannian-corrected kernel in which the estimated heat kernel acts as a geometry-aware correction to a positive-definite local base kernel. This leads to the formulation of Riemannian-corrected Atlas Gaussian Processes (RC-AGPs), which substantially reduce the BM simulation cost by requiring simulations only from atlas representatives rather than from all data points. The resulting RC-AGPs are applied to regression tasks across synthetic and real-world data sets. These examples demonstrate that our method outperforms existing approaches in both heat kernel estimation and regression accuracy. It improves statistical inference by effectively bridging the gap between complex, high-dimensional observations and manifold-based inferences.",
+    "authors": [
+        "Mu Niu",
+        "Yue Zhang",
+        "Ke Ye",
+        "Pokman Cheung",
+        "Yizhu Wang",
+        "Xiaochen Yang"
+    ],
+    "emails": [
+        "mu.niu@glasgow.ac.uk",
+        "2416950z@student.gla.ac.uk",
+        "keyk@amss.ac.cn",
+        "pokman@alumni.stanford.edu",
+        "2603214w@student.gla.ac.uk",
+        "xiaochen.yang@glasgow.ac.uk"
+    ],
+    "id": "25-0786",
+    "issue": 221,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Atlas Gaussian processes on restricted domains and point clouds",
+    "volume": 27,
+    "year": 2026
+}

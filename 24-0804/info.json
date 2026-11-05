@@ -1,0 +1,18 @@
+{
+    "abstract": "We study interpolation inequalities between H{{\\\"o}}lder Integral Probability Metrics (IPMs) in the case where the measures have densities on closed submanifolds. Precisely, it is shown that if two probability measures $\\mu$ and $\\mu^\\star$ have $\\beta$-smooth densities with respect to the volume measure of some submanifolds $\\mathcal{M}$ and $\\mathcal{M}^\\star$ respectively, then the H{{\\\"o}}lder IPMs $d_{\\mathcal{H}^\\gamma_1}$ of smoothness $\\gamma\\geq 1$ and $d_{\\mathcal{H}^\\eta_1}$ of smoothness $\\eta>\\gamma$, satisfy $d_{ \\mathcal{H}_1^{\\gamma}}(\\mu,\\mu^\\star)\\lesssim  d_{ \\mathcal{H}_1^{\\eta}}(\\mu,\\mu^\\star)^\\frac{\\beta+\\gamma}{\\beta+\\eta}$, up to logarithmic factors. We provide an application of this result to high-dimensional inference. These functional inequalities turn out to be a key tool for density estimation on unknown submanifold. In particular, it allows to build the first estimator attaining optimal rates of estimation for all the distances $d_{\\mathcal{H}_1^\\gamma}$, $\\gamma \\in [1,\\infty)$ simultaneously.",
+    "authors": [
+        "Arthur St{{\\'e}}phanovitch"
+    ],
+    "emails": [
+        "arthur.stephanovitch@ensae.fr"
+    ],
+    "id": "24-0804",
+    "issue": 212,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Integral Probability Metrics on Submanifolds: Interpolation Inequalities and Optimal Inference",
+    "volume": 27,
+    "year": 2026
+}

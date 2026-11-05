@@ -1,0 +1,30 @@
+{
+    "abstract": "In this paper, we examine whether a set of sparse symbolic interactions can faithfully explain the complex inference patterns of large language models (LLMs), thereby using interactions to diagnose the detailed representations of LLMs. Since previous studies lack a comprehensive proof for interaction-based explanations, we first experimentally verify the sparsity of interactions in LLMs, i.e., we observe that 50--100 interactions are usually powerful enough to accurately mimic all subtle changes in the LLM's output scores over an exponential number of arbitrary masked inputs. More crucially, interactions provide new perspectives for analyzing an LLM. (1) We propose to disentangle the interactions encoded by the LLM in a coarse-to-fine manner and use interactions to analyze the increasing representational complexity of features during forward propagation. The clear disentanglement of interactions enables us to identify incorrect inference patterns hidden in an LLM. (2) We empirically demonstrate that LLMs with different architectures encode similar interactions for text generation, and simple interactions are more likely to be consistently extracted by different LLMs than complex interactions. (3) We also empirically demonstrate that an LLM encodes similar interactions over semantically similar input sentences. Again, simple interactions are more likely to be stably extracted than complex interactions. (4) We empirically find that low-order interactions can serve as indicators for guiding model compression.",
+    "authors": [
+        "Lei Cheng",
+        "Wen Shen",
+        "Quanshi Zhang",
+        "Yuchen Huang",
+        "Yiming Zhang",
+        "Yuxiao Yang",
+        "Mingjie Li"
+    ],
+    "emails": [
+        "chenglei20020408@sjtu.edu.cn",
+        "wenshen@tongji.edu.cn",
+        "zqs1022@sjtu.edu.cn",
+        "hyc18382428684@gmail.com",
+        "mxsaber@sjtu.edu.cn",
+        "yangyuxiao@sjtu.edu.cn",
+        "limingjie0608@sjtu.edu.cn"
+    ],
+    "id": "24-1060",
+    "issue": 213,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Exploring Inference Patterns of LLMs as Symbolic Interactions",
+    "volume": 27,
+    "year": 2026
+}

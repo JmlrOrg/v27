@@ -1,0 +1,22 @@
+{
+    "abstract": "Various statistical tasks, including sampling or computing Wasserstein barycenters, can be reformulated as fixed-point problems for operators on probability distributions. Accelerating standard fixed-point iteration schemes provides a promising novel approach to the design of efficient numerical methods for these problems. The Wasserstein geometry on the space of probability measures, although not precisely Riemannian, allows us to define various useful Riemannian notions, such as tangent spaces, exponential maps and parallel transport, motivating the adaptation of Riemannian numerical methods. We demonstrate this by developing and implementing the Riemannian Anderson mixing (RAM) method for Gaussian distributions. The method reuses the history of the residuals and improves the iteration complexity, and we argue that the additional costs, compared to the Picard method, are negligible. We show that certain balls in the Bures--Wasserstein manifold satisfy the requirements for convergence of RAM. The numerical experiments show a significant acceleration compared to the Picard iteration, and performance on par with Riemannian gradient descent and conjugate gradient methods.",
+    "authors": [
+        "Vitalii Aksenov",
+        "Martin Eigel",
+        "Mathias Oster"
+    ],
+    "emails": [
+        "vitalii.aksenov@wias-berlin.de",
+        "martin.eigel@wias-berlin.de",
+        "oster@igpm.rwth-aachen.de"
+    ],
+    "id": "26-0075",
+    "issue": 234,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Anderson Mixing in Bures\u2013Wasserstein Space of Gaussian Measures",
+    "volume": 27,
+    "year": 2026
+}

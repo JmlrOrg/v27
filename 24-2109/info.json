@@ -1,0 +1,26 @@
+{
+    "abstract": "In this article, we propose a methodology for learning a risk score based on a general loss function, in which the score function is parameterized by a rectified linear unit feedforward deep neural network. The non-asymptotic error bound of the loss function is established and three examples are provided to illustrate the proposed method. The finite sample behavior of the proposed method is evaluated through simulation studies and an application to a SEER colon cancer data is provided.",
+    "authors": [
+        "Dongxiao Han",
+        "Zan Li",
+        "Xinyuan Song",
+        "Donglin Zeng",
+        "Liuquan Sun"
+    ],
+    "emails": [
+        "handongxiao@nankai.edu.cn",
+        "lizan2022@nankai.edu.cn",
+        "xysong@cuhk.edu.hk",
+        "dzeng@umich.edu",
+        "slq@amt.ac.cn"
+    ],
+    "id": "24-2109",
+    "issue": 217,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Deep Neural Network for Estimating General Risk Scores with Right Censored Data",
+    "volume": 27,
+    "year": 2026
+}

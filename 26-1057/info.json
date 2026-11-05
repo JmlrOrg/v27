@@ -1,0 +1,30 @@
+{
+    "abstract": "We present CLASSIX, an open-source Python library for fast and explainable clustering. The library provides a unified interface to three metric-specific implementations, compiled acceleration with portable Python fallbacks, and extensive user and developer documentation. CLASSIX accepts NumPy arrays and Pandas DataFrames and is available under the MIT license at https://github.com/nla-group/classix.",
+    "authors": [
+        "Xinye Chen",
+        "Stefan G{{\\\"u}}ttel",
+        "Kaustubh Roy"
+    ],
+    "emails": [
+        "chenxy1110@chinatelecom.cn",
+        "stefan.guettel@manchester.ac.uk",
+        "kaustubh.roy@manchester.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nla-group/classix"
+        ]
+    ],
+    "id": "26-1057",
+    "issue": 237,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "CLASSIX: A High-Performance Library for Explainable~Clustering",
+    "title_html": "CLASSIX: A High-Performance Library for Explainable Clustering",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "Poisson non-negative matrix factorization (NMF) is a widely used method to find interpretable \"parts-based\" decompositions of count data. While many variants of Poisson NMF exist, they all assume that the \"parts\" in the decomposition combine additively. This assumption may be natural in some settings, but not in others. Here, we introduce Poisson NMF with the shifted-log link function to relax this assumption. The shifted-log link function has a single tuning parameter, and as this parameter varies the model changes from assuming that parts combine additively to assuming that parts combine more multiplicatively. We provide an algorithm to fit this model by maximum likelihood, and also an approximation that substantially reduces computation time for large, sparse datasets. We illustrate these new methods on a variety of real and simulated data. Our examples show that while standard Poisson NMF often leads to sparse, cluster-like representations of data, the shifted-log link can produce more modular, layered results.",
+    "authors": [
+        "Eric Weine",
+        "Peter Carbonetto",
+        "Rafael A. Irizarry",
+        "Matthew Stephens"
+    ],
+    "emails": [
+        "ericw456@mit.edu",
+        "pcarbo@uchicago.edu",
+        "rafael_irizarry@dfci.harvard.edu",
+        "mstephens@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/eweine/log1pNMF"
+        ]
+    ],
+    "id": "26-0085",
+    "issue": 235,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "A New Family of Poisson Non-negative Matrix Factorization Methods Using the Shifted Log Link",
+    "volume": 27,
+    "year": 2026
+}

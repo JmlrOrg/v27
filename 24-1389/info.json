@@ -1,0 +1,24 @@
+{
+    "abstract": "The synthetic controls method is a popular approach for analyzing panel data to estimate the causal effect of major policy interventions. The method is known to be justified when the data-generating process can be described by a linear factor model. This paper provides an alternative justification for the synthetic control method, which leads to a generalization of the algorithm that can incorporate non-linear factor models. Our justification centers around negative control outcomes, outcome variables for which the intervention is known a priori to have no effect. In synthetic controls, both pre-intervention outcomes of the target and pre- and post-intervention outcomes of the donors are all negative controls. Our key observation is that causal effects are identifiable under two assumptions: (1) the latent factors of the true (not necessarily linear) factor model satisfy weak unconfoundedness, and (2) the latent factors can be theoretically determined by the negative control outcomes. For example, these assumptions can be approximately satisfied in panel data with a long pre-treatment period. Based on these assumptions, we then generalize the synthetic controls method to an algorithm that estimates causal effects in non-linear settings. Crucial to this procedure is the idea of model criticism: the practitioner has license to explore and select a probabilistic factor model from a large class, provided it passes its goodness-of-fit test. We demonstrate this approach on a semi-synthetic study and use it to re-analyze a recent study on the impact of opening football stadiums during the COVID-19 pandemic. We find that this generalized approach to synthetic controls provides better counterfactual prediction than classical synthetic controls.",
+    "authors": [
+        "Yixin Wang",
+        "Aaron Schein",
+        "Joshua Shou",
+        "David M. Blei"
+    ],
+    "emails": [
+        "yixinw@umich.edu",
+        "schein@uchicago.edu",
+        "jshou@uchicago.edu",
+        "david.blei@columbia.edu"
+    ],
+    "id": "24-1389",
+    "issue": 214,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "A Negative-Control-Outcome Perspective on the Synthetic Control Method",
+    "volume": 27,
+    "year": 2026
+}

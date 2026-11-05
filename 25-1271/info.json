@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we consider estimation of the average treatment effect on the treated (ATT), an interpretable and relevant causal estimand to policymakers when treatment assignment is endogenous. By considering shadow variables that are unrelated to the treatment assignment but related to the outcomes of interest, we establish identification of the ATT. Then we focus on efficient estimation of the ATT by characterizing the geometric structure of the likelihood, deriving the semiparametric efficiency bound for ATT estimation and proposing an estimator that can achieve this bound. We rigorously establish the theoretical results of the proposed estimator. The finite sample performance of the proposed estimator is studied through comprehensive simulation studies as well as an application to our motivating study.",
+    "authors": [
+        "Trinetri Ghosh",
+        "Jiawei Shan",
+        "Menggang Yu",
+        "Jiwei Zhao"
+    ],
+    "emails": [
+        "trinetrighosh.kolkata@gmail.com",
+        "jiawei.shan@wisc.edu",
+        "menggang@umich.edu",
+        "jiwei.zhao@wisc.edu"
+    ],
+    "id": "25-1271",
+    "issue": 224,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Efficient Estimation of Average Treatment Effect on the Treated under Endogenous Treatment Assignment",
+    "volume": 27,
+    "year": 2026
+}

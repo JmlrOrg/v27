@@ -1,0 +1,32 @@
+{
+    "abstract": "We introduce the Weisfeiler\u2013Lehman (WL) distance, a pseudometric defined on labeled measure Markov chains (LMMCs)\u2014a general class of structures encompassing labeled graphs. This distance is computable in polynomial time and is closely aligned with the classical WL graph isomorphism test: it assigns a positive value if and only if the WL test distinguishes the two input graphs. The WL distance captures fine structural differences in the underlying LMMCs and is, consequently, more discriminative than the state-of-the-art Wasserstein WL graph kernel. The distance motivates a neural network architecture on LMMCs, which we call Markov chain neural networks (MCNNs), that is universal for continuous functions over LMMCs (hence all graphs) under the topology induced by the WL distance. This finding further extends to the analysis of graph neural networks (GNNs). Additionally, the WL distance admits an alternative characterization through Markovian couplings and Causal Optimal Transport (COT), offering a stochastic-process perspective that uncovers a surprising connection between the seemingly unrelated WL test and COT.  Finally, we show that the WL distance is stable under a natural variant of the Gromov-Wasserstein (GW) distance that we propose. The GW distance is generally NP-hard to compute and hence the WL distance provides a polynomial-time computable lower bound for it.",
+    "authors": [
+        "Samantha Chen",
+        "Sunhyuk Lim",
+        "Facundo M{{\\'e}}moli",
+        "Zhengchao Wan",
+        "Yusu Wang"
+    ],
+    "emails": [
+        "sac003@ucsd.edu",
+        "lsh3109@skku.edu",
+        "facundo.memoli@rutgers.edu",
+        "zwan@missouri.edu",
+        "yusuwang@ucsd.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chens5/WL-distance"
+        ]
+    ],
+    "id": "25-0947",
+    "issue": 223,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "Weisfeiler-Lehman Meets Optimal Transport: Theory, Algorithms, and Implications",
+    "volume": 27,
+    "year": 2026
+}

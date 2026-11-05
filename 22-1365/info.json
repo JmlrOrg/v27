@@ -1,0 +1,30 @@
+{
+    "abstract": "We consider the problem of recovering the causal structure underlying observations from different experimental conditions when the targets of the interventions in each experiment are unknown. We assume a linear structural causal model with additive Gaussian noise and consider interventions that perturb their targets while maintaining the causal relationships in the system. Different models may entail the same distributions, offering competing causal explanations for the given observations. We fully characterize this equivalence class and offer identifiability results, which we use to derive a greedy algorithm called GnIES to recover the equivalence class of the data-generating model without knowledge of the intervention targets. In addition, we develop a novel procedure to generate semi-synthetic data sets with known causal ground truth but distributions closely resembling those of a real data set of choice. We leverage this procedure and evaluate the performance of GnIES on an array of synthetic and semi-synthetic data sets, and real data from a biological system and a tightly controlled physical system. We provide, in the Python packages gnies and sempler, implementations of GnIES and our semi-synthetic data generation procedure.",
+    "authors": [
+        "Juan L. Gamella",
+        "Armeen Taeb",
+        "Christina Heinze-Deml",
+        "Peter B{{\\\"u}}hlmann"
+    ],
+    "emails": [
+        "juan@causalchamber.ai",
+        "ataeb@uw.edu",
+        "heinzedeml@stat.math.ethz.ch",
+        "peter.buehlmann@stat.math.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/juangamella/gnies-paper"
+        ]
+    ],
+    "id": "22-1365",
+    "issue": 207,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Characterization and Greedy Learning of Gaussian Structural Causal Models under Unknown Interventions",
+    "volume": 27,
+    "year": 2026
+}

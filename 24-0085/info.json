@@ -1,0 +1,26 @@
+{
+    "abstract": "Rule set learning has long been studied because individual rules can be directly read and understood by domain experts, making them particularly valuable in high-stakes decision-making settings. Existing methods have several shortcomings though. First, most existing methods impose an order among rules, either explicitly or implicitly, which makes the comprehension of any rule's condition depend on the conditions of preceding rules. Second, due to the difficulty of handling conflicts caused by overlaps (i.e., instances covered by multiple rules), existing methods often do not consider probabilistic rules. Third, learning classification rules for a multi-class target is understudied, as most existing methods focus on either a native binary classification task, or a multi-class task decomposed into binary tasks by adopting the one-versus-rest learning strategy. To address these shortcomings, we propose TURS, for Truly Unordered Rule Sets. To resolve conflicts caused by overlapping rules, we formulate a probabilistic model class based on rule sets that encourages overlap consistency\u2014rules that overlap should give similar probabilistic outputs. We next formalize the problem of learning a TURS model based on the minimum description length (MDL) principle and develop a carefully designed heuristic algorithm. We benchmark against a wide range of rule-based methods and demonstrate that our method learns rule sets that have lower model complexity and highly competitive predictive performance.",
+    "authors": [
+        "Lincen Yang",
+        "Matthijs van Leeuwen"
+    ],
+    "emails": [
+        "l.yang@liacs.leidenuniv.nl",
+        "m.van.leeuwen@liacs.leidenuniv.nl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ylincen/TURS2"
+        ]
+    ],
+    "id": "24-0085",
+    "issue": 210,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Probabilistic Truly Unordered Rule Sets",
+    "volume": 27,
+    "year": 2026
+}

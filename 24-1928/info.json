@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the convergence of q-learning and related algorithms introduced by Jia and Zhou (J. Mach. Learn. Res., 24 (2023), 161) for controlled diffusion processes. For exploratory policy improvement, we establish exponential convergence under growth and regularity assumptions on the model parameters. For q-learning, we derive quantitative error and regret bounds under additional assumptions on the function approximation and the associated stochastic approximation dynamics.",
+    "authors": [
+        "Wenpin Tang",
+        "Xun Yu Zhou"
+    ],
+    "emails": [
+        "wt2319@columbia.edu",
+        "xz2574@columbia.edu"
+    ],
+    "id": "24-1928",
+    "issue": 216,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Regret of exploratory policy improvement and q-learning",
+    "volume": 27,
+    "year": 2026
+}

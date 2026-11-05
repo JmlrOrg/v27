@@ -1,0 +1,36 @@
+{
+    "abstract": "Revealing hidden causal variables alongside the underlying causal mechanisms is essential to the development of science. Despite the progress in the past decades, existing practice in causal discovery (CD) heavily relies on high-quality measured variables, which are usually given by human experts. In fact, the lack of well-defined high-level variables behind unstructured data has been a longstanding roadblock to a broader real-world application of CD. This procedure can naturally benefit from an automated process that can suggest potential hidden variables in the system. Interestingly, Large language models (LLMs) are trained on massive observations of the world and have demonstrated great capability in processing unstructured data. To leverage the power of LLMs, we develop a new framework termed Causal representation Assistant (COAT) that incorporates the rich world knowledge of LLMs to propose useful measured variables for CD with respect to high-value target variables on their paired unstructured data. Instead of directly inferring causality with LLMs, COAT constructs feedback from intermediate CD results to LLMs to refine the proposed variables. Given the target variable and the paired unstructured data, we first develop COAT-MB that leverages the predictivity of the proposed variables to iteratively uncover the Markov Blanket of the target variable. Built upon COAT-MB, COAT-PAG further extends to uncover a more complete causal graph, i.e., Partial Ancestral Graph, by iterating over the target variables and actively seeking new high-level variables. Moreover, the reliable CD capabilities of COAT also extend the debiased causal inference to unstructured data by discovering an adjustment set. We establish theoretical guarantees for the CD results and verify that COAT can effectively and reliably make the most use of LLM knowledge for CD across 7 realistic benchmarks and real-world case studies, including analysis of human reviews and diagnosis of neuropathic and brain tumors.",
+    "authors": [
+        "Chenxi Liu",
+        "Yongqiang Chen",
+        "Tongliang Liu",
+        "Mingming Gong",
+        "James Cheng",
+        "Bo Han",
+        "Kun Zhang"
+    ],
+    "emails": [
+        "cscxliu@comp.hkbu.edu.hk",
+        "yqchen24@gmail.com",
+        "tongliang.liu@sydney.edu.au",
+        "mingming.gong@unimelb.edu.au",
+        "jcheng@cse.cuhk.edu.hk",
+        "bhanml@comp.hkbu.edu.hk",
+        "kunz1@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://causalcoat.github.io/"
+        ]
+    ],
+    "id": "25-2137",
+    "issue": 229,
+    "pages": [
+        1,
+        95
+    ],
+    "title": "Discovering and Reasoning of Causality in the Hidden World with Large Language Models",
+    "volume": 27,
+    "year": 2026
+}

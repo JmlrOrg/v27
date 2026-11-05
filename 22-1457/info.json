@@ -1,0 +1,18 @@
+{
+    "abstract": "We give a simple local Polyak--Lojasiewicz (PL) criterion that guarantees linear (exponential) convergence of gradient flow and gradient descent to a zero-loss solution of a nonnegative objective. We then verify this criterion for the squared training loss of a feedforward neural network with smooth, strictly increasing activation functions, in a regime that is complementary to the usual over-parameterized analyses: the network width and depth are fixed, while the input data vectors are assumed to be linearly independent (in particular, the ambient input dimension is at least the number of data points). A notable feature of the verification is that it is constructive: it leads to a simple \"positive'\" initialization (zero first-layer weights, strictly positive hidden-layer weights, and sufficiently large output-layer weights) under which gradient descent provably converges to an interpolating global minimizer of the training loss. We also discuss a probabilistic corollary for random initializations, clarify its dependence on the probability of the required initialization event, and provide numerical experiments showing that this theory-guided initialization can substantially accelerate optimization relative to standard random initializations at the same width.",
+    "authors": [
+        "Sourav Chatterjee"
+    ],
+    "emails": [
+        "souravc@stanford.edu"
+    ],
+    "id": "22-1457",
+    "issue": 208,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Convergence of gradient descent for deep neural networks",
+    "volume": 27,
+    "year": 2026
+}

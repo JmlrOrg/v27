@@ -1,0 +1,36 @@
+{
+    "abstract": "Stochastic differential equations (SDEs) are a fundamental tool for modelling dynamic processes, including gene regulatory networks (GRNs), contaminant transport, financial markets, and image generation. However, learning the underlying SDE from data is a challenging task, especially if individual trajectories are not observable. Motivated by burgeoning research in single-cell datasets, we present the first comprehensive approach for jointly identifying the drift and diffusion of an SDE from its temporal marginals. Assuming linear drift and additive diffusion, we show that non-identifiability can only arise if the initial distribution possesses generalized rotational symmetries. We further prove that even if this condition holds, the drift and diffusion can almost always be recovered from the marginals. Additionally, we show that the causal graph of any SDE with additive diffusion can be recovered from the identified SDE parameters. To complement this theory, we adapt entropy-regularized optimal transport to handle anisotropic diffusion, and introduce APPEX (Alternating Projection Parameter Estimation from X0), an iterative algorithm designed to estimate the drift, diffusion, and causal graph of an additive noise SDE, solely from temporal marginals, and demonstrate its effectiveness on simulated data from linear additive noise SDEs.",
+    "authors": [
+        "Vincent Guan",
+        "Joseph Janssen",
+        "Hossein Rahmani",
+        "Andrew Warren",
+        "Stephen Y. Zhang",
+        "Elina Robeva",
+        "Geoffrey Schiebinger"
+    ],
+    "emails": [
+        "vguan23@math.ubc.ca",
+        "joejanssen@eoas.ubc.ca",
+        "hrahmani@math.ubc.ca",
+        "awarren@math.ubc.ca",
+        "syz@syz.id.au",
+        "erobeva@math.ubc.ca",
+        "geoff@math.ubc.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/guanton/APPEX"
+        ]
+    ],
+    "id": "25-0541",
+    "issue": 219,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Identifying Drift, Diffusion, and Causal Structure from Temporal Snapshots",
+    "volume": 27,
+    "year": 2026
+}

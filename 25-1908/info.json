@@ -1,0 +1,26 @@
+{
+    "abstract": "Despite progress in the rapidly developing field of geometric deep learning, performing statistical analysis on geometric data\u2014where each observation is a shape such as a curve, graph, or surface\u2014remains challenging due to the non-Euclidean nature of shape spaces, which are defined as equivalence classes under invariance groups. Building machine learning frameworks that incorporate such invariances, notably to shape parametrization, is often crucial to ensure generalizability of the trained models to new observations. This work proposes SVarM to exploit varifold representations of shapes as measures and their duality with test functions $h:\\R^n \\times S^{n-1} \\rightarrow \\R$. This method provides a general framework akin to linear support vector machines but operating instead over the infinite-dimensional space of varifolds. We develop classification and regression models on shape data sets by introducing a neural network-based representation of the trainable test function $h$. This approach demonstrates strong performance and robustness across various shape graph and surface data sets, achieving results comparable to state-of-the-art methods while significantly reducing the number of trainable parameters.",
+    "authors": [
+        "Emmanuel Hartman",
+        "Nicolas Charon"
+    ],
+    "emails": [
+        "ehartma2@cougarnet.uh.edu",
+        "ncharon@central.uh.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SVarM25/SVarM"
+        ]
+    ],
+    "id": "25-1908",
+    "issue": 226,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "SVarM: Linear Support Varifold Machines for Classification and Regression on Geometric Data",
+    "volume": 27,
+    "year": 2026
+}

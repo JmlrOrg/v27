@@ -1,0 +1,20 @@
+{
+    "abstract": "Several variational bounds involving importance weighting ideas generalize the Evidence Lower BOund (ELBO) for marginal likelihood optimization, such as the Importance-weighted Auto-Encoder (IWAE), Variational R{{\\'e}}nyi (VR) and VR-IWAE bounds. Yet, it remains unclear how the joint choice of bound and gradient estimator impacts the behavior of the resulting variational inference (VI) algorithms. This paper provides a unified theoretical comparison of reparameterized (REP) and doubly-reparameterized (DREP) gradient estimators tied to the IWAE, VR and VR-IWAE bounds. Through asymptotic analyses of the Signal-to-Noise Ratio as the number of Monte Carlo samples $N$ goes to infinity, we identify a bias-variance tradeoff in these gradient estimators and we formally justify the superiority of DREP over REP in importance-weighted VI. An additional asymptotic analysis for challenging regimes, where both $N$ and the Kullback-Leibler divergence between the variational and posterior densities go to infinity, indicates that importance-weighted VI gradient estimators point in a well-founded direction even when the variational approximation deteriorates. Together, these complementary results characterize the optimization trajectory in importance-weighted VI from poor initialization to final convergence. Importantly, our proof techniques establish general theoretical tools for the study of sample means ratios whose scope extends beyond VI and constitute an independent contribution to the field of Monte Carlo methods.",
+    "authors": [
+        "Kam{{\\'e}}lia Daudel",
+        "Fran{\\c{c}}ois Roueff"
+    ],
+    "emails": [
+        "daudel@essec.edu",
+        "roueff@telecom-paris.fr"
+    ],
+    "id": "25-2087",
+    "issue": 228,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "Learning with Importance-weighted Variational Inference",
+    "volume": 27,
+    "year": 2026
+}

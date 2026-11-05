@@ -1,0 +1,28 @@
+{
+    "abstract": "Existing visual anomaly detection approaches primarily focus on designing robust score functions but often neglect investigating the decision-making process, which plays a key role in reliable and safety-critical applications. Currently, the decision-making process suffers from two key challenges: distribution shift and theoretical guarantee. To address these issues, this paper proposes a novel approach called Hierarchical Martingale-based Testing framework (HiMT). Specifically, our approach leverages martingale theory to mitigate distribution shift issue and employs a hierarchical multiple testing procedure to rigorously control decision errors at both image level and pixel level. Extensive experimental results verify the superior decision-making capabilities of our proposed HiMT framework at both image level and pixel level.",
+    "authors": [
+        "Jie Wu",
+        "Xinsong Ma",
+        "Xin Zou",
+        "Xiuwen Gong",
+        "Kaizhu Huang",
+        "Weiwei Liu"
+    ],
+    "emails": [
+        "jiewu0907@gmail.com",
+        "maxinsong1018@gmail.com",
+        "zouxin2021@gmail.com",
+        "gongxiuwen@gmail.com",
+        "kaizhu.huang@dukekunshan.edu.cn",
+        "liuweiwei863@gmail.com"
+    ],
+    "id": "25-2884",
+    "issue": 232,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Provable Hierarchical Martingale-based Testing for Visual Anomaly Detection",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We study nonparametric regression using an over-parameterized two-layer neural network trained with algorithmic guarantees in this paper. We consider the setting where the training features are drawn uniformly from the unit sphere in $\\mathbb R^d$, and the target function lies in an interpolation space commonly studied in statistical learning theory. We demonstrate that training the neural network with a novel Preconditioned Gradient Descent (PGD) algorithm, equipped with early stopping, achieves a sharp regression rate of $\\mathcal O(n^{-\\frac{2\\alpha s'}{2\\alpha s'+1}})$, where $\\alpha$ parametrizes the polynomial eigenvalue decay of the regular Neural Tangent Kernel (NTK), $\\lambda_j\\asymp j^{-2\\alpha}$, and $2\\alpha=d/(d-1)$ under the spherical uniform design considered here. The target function is assumed to belong to the interpolation space $[\\mathcal H_K]^{s'}$ with $s'\\ge3$. This rate is even sharper than the currently known nearly-optimal rate of $\\mathcal O(n^{-\\frac{2\\alpha s'}{2\\alpha s'+1}})\\log^2(1/\\delta)$, where $n$ is the size of the training data and $\\delta \\in (0,1)$ is a small probability. This rate is also sharper than the standard kernel regression rate of $\\mathcal O(n^{-\\frac{2\\alpha}{2\\alpha+1}})$ obtained under the regular Neural Tangent Kernel (NTK) regime when training the neural network with the vanilla gradient descent (GD), where $2\\alpha = d/(d-1)$. Our analysis is based on two key technical contributions. First, we present a principled decomposition of the network output at each PGD step into a function in the reproducing kernel Hilbert space (RKHS) of a newly induced integral kernel, and a residual function with small $L^{\\infty}$-norm. Second, leveraging this decomposition, we apply local Rademacher complexity theory to tightly control the complexity of the function class comprising all the neural network functions obtained in the PGD iterates. Our results show how PGD changes the effective kernel in the reference training dynamics, inducing an integral kernel with lower complexity than the regular NTK arising from vanilla GD.",
+    "authors": [
+        "Yingzhen Yang",
+        "Ping Li"
+    ],
+    "emails": [
+        "yingzhen.yang@asu.edu",
+        "pingli98@gmail.com"
+    ],
+    "id": "25-2066",
+    "issue": 227,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Sharp Generalization for Nonparametric Regression in Interpolation Space by Over-Parameterized Neural Networks Trained with Preconditioned Gradient Descent and Early Stopping",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we study and implement an efficient Halpern--Peaceman--Rachford (HPR) algorithm for solving the Wasserstein barycenter problem (WBP) with fixed supports. While the Peaceman--Rachford (PR) splitting method itself may not converge for the WBP, applying the Halpern iteration to the PR operator yields an $O(1/\\varepsilon)$ non-ergodic iteration complexity with respect to the Karush--Kuhn--Tucker (KKT) residual. The structured linear solve in the HPR subproblem corresponds to an affine projection that can be viewed as a coupled extension of Romero's classical OT projection formula. This observation yields a closed-form solution procedure with cost linear in the size of the linear system. Consequently, HPR achieves an $O({\\rm Dim(P)}/\\varepsilon)$ computational complexity in terms of flops for obtaining an $\\varepsilon$-optimal solution measured by the KKT residual of the unregularized WBP, where ${\\rm Dim(P)}$ denotes the number of variables in the corresponding LP formulation. This bound matches the order of the best-known bound for the WBP, while requiring no entropic regularization and measuring accuracy by the KKT residual. Numerical experiments on synthetic and real data sets demonstrate the practical efficiency of the restarted HPR implementation for large-scale WBPs.",
+    "authors": [
+        "Guojun Zhang",
+        "Yancheng Yuan",
+        "Defeng Sun"
+    ],
+    "emails": [
+        "guojun.zhang@connect.polyu.hk",
+        "yancheng.yuan@polyu.edu.hk",
+        "defeng.sun@polyu.edu.hk"
+    ],
+    "id": "22-1363",
+    "issue": 206,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "An Efficient HPR Algorithm for the Wasserstein Barycenter Problem with O(Dim(P)/\u03b5) Computational Complexity",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Graph neural networks (GNNs) have achieved remarkable empirical success in processing and representing graph-structured data across various domains. However, a significant challenge known as \"oversmoothing\" persists, where vertex features become nearly indistinguishable in deep GNNs, severely restricting their expressive power and practical utility. In this work, we analyze the asymptotic oversmoothing behavior of deep GNNs with and without residual connections by deriving explicit convergence rates for a normalized vertex similarity measure. Our analytical framework is grounded in the multiplicative ergodic theorem. Furthermore, we demonstrate that adding residual connections effectively mitigates or prevents oversmoothing across several broad families of parameter distributions. The theoretical findings are strongly supported by numerical experiments.",
+    "authors": [
+        "Ziang Chen",
+        "Zhengjiang Lin",
+        "Shi Chen",
+        "Yury Polyanskiy",
+        "Philippe Rigollet"
+    ],
+    "emails": [
+        "ziang@mit.edu",
+        "linzj@mit.edu",
+        "schen636@mit.edu",
+        "yp@mit.edu",
+        "rigollet@math.mit.edu"
+    ],
+    "id": "25-0890",
+    "issue": 222,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Residual connections provably mitigate oversmoothing in graph neural networks",
+    "volume": 27,
+    "year": 2026
+}
