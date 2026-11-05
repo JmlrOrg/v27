@@ -1,0 +1,34 @@
+{
+    "abstract": "Extensive-Form Game (EFG) represents a fundamental model for analyzing sequential interactions among multiple agents and the primary challenge to solve it lies in mitigating sample complexity. Existing research indicates that Double Oracle (DO) can reduce the sample complexity dependence on the information set number $|\\mathcal{S}|$ to a restricted game size $X$ in solving two-player zero-sum EFGs. This is attributed to the early convergence of full-game Nash Equilibrium (NE) through iteratively solving restricted games. However, our analysis of Extensive-Form Double Oracle (XDO) yields a sample-complexity upper bound exponential in the number of restricted games, due to its exponentially increasing restricted game expansion frequency. Here we introduce Adaptive Double Oracle (AdaDO) to significantly alleviate sample complexity to polynomial by deploying the optimal expansion frequency. Furthermore, to comprehensively study the principles and influencing factors underlying sample complexity of DO, we introduce a novel theoretical framework Regret-Minimizing Double Oracle (RMDO) to provide directions for designing efficient DO algorithms. Empirical results demonstrate that AdaDO attains the superior approximation of NE with less sample complexity than the strong baselines including Linear CFR, MCCFR and existing DO. Importantly, combining RMDO with warm starting and stochastic regret minimization further improves convergence rate and scalability, thereby paving the way for addressing complex multi-agent tasks.",
+    "authors": [
+        "Xiaohang Tang",
+        "Chiyuan Wang",
+        "Chengdong Ma",
+        "Ilija Bogunovic",
+        "Stephen McAleer",
+        "Yaodong Yang"
+    ],
+    "emails": [
+        "xiaohang.tang.20@ucl.ac.uk",
+        "wang2021@stu.pku.edu.cn",
+        "mcd1619@outlook.com",
+        "i.bogunovic@ucl.ac.uk",
+        "smcaleer@cs.cmu.edu",
+        "yaodong.yang@pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xiaohangt/RMDO"
+        ]
+    ],
+    "id": "24-0652",
+    "issue": 238,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Sample-Efficient Regret-Minimizing Double Oracle in Two-Player Zero-Sum Extensive-Form Games",
+    "volume": 27,
+    "year": 2026
+}

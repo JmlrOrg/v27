@@ -1,0 +1,18 @@
+{
+    "abstract": "In this paper, we consider the problem of partitioning a small data sample of size $n$ drawn from a mixture of $2$ subgaussian distributions in $\\mathbb{R}^p$. We consider semidefinite programming relaxations of an integer quadratic program that is formulated essentially as finding the maximum cut on a graph, where edge weights in the cut represent dissimilarity scores  between two nodes based on their $p$ features. We define the signal-to-noise ratio (SNR) as $s^2 := \\min\\{n p \\gamma^2, \\Delta^2\\}$, where $\\Delta^2 := p \\gamma$ denotes the $\\ell_2^2$ distance between the two cluster centers. For both balanced and unbalanced cases, we allow each population to have distinct covariance structures $\\Sigma_1,  \\Sigma_2$ with diagonal matrices as special cases. Our contributions are twofold. First, we provide a unified framework for analyzing three computationally efficient algorithms: SDP1, BalancedSDP, and Spectral clustering, yielding universal polynomial-rate misclassification guarantees for all three algorithms. Moreover, our framework accom-modates a full range of tradeoffs between $n, p,$ and $\\gamma$, allowing for partial recovery (success  rate $\\lt 100\\%$)  when $s^2$ is lower bounded by a constant. Second, we prove that the misclassification errors for SDP1 and <strong>BalancedSDP</strong> decay exponentially with respect to the SNR $s^2$ and the <strong>BalancedSDP</strong> requires  no explicit debiasing when the two clusters have equal sizes. To our knowledge, this is the first time such results are obtained for semidefinite relaxations of MAXCUT in population clustering. We provide simulation evidence illuminating the theoretical predictions.",
+    "authors": [
+        "Shuheng Zhou"
+    ],
+    "emails": [
+        "szhou@ucr.edu"
+    ],
+    "id": "25-1670",
+    "issue": 239,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Semidefinite programming relaxations and debiasing for MAXCUT-based clustering",
+    "volume": 27,
+    "year": 2026
+}
