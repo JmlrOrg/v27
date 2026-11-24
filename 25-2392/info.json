@@ -1,0 +1,22 @@
+{
+    "abstract": "The Robbins-Siegmund theorem establishes the convergence of stochastic processes that are almost supermartingales and is one of the most commonly used approaches for analyzing stochastic iterative algorithms in stochastic approximation and reinforcement learning (RL). However, its original form has a significant limitation as it requires the zero-order term to be summable. In many important RL applications, this summable condition, however, cannot be met. This limitation motivates us to extend the Robbins-Siegmund theorem for almost supermartingales where the zero-order term is not summable, but only square-summable. In particular, we introduce a novel and mild assumption on the increments of the stochastic processes. This together with the square-summable condition enables an almost sure convergence to a bounded set. Additionally, we further provide almost sure convergence rates, high probability concentration bounds, and $L^p$ convergence rates. We then apply the new results to stochastic approximation and RL. Notably, we obtain the first almost sure convergence rate, the first high probability concentration bound, and the first $L^p$ convergence rate for $Q$-learning with linear function approximation.",
+    "authors": [
+        "Xinyu Liu",
+        "Zixuan Xie",
+        "Shangtong Zhang"
+    ],
+    "emails": [
+        "xinyuliu@virginia.edu",
+        "xie.zixuan@email.virginia.edu",
+        "shangtong@virginia.edu"
+    ],
+    "id": "25-2392",
+    "issue": 242,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Extensions of Robbins-Siegmund Theorem with Applications in Reinforcement Learning",
+    "volume": 27,
+    "year": 2026
+}

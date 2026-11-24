@@ -1,0 +1,32 @@
+{
+    "abstract": "Identifiability is central to the interpretability of deep latent variable models, ensuring parameterisations are uniquely determined by the data-generating distribution. However, it remains underexplored for deep regime-switching time series. We develop a general theoretical framework for multi-lag Regime-Switching Models (RSMs), encompassing Markov Switching Models (MSMs) and Switching Dynamical Systems (SDSs). For MSMs, we formulate the model as a temporally structured finite mixture and prove identifiability of both the number of regimes and the multi-lag transitions in a nonlinear-Gaussian setting. For SDSs, we establish identifiability of the latent variables up to permutation and scaling via temporal structure, which in turn yields conditions for identifiability of regime-dependent latent causal graphs (up to regime/node permutations). Our results hold in a fully unsupervised setting through architectural and noise assumptions that are directly enforceable via neural network design. We complement the theory with a flexible variational estimator that satisfies the assumptions and validate the results on synthetic benchmarks. Across real-world data sets from neuroscience, finance, and climate, identifiability leads to more trustworthy interpretability analysis, which is crucial for scientific discovery.",
+    "authors": [
+        "Carles Balsells-Rodas",
+        "Toshiko Matsui",
+        "Pedro A.M. Mediano",
+        "Yixin Wang",
+        "Yingzhen Li"
+    ],
+    "emails": [
+        "cb221@imperial.ac.uk",
+        "t.matsui19@imperial.ac.uk",
+        "p.mediano@imperial.ac.uk",
+        "yixinw@umich.edu",
+        "yingzhen.li@imperial.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/charlio23/identifiable-SDS"
+        ]
+    ],
+    "id": "25-2778",
+    "issue": 243,
+    "pages": [
+        1,
+        82
+    ],
+    "title": "On the Identifiability of Regime-Switching Models with Multi-Lag Dependencies",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We provide an original theoretical study of Inverse Reinforcement Learning (IRL) through the lens of reward compatibility, a novel framework to quantify the compatibility of a reward with the given expert\u2019s demonstrations. Intuitively, a reward is more compatible with the demonstrations the closer the performance of the expert\u2019s policy computed with that reward is to the optimal performance for that reward. This generalizes the notion of feasible reward set, the most common framework in the theoretical IRL literature, for which a reward is either compatible or not compatible. The grayscale introduced by the reward compatibility is the key to extend the realm of provably efficient IRL far beyond what is attainable with the feasible reward set: from tabular to large-scale MDPs. We analyze the IRL problem across various settings, including optimal and suboptimal expert\u2019s demonstrations and both online and offline data collection. For all of these dimensions, we provide a tractable algorithm and corresponding sample complexity analysis, as well as various insights on reward compatibility and how the framework can pave the way to yet more general problem settings.",
+    "authors": [
+        "Filippo Lazzati",
+        "Mirco Mutti",
+        "Alberto Maria Metelli"
+    ],
+    "emails": [
+        "filippo.lazzati@polimi.it",
+        "mirco.m@technion.ac.il",
+        "albertomaria.metelli@polimi.it"
+    ],
+    "id": "25-0105",
+    "issue": 240,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Reward Compatibility: A Framework for Inverse RL",
+    "volume": 27,
+    "year": 2026
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "Distribution shifts have long been regarded as troublesome external forces that a decision-maker should either counteract or conform to. An intriguing feedback phenomenon termed decision dependence arises when the deployed decision affects the environment and alters the data-generating distribution. In the realm of performative prediction, this is encoded by distribution maps parameterized by decisions due to strategic behaviors. In contrast, we formalize an endogenous distribution shift as a feedback process featuring nonlinear dynamics that couple the evolving distribution with the decision. Stochastic optimization in this dynamic regime provides fertile ground to examine the various roles played by dynamics in the composite problem structure. To this end, we develop an online decision-making algorithm that both adapts to and shapes the dynamic distribution.  Throughout the paper, we adopt a distributional perspective and demonstrate how this view facilitates characterizations of distribution dynamics and the optimality and generalization performance of the proposed algorithm. We showcase the theoretical results in an opinion dynamics context, where an opportunistic party maximizes the affinity of a population with evolving, polarized opinions, and in a recommender system scenario, featuring performance optimization with discrete distributions in the probability simplex.",
+    "authors": [
+        "Zhiyu He",
+        "Saverio Bolognani",
+        "Florian D{{\\\"o}}rfler",
+        "Michael Muehlebach"
+    ],
+    "emails": [
+        "zhiyhe@ethz.ch",
+        "bsaverio@ethz.ch",
+        "dorfler@ethz.ch",
+        "michael.muehlebach@tuebingen.mpg.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/zyhe/distribution-dynamics-opt"
+        ]
+    ],
+    "id": "25-0514",
+    "issue": 241,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Decision-Dependent Stochastic Optimization: The Role of Distribution Dynamics",
+    "volume": 27,
+    "year": 2026
+}
